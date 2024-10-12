@@ -1,0 +1,9 @@
+[33m@vercel/commerce-spree:build[0m: cache hit, replaying output [2mc7fee10fe48b43b8[0m
+[33m@vercel/commerce-spree:build: [0m
+[33m@vercel/commerce-spree:build: [0m> @vercel/commerce-spree@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/spree
+[33m@vercel/commerce-spree:build: [0m> taskr build
+[33m@vercel/commerce-spree:build: [0m
+[33m@vercel/commerce-spree:build: [0m[15:51:03] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/spree/taskfile.js
+[33m@vercel/commerce-spree:build: [0m[15:51:03] Starting build
+[33m@vercel/commerce-spree:build: [0m[15:51:04] Compiled src files
+[33m@vercel/commerce-spree:build: [0m[15:51:04] Finished build in 1.50s
