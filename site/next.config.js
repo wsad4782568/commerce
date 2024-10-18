@@ -10,10 +10,13 @@ const isVendure = provider === '@vercel/commerce-vendure'
 
 module.exports = withCommerceConfig({
   commerce,
-  i18n: {
-    locales: ['en-US', 'es'],
-    defaultLocale: 'en-US',
-  },
+  // i18n: {
+  //   locales: ['en-US', 'es'],
+  //   defaultLocale: 'en-US',
+  // },
+  output: 'export',
+  // basePath: '/yg-website',
+  images: { unoptimized: true },
   rewrites() {
     return [
       (isBC || isShopify || isSwell || isVendure || isSaleor) && {
