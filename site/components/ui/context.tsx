@@ -1,6 +1,5 @@
 import React, { FC, ReactNode, useCallback, useMemo } from 'react'
 import { ThemeProvider } from 'next-themes'
-
 export interface State {
   displaySidebar: boolean
   displayDropdown: boolean
@@ -214,6 +213,6 @@ export const ManagedUIContext: FC<{ children?: ReactNode }> = ({
   children,
 }) => (
   <UIProvider>
-    <ThemeProvider>{children}</ThemeProvider>
+    <ThemeProvider defaultTheme="dark">{children}</ThemeProvider>
   </UIProvider>
 )
