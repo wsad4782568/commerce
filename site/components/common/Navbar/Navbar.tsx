@@ -17,22 +17,29 @@ interface NavbarProps {
 const Navbar: FC<NavbarProps> = ({ links }) => (
   <NavbarRoot>
     <Container clean className="mx-auto max-w-8xl px-6">
+      <div className="flex justify-center w-full h-[110px] pt-[50px]">
+        <Link href="/" className={s.logo} aria-label="Logo">
+          <Logo />
+        </Link>
+      </div>
       <div className={s.nav}>
-        <div className="flex items-center flex-1">
-          <Link href="/" className={s.logo} aria-label="Logo">
-            <Logo />
+        <nav className={`${s.navMenu} text-lg`}>
+          <Link href="/product" className={`${s.link} mx-8`}>
+            PRODUCT
           </Link>
-          <nav className={s.navMenu}>
-            <Link href="/search" className={s.link}>
-              All
-            </Link>
-            {links?.map((l) => (
-              <Link href={l.href} key={l.href} className={s.link}>
-                {l.label}
-              </Link>
-            ))}
-          </nav>
-        </div>
+          <Link href="/history" className={`${s.link} mx-8`}>
+            HISTORY
+          </Link>
+          <Link href="/brand-story" className={`${s.link} mx-8`}>
+            BRAND STORY
+          </Link>
+          <Link href="/art-museum" className={`${s.link} mx-8`}>
+            ART MUSEUM
+          </Link>
+          <Link href="/contact-us" className={`${s.link} mx-8`}>
+            CONTACT US
+          </Link>
+        </nav>
         {process.env.COMMERCE_SEARCH_ENABLED && (
           <div className="justify-center flex-1 hidden lg:flex">
             <Searchbar />
