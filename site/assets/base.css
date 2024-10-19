@@ -76,6 +76,8 @@ body {
   background-color: var(--primary);
   color: var(--text-primary);
   overscroll-behavior-x: none;
+
+  min-width: 1920px;
 }
 
 body {

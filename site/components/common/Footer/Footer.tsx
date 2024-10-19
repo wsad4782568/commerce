@@ -1,12 +1,16 @@
 import { FC } from 'react'
 import cn from 'clsx'
 import Link from 'next/link'
+import Image from 'next/image'
 import { useRouter } from 'next/router'
 import type { Page } from '@commerce/types/page'
 import getSlug from '@lib/get-slug'
-import { Github, Vercel } from '@components/icons'
+import { Github } from '@components/icons'
 import { Logo, Container } from '@components/ui'
+import logoImage from '../../../public/images/logo-1.png'
+//切换语言组件
 import { I18nWidget } from '@components/common'
+//切换主题组件
 import ThemeSwitcher from '@components/ui/ThemeSwitcher'
 import s from './Footer.module.css'
 
@@ -30,64 +34,24 @@ const Footer: FC<Props> = ({ className, pages }) => {
   return (
     <footer className={rootClassName}>
       <Container>
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 border-b border-accent-2 py-12 text-primary bg-primary transition-colors duration-150">
-          <div className="col-span-1 lg:col-span-2">
-            <Link
-              href="/"
-              className="flex flex-initial items-center font-bold md:mr-24"
-            >
-              <span className="rounded-full border border-accent-6 mr-2">
-                <Logo />
-              </span>
-              <span>ACME</span>
-            </Link>
-          </div>
-          <div className="col-span-1 lg:col-span-7">
-            <div className="grid md:grid-rows-4 md:grid-cols-3 md:grid-flow-col">
-              {[...links, ...sitePages].map((page) => (
-                <span key={page.url} className="py-3 md:py-0 md:pb-4">
-                  <Link
-                    href={page.url!}
-                    className="text-accent-9 hover:text-accent-6 transition ease-in-out duration-150"
-                  >
-                    {page.name}
-                  </Link>
-                </span>
-              ))}
-            </div>
-          </div>
-          <div className="col-span-1 lg:col-span-3 flex items-start lg:justify-end text-primary">
-            <div className="flex space-x-4 items-center h-10">
-              <ThemeSwitcher />
-              <I18nWidget />
-              <a
-                className={s.link}
-                aria-label="Github Repository"
-                href="https://github.com/vercel/commerce"
-              >
-                <Github />
-              </a>
+        <div className="bg-gray-200 flex justify-center text-[#333] py-10">
+          <div className='text-center'>
+            <Image alt='Logo' className='mx-auto mt-2 mb-6' src={logoImage} width={138} height={100}></Image>
+            <div className="text-2xl pb-8 mb-8 border-b-2 border-gray-500 tracking-[0.2rem]">IT'S BRILLIANT BECAUES OF YOU</div>
+            <div>
+              <p className="text-lg m-2">Mairtini (chengDu) Cultural&Creative co.,Ltd.</p>
+              <p className="text-lg m-2">E-mail :mairtini.art@gmail.com</p>
+              <p className="text-lg m-2">Phone:0086-028-85543120</p>
+              <p className="text-lg m-2">WhatsApp:(+86)186-2836-2823</p>
             </div>
           </div>
         </div>
-        <div className="pt-6 pb-10 flex flex-col md:flex-row justify-between items-center space-y-4 text-accent-6 text-sm">
-          <div>
-            <span>&copy; 2020 ACME, Inc. All rights reserved.</span>
-          </div>
+        <div className="pt-6 pb-10 flex flex-col md:flex-row justify-center items-center space-y-4 text-accent-6 text-sm">
           <div className="flex items-center text-primary text-sm">
-            <span className="text-primary">Created by</span>
-            <a
-              rel="noopener noreferrer"
-              href="https://vercel.com"
-              aria-label="Vercel.com Link"
-              target="_blank"
-              className="text-primary"
-            >
-              <Vercel
-                className="inline-block h-6 ml-3 text-primary"
-                alt="Vercel.com Logo"
+              <Logo
+                className="inline-block my-8 text-primary"
+                alt="Maitini Logo"
               />
-            </a>
           </div>
         </div>
       </Container>
