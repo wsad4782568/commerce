@@ -118,7 +118,7 @@ const Layout: React.FC<Props> = ({
     <CommerceProvider locale={locale}>
       <div className={cn(s.root)}>
         <Navbar links={navBarlinks} />
-        <main className="fit">{children}</main>
+        <main className={`fit ${s.customFont}`}>{children}</main>
         <Footer pages={pageProps.pages} />
         <ModalUI />
         <CheckoutProvider>

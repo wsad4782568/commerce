@@ -21,8 +21,8 @@
 import Image from 'next/image';
 import logoSrc from './logo.svg';
 
-const Logo = () => (
-  <Image src={logoSrc} width={240} height={41} alt="Logo" />
+const Logo = ({ className = '', ...props }) => (
+  <Image className={className} src={logoSrc} width={240} height={41} alt="Logo" />
 );
 
 export default Logo;
