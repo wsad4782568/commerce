@@ -1,14 +1,3 @@
-@font-face {
-  font-family: 'Impact';
-  src: url('/fonts/impact.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-.customFont {
-  font-family: 'Impact', sans-serif;
-}
-
 .root {
   @apply h-full bg-primary mx-auto transition-colors duration-150;
   max-width: 2460px;

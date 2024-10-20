@@ -24,8 +24,14 @@ const Navbar: FC<NavbarProps> = ({ links }) => (
       </div>
       <div className={s.nav}>
         <nav className={`${s.navMenu} text-lg`}>
-          <Link href="/product" className={`${s.link} mx-8`}>
+          <Link href="/" className={`${s.link} mx-8`}>
+            HOME
+          </Link>
+          {/* <Link href="/product" className={`${s.link} mx-8`}>
             PRODUCT
+          </Link> */}
+          <Link href="/brushes" className={`${s.link} mx-8`}>
+            BRUSHES
           </Link>
           <Link href="/history" className={`${s.link} mx-8`}>
             HISTORY

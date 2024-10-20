@@ -34,6 +34,17 @@
     'Helvetica', sans-serif;
 }
 
+@font-face {
+  font-family: 'Impact';
+  src: url('/fonts/impact.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.customFont {
+  font-family: 'Impact', sans-serif;
+}
+
 [data-theme='dark'] {
   --primary: #000000;
   --primary-2: #111;

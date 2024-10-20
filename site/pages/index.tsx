@@ -56,7 +56,7 @@ export default function Home({
         <Image src={bannerImage} alt="banner" className="w-full h-auto" width={1080} height={1080} />
         <div className="absolute top-[45%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
           <div className="text-8xl mb-8 tracking-wider">因为有你　所以出彩</div>
-          <div className="text-[2.5rem] tracking-[.25em] font-[--font-sans]">IT'S BRILLIANT BECAUSE OF YOU</div>
+          <div className="text-[2.5rem] tracking-[.25em]">IT'S BRILLIANT BECAUSE OF YOU</div>
         </div>
       </div>
       {/* 中间内容部分 */}
