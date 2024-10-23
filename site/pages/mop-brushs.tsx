@@ -35,7 +35,7 @@ export default function Profile() {
       <div className='customFont text-center text-[8rem] text-black my-15'>Mop Brush</div>
       <div className="relative w-full flex py-10 border-t-4 border-gray-300">
         <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">
-          <Link href="/brush-link-4">
+          <Link href="/product/mop-brush-ss93">
             <Image src={brushImage1} alt="banner" className="w-full h-auto"/>
             <div className='text-center m-8'>
               <span className='bg-black text-[2rem] font-bold py-1 px-5'>SS 93</span>

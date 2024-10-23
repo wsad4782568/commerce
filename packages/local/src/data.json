@@ -1,6 +1,84 @@
 {
   "products": [
     {
+      "id": "g4Kf2Q8xWm1Bv9NpLz6HjT3rCe5YtAqXsD0UoRjF7sEwPzVhQcM1TgJbLx8NfKcR",
+      "name": "Mop Brush",
+      "vendor": "Next.js",
+      "path": "/mop-brush-ss93",
+      "slug": "mop-brush-ss93",
+      "price": { "value": 0, "currencyCode": "USD" },
+      "description": "Round Pointed Brushes",
+      "descriptionHtml": "<p><span>This is a unique, </span><strong>limited edition</strong><span> mop-brush-ss93 brush. It was released in June 2021. It features a unique handcrafted triangular design. While supplies last - only 200 of these brushes will be made!</span><strong>All proceeds will be donated to charity.</strong></p>",
+      "images": [
+        {
+          "url": "/images/brush/mop-brush/ss93/1.png",
+          "altText": "Brush",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "/images/brush/mop-brush/ss93/2.png",
+          "altText": "Brush",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "/images/brush/mop-brush/ss93/3.png",
+          "altText": "Brush",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "variants": [
+        {
+          "id": "g4Kf2Q8xWm1Bv9NpLz6HjT3rCe5YtAqXsD0UoRjF7sEwPzVhQcM1TgJbLx8NfKcR=",
+          "name": "Mop Brush",
+          "sku": "SS 93",
+          "options": [
+            {
+              "__typename": "MultipleChoiceOption",
+              "id": "asd",
+              "displayName": "Size",
+              "values": [
+                {
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "id": "option-size",
+          "displayName": "Size",
+          "values": [
+            {
+              "label": "0#"
+            },
+            {
+              "label": "1#"
+            },
+            {
+              "label": "2#"
+            },
+            {
+              "label": "3#"
+            },
+            {
+              "label": "4#"
+            },
+            {
+              "label": "5#"
+            },
+            {
+              "label": "6#"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzU0NDczMjUwMjQ0MjA=",
       "name": "New Short Sleeve T-Shirt",
       "vendor": "Next.js",
