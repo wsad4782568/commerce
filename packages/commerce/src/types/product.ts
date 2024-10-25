@@ -133,6 +133,8 @@ export interface Product {
    * The product’s vendor name.
    */
   vendor?: string
+
+  desImgSrc?: string
 }
 
 export interface SearchProductsBody {

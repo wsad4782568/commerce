@@ -27,11 +27,11 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
       <Container className="max-w-none w-full" clean>
         <div className={cn(s.root, 'fit')}>
           <div className={cn(s.main, 'fit')}>
-            <ProductTag
+            {/* <ProductTag
               name={product.name}
               price={`${price} ${product.price?.currencyCode}`}
               fontSize={32}
-            />
+            /> */}
             <div className={s.sliderContainer}>
               <ProductSlider key={product.id}>
                 {product.images.map((image, i) => (
@@ -40,8 +40,8 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
                       className={s.img}
                       src={image.url!}
                       alt={image.alt || 'Product Image'}
-                      width={600}
-                      height={600}
+                      width={800}
+                      height={800}
                       priority={i === 0}
                       quality="85"
                     />
@@ -57,14 +57,20 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
               />
             )}
           </div>
-
+          {/* Right side */}
           <ProductSidebar
             key={product.id}
             product={product}
             className={s.sidebar}
           />
         </div>
-        <hr className="mt-7 border-accent-2" />
+        <div className='bg-white p-14 text-primary-2 text-6xl'>
+          <div className='border-gray-900 px-28 py-20 border-2'>
+            <div className='pb-10 tracking-wide'>Information</div>
+            <img src={product.desImgSrc} alt="" />
+          </div>
+        </div>
+        {/* <hr className="mt-7 border-accent-2" />
         <section className="py-12 px-6 mb-10">
           <Text variant="sectionHeading">Related Products</Text>
           <div className={s.relatedProductsGrid}>
@@ -84,7 +90,7 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
               </div>
             ))}
           </div>
-        </section>
+        </section> */}
       </Container>
       <SEO
         title={product.name}
@@ -97,7 +103,7 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
             {
               url: product.images[0]?.url!,
               width: '800',
-              height: '600',
+              height: '800',
               alt: product.name,
             },
           ],

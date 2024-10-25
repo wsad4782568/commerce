@@ -6,9 +6,10 @@
       "vendor": "Next.js",
       "path": "/mop-brush-ss93",
       "slug": "mop-brush-ss93",
+      "sku": "SS 93",
       "price": { "value": 0, "currencyCode": "USD" },
       "description": "Round Pointed Brushes",
-      "descriptionHtml": "<p><span>This is a unique, </span><strong>limited edition</strong><span> mop-brush-ss93 brush. It was released in June 2021. It features a unique handcrafted triangular design. While supplies last - only 200 of these brushes will be made!</span><strong>All proceeds will be donated to charity.</strong></p>",
+      "desImgSrc": "/images/brush/mop-brush/ss93/3.png",
       "images": [
         {
           "url": "/images/brush/mop-brush/ss93/1.png",
@@ -18,12 +19,6 @@
         },
         {
           "url": "/images/brush/mop-brush/ss93/2.png",
-          "altText": "Brush",
-          "width": 1000,
-          "height": 1000
-        },
-        {
-          "url": "/images/brush/mop-brush/ss93/3.png",
           "altText": "Brush",
           "width": 1000,
           "height": 1000

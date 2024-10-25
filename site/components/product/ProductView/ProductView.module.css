@@ -1,20 +1,20 @@
 .root {
-  @apply relative grid items-start gap-1 grid-cols-1 overflow-x-hidden;
+  @apply relative grid items-start gap-1 grid-cols-1 overflow-x-hidden px-14 pt-14 bg-[#DCDDDD];
   min-height: auto;
 }
 
 .main {
   @apply relative px-0 pb-0 box-border  flex flex-col col-span-1;
-  min-height: 500px;
+  min-height: 950px;
   /* width: 800px; */
 }
 
 .sidebar {
-  @apply flex flex-col col-span-1 mx-auto max-w-8xl px-6 py-6 w-full h-full;
+  @apply flex flex-col col-span-1 mx-auto max-w-8xl px-12 w-full h-full text-primary-2;
 }
 
 .sliderContainer {
-  @apply flex items-center justify-center overflow-x-hidden bg-white;
+  @apply flex items-center justify-center overflow-x-hidden bg-secondary;
 }
 
 .imageContainer {
@@ -39,7 +39,7 @@
 
 @screen lg {
   .root {
-    @apply grid-cols-12;
+    @apply grid-cols-10;
   }
 
   .main {
@@ -47,10 +47,10 @@
   }
 
   .sidebar {
-    @apply col-span-4 py-6;
+    @apply col-span-4;
   }
 
   .imageContainer {
-    max-height: 600px;
+    max-height: 720px;
   }
 }
