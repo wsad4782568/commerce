@@ -60,7 +60,7 @@ const ProductSidebar: FC<ProductSidebarProps> = ({ product, className }) => {
 
   return (
     <div className={className}>
-      <div className="pb-4 break-words w-full max-w-xl text-7xl tracking-widest">
+      <div className="pt-10 pb-4 break-words w-full max-w-xl text-7xl tracking-widest">
         {product.name}
       </div>
       <div className="pb-4 break-words w-full max-w-xl text-6xl my-10">

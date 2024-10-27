@@ -43,7 +43,7 @@ export default function Profile() {
           </Link>
         </div>
         <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">
-          <Link href="/brush-link-5">
+          <Link href="/product/mop-brush-616">
             <Image src={brushImage2} alt="banner" className="w-full h-auto"/>
             <div className='text-center m-8'>
               <span className='bg-black text-[2rem] font-bold py-1 px-5'>616</span>
@@ -51,7 +51,7 @@ export default function Profile() {
           </Link>
         </div>
         <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">
-          <Link href="/brush-link-4">
+          <Link href="/product/mop-brush-611">
             <Image src={brushImage3} alt="banner" className="w-full h-auto"/>
             <div className='text-center m-8'>
               <span className='bg-black text-[2rem] font-bold py-1 px-5'>611</span>
@@ -59,7 +59,7 @@ export default function Profile() {
           </Link>
         </div>
         <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">
-          <Link href="/brush-link-5">
+          <Link href="/product/mop-brush-696">
             <Image src={brushImage4} alt="banner" className="w-full h-auto"/>
             <div className='text-center m-8'>
               <span className='bg-black text-[2rem] font-bold py-1 px-5'>696</span>
@@ -69,7 +69,7 @@ export default function Profile() {
       </div>
       <div className="relative w-full flex justify-center pb-10 border-b-4 border-gray-300">
         <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">
-          <Link href="/brush-link-4">
+          <Link href="/product/mop-brush-612">
             <Image src={brushImage5} alt="banner" className="w-full h-auto"/>
             <div className='text-center m-8'>
               <span className='bg-black text-[2rem] font-bold py-1 px-5'>612</span>
@@ -77,7 +77,7 @@ export default function Profile() {
           </Link>
         </div>
         <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">
-          <Link href="/brush-link-5">
+          <Link href="/product/mop-brush-656">
             <Image src={brushImage6} alt="banner" className="w-full h-auto"/>
             <div className='text-center m-8'>
               <span className='bg-black text-[2rem] font-bold py-1 px-5'>656</span>
