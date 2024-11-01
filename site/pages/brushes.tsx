@@ -74,7 +74,7 @@ export default function Profile() {
               <Image src={brushImage7} alt="banner" className="w-full h-auto"/>
             </Link>
           </div>
-          <div className="w-1/3 px-10 cursor-pointer hover:cursor-pointer">
+          <div className="w-1/3 pr-10 cursor-pointer hover:cursor-pointer">
             <Link href="/brush-link-8">
               <Image src={brushImage8} alt="banner" className="w-full h-auto"/>
             </Link>

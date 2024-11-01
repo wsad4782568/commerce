@@ -30,10 +30,16 @@ const Navbar: FC<NavbarProps> = ({ links }) => (
           {/* <Link href="/product" className={`${s.link} mx-8`}>
             PRODUCT
           </Link> */}
+          <Link href="/paints" className={`${s.link} mx-8`}>
+            PAINTS
+          </Link>
           <Link href="/brushes" className={`${s.link} mx-8`}>
             BRUSHES
           </Link>
-          <Link href="/history" className={`${s.link} mx-8`}>
+          <Link href="/paper" className={`${s.link} mx-8`}>
+            PAPER
+          </Link>
+          {/* <Link href="/history" className={`${s.link} mx-8`}>
             HISTORY
           </Link>
           <Link href="/brand-story" className={`${s.link} mx-8`}>
@@ -44,7 +50,7 @@ const Navbar: FC<NavbarProps> = ({ links }) => (
           </Link>
           <Link href="/contact-us" className={`${s.link} mx-8`}>
             CONTACT US
-          </Link>
+          </Link> */}
         </nav>
         {process.env.COMMERCE_SEARCH_ENABLED && (
           <div className="justify-center flex-1 hidden lg:flex">
