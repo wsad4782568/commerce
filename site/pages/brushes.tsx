@@ -47,46 +47,46 @@ export default function Profile() {
           </Link>
         </div>
         <div className="relative w-full my-10 cursor-pointer hover:cursor-pointer">
-          <Link href="/brush-link-3">
+          <Link href="/brush/cats-tongue-brushes">
             <Image src={brushImage3} alt="banner" className="w-full h-auto"/>
           </Link>
         </div>
         <div className="relative w-full flex my-10">
           <div className="w-1/2 pr-10 cursor-pointer hover:cursor-pointer">
-            <Link href="/brush-link-4">
+            <Link href="/brush/flat-wash-brushes">
               <Image src={brushImage4} alt="banner" className="w-full h-auto"/>
             </Link>
           </div>
           <div className="w-1/2 pr-10 cursor-pointer hover:cursor-pointer">
-            <Link href="/brush-link-5">
+            <Link href="/brush/round-pointed-brushes">
               <Image src={brushImage5} alt="banner" className="w-full h-auto"/>
             </Link>
           </div>
         </div>
         <div className="relative w-full my-10 cursor-pointer hover:cursor-pointer">
-          <Link href="/brush-link-6">
+          <Link href="/brush/constellation-series">
             <Image src={brushImage6} alt="banner" className="w-full h-auto"/>
           </Link>
         </div>
         <div className="relative w-full flex my-10">
           <div className="w-1/3 pr-10 cursor-pointer hover:cursor-pointer">
-            <Link href="/brush-link-7">
+            <Link href="/brush/travel-brushes">
               <Image src={brushImage7} alt="banner" className="w-full h-auto"/>
             </Link>
           </div>
           <div className="w-1/3 pr-10 cursor-pointer hover:cursor-pointer">
-            <Link href="/brush-link-8">
+            <Link href="/brush/multipurpose-brushes">
               <Image src={brushImage8} alt="banner" className="w-full h-auto"/>
             </Link>
           </div>
           <div className="w-1/3 pr-10 cursor-pointer hover:cursor-pointer">
-            <Link href="/brush-link-9">
+            <Link href="/brush/brush">
               <Image src={brushImage9} alt="banner" className="w-full h-auto"/>
             </Link>
           </div>
         </div>
         <div className="relative w-full pb-10 cursor-pointer hover:cursor-pointer">
-          <Link href="/brush-link-10">
+          <Link href="/brush/brush-set">
             <Image src={brushImage10} alt="banner" className="w-full h-auto"/>
           </Link>
         </div>

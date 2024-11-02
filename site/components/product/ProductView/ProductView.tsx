@@ -64,12 +64,14 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
             className={s.sidebar}
           />
         </div>
-        <div className='bg-white p-14 text-primary-2 text-6xl'>
-          <div className='border-gray-900 px-28 py-20 border-2'>
-            <div className='pb-10 tracking-wide'>Information</div>
-            <img src={product.desImgSrc} alt="" />
+        {product.desImgSrc && (
+          <div className='bg-white p-14 text-primary-2 text-6xl'>
+            <div className='border-gray-900 px-28 py-20 border-2'>
+              <div className='pb-10 tracking-wide'>Information</div>
+              <img src={product.desImgSrc} alt="" />
+            </div>
           </div>
-        </div>
+        )}
         {/* <hr className="mt-7 border-accent-2" />
         <section className="py-12 px-6 mb-10">
           <Text variant="sectionHeading">Related Products</Text>

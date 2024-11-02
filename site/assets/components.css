@@ -1,3 +1,5 @@
 .fit {
-  min-height: calc(100vh - 88px);
+  min-height: calc(100vh - 613px);
+  /* min-height: calc(100vh - 88px); */
+  /* @apply bg-secondary; */
 }
