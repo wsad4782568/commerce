@@ -1,6 +1,6 @@
 import Link from 'next/link'
 // import Image from 'next/image'
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/router'
 import { Layout } from '@components/common'
 import { Container } from '@components/ui'
 
@@ -68,12 +68,12 @@ const brushData = {
     { name: "R", imgSrc: "/images/brush/brush-set/R.png" },
     { name: "S", imgSrc: "/images/brush/brush-set/S.png" }
   ],
-};
+}
 
-const brushPage = () => {
-  const router = useRouter();
-  const { name } = router.query;
-  const brushItems = brushData[name as keyof typeof brushData];
+const BrushPage = () => {
+  const router = useRouter()
+  const { name } = router.query
+  const brushItems = brushData[name as keyof typeof brushData]
 
   return (
     <Container className='bg-gray-200'>
@@ -91,9 +91,9 @@ const brushPage = () => {
           ))}
       </div>
     </Container>
-  );
-};
+  )
+}
 
-export default brushPage;
+export default BrushPage
 
-brushPage.Layout = Layout
+BrushPage.Layout = Layout

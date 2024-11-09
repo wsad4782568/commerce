@@ -1,9 +1,9 @@
-[36m@vercel/commerce-sfcc:build[0m: cache hit, replaying output [2m7bc6a8f9991567f4[0m
-[36m@vercel/commerce-sfcc:build: [0m
-[36m@vercel/commerce-sfcc:build: [0m> @vercel/commerce-sfcc@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/sfcc
-[36m@vercel/commerce-sfcc:build: [0m> taskr build
-[36m@vercel/commerce-sfcc:build: [0m
-[36m@vercel/commerce-sfcc:build: [0m[15:51:03] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/sfcc/taskfile.js
-[36m@vercel/commerce-sfcc:build: [0m[15:51:03] Starting build
-[36m@vercel/commerce-sfcc:build: [0m[15:51:04] Compiled src files
-[36m@vercel/commerce-sfcc:build: [0m[15:51:04] Finished build in 919ms
+[32m@vercel/commerce-sfcc:build[0m: cache hit, replaying output [2m1ec04c38502f0dad[0m
+[32m@vercel/commerce-sfcc:build: [0m
+[32m@vercel/commerce-sfcc:build: [0m> @vercel/commerce-sfcc@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/sfcc
+[32m@vercel/commerce-sfcc:build: [0m> taskr build
+[32m@vercel/commerce-sfcc:build: [0m
+[32m@vercel/commerce-sfcc:build: [0m[22:39:53] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/sfcc/taskfile.js
+[32m@vercel/commerce-sfcc:build: [0m[22:39:53] Starting build
+[32m@vercel/commerce-sfcc:build: [0m[22:39:54] Compiled src files
+[32m@vercel/commerce-sfcc:build: [0m[22:39:54] Finished build in 135ms

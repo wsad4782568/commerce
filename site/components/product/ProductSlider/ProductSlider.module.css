@@ -34,13 +34,19 @@
   overflow-y: hidden;
   overflow-x: auto;
   white-space: nowrap;
-  height: 125px;
   scrollbar-width: none;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 .album::-webkit-scrollbar {
   display: none;
+}
+
+
+@screen lg {
+  .album {
+    height: 125px; 
+  }
 }
 
 @screen md {
