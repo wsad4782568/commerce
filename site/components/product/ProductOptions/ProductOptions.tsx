@@ -21,11 +21,12 @@ const ProductOptions: React.FC<ProductOptionsProps> = ({
           <h2 className="uppercase font-medium tracking-wide opacity-90 text-3xl">
             {opt.displayName}
           </h2>
-          <div role="listbox" className="flex flex-row py-6">
+          <div role="listbox" className="flex flex-row flex-wrap py-6">
             {opt.values.map((v, i: number) => {
               const active = selectedOptions[opt.displayName.toLowerCase()]
               return (
                 <Swatch
+                  className="my-2"
                   key={`${opt.id}-${i}`}
                   active={v.label.toLowerCase() === active}
                   variant={opt.displayName}

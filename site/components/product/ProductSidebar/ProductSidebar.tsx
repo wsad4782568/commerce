@@ -60,12 +60,17 @@ const ProductSidebar: FC<ProductSidebarProps> = ({ product, className }) => {
 
   return (
     <div className={className}>
-      <div className="pt-10 pb-4 break-words w-full max-w-xl text-7xl tracking-widest">
+      <div className="pt-10 pb-4 break-words w-full text-7xl tracking-widest">
         {product.name}
       </div>
       <div className="pb-4 break-words w-full max-w-xl text-6xl my-10">
         <span className="bg-black text-white px-6">{product.sku}</span>
       </div>
+      { product.descriptionArray &&
+      <div className='mt-[-10px] mb-10 text-4xl tracking-widest opacity-80'>{product.descriptionArray.map(item => (
+        <div key={item}>{item}</div>
+      ))}</div>
+      }
       <div className="pb-4 break-words w-full max-w-xl text-2xl my-8">
         {product.description}
       </div>

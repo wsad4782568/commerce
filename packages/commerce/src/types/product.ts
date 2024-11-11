@@ -101,6 +101,8 @@ export interface Product {
    * The description of the product, complete with HTML formatting.
    */
   descriptionHtml?: string
+
+  descriptionArray?: Array<string>
   /**
    * The SKU (stock keeping unit) associated with the product.
    */
