@@ -1,9 +1,9 @@
-[32m@vercel/commerce-ordercloud:build[0m: cache hit, replaying output [2m6523a56aca7c1c17[0m
-[32m@vercel/commerce-ordercloud:build: [0m
-[32m@vercel/commerce-ordercloud:build: [0m> @vercel/commerce-ordercloud@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/ordercloud
-[32m@vercel/commerce-ordercloud:build: [0m> taskr build
-[32m@vercel/commerce-ordercloud:build: [0m
-[32m@vercel/commerce-ordercloud:build: [0m[22:39:53] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/ordercloud/taskfile.js
-[32m@vercel/commerce-ordercloud:build: [0m[22:39:53] Starting build
-[32m@vercel/commerce-ordercloud:build: [0m[22:39:54] Compiled src files
-[32m@vercel/commerce-ordercloud:build: [0m[22:39:54] Finished build in 412ms
+[36m@vercel/commerce-ordercloud:build[0m: cache hit, replaying output [2me9728b9eb10c3924[0m
+[36m@vercel/commerce-ordercloud:build: [0m
+[36m@vercel/commerce-ordercloud:build: [0m> @vercel/commerce-ordercloud@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/ordercloud
+[36m@vercel/commerce-ordercloud:build: [0m> taskr build
+[36m@vercel/commerce-ordercloud:build: [0m
+[36m@vercel/commerce-ordercloud:build: [0m[10:52:57] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/ordercloud/taskfile.js
+[36m@vercel/commerce-ordercloud:build: [0m[10:52:57] Starting build
+[36m@vercel/commerce-ordercloud:build: [0m[10:52:58] Compiled src files
+[36m@vercel/commerce-ordercloud:build: [0m[10:52:58] Finished build in 258ms

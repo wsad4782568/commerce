@@ -1,4 +1,4 @@
-[34mnext-commerce:build[0m: cache hit, replaying output [2md3a1d998eb3ab3a4[0m
+[34mnext-commerce:build[0m: cache hit, replaying output [2ma5ee9df7cff28eff[0m
 [34mnext-commerce:build: [0m
 [34mnext-commerce:build: [0m> next-commerce@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/site
 [34mnext-commerce:build: [0m> next build && next export
@@ -36,14 +36,904 @@
 [34mnext-commerce:build: [0m
 [34mnext-commerce:build: [0minfo  - Linting and checking validity of types...
 [34mnext-commerce:build: [0m
-[34mnext-commerce:build: [0mFailed to compile.
-[34mnext-commerce:build: [0m
 [34mnext-commerce:build: [0m./pages/brush/[name].tsx
-[34mnext-commerce:build: [0m74:18  Error: React Hook "useRouter" is called in function "brushPage" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".  react-hooks/rules-of-hooks
 [34mnext-commerce:build: [0m85:15  Warning: Do not use `<img>` element. Use `<Image />` from `next/image` instead. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
 [34mnext-commerce:build: [0m
 [34mnext-commerce:build: [0m./components/product/ProductView/ProductView.tsx
 [34mnext-commerce:build: [0m71:15  Warning: Do not use `<img>` element. Use `<Image />` from `next/image` instead. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
 [34mnext-commerce:build: [0m
 [34mnext-commerce:build: [0minfo  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
-[34mnext-commerce:build: [0m ELIFECYCLE  Command failed with exit code 1.
+[34mnext-commerce:build: [0minfo  - Creating an optimized production build...
+[34mnext-commerce:build: [0mBrowserslist: caniuse-lite is outdated. Please run:
+[34mnext-commerce:build: [0m  npx browserslist@latest --update-db
+[34mnext-commerce:build: [0m  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+[34mnext-commerce:build: [0mBrowserslist: caniuse-lite is outdated. Please run:
+[34mnext-commerce:build: [0m  npx update-browserslist-db@latest
+[34mnext-commerce:build: [0m  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[34mnext-commerce:build: [0minfo  - Compiled successfully
+[34mnext-commerce:build: [0minfo  - Collecting page data...
+[34mnext-commerce:build: [0minfo  - Generating static pages (0/67)
+[34mnext-commerce:build: [0mproducts [
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'Z2lkOi8vc2hvcGlmeS9Qcm9ksdWN0LzU0NDczMjUwMjQ0MjA=',
+[34mnext-commerce:build: [0m    name: 'Lightweight Jacket',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/lightweight-jacket',
+[34mnext-commerce:build: [0m    slug: 'lightweight-jacket',
+[34mnext-commerce:build: [0m    price: { value: 249.99, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Show off your love for Next.js and Vercel with this unique, limited edition t-shirt. This design is part of a limited run, numbered drop at the June 2021 Next.js Conf. It features a unique, handcrafted triangle design. Get it while supplies last - only 200 of these shirts will be made! All proceeds will be donated to charity.',
+[34mnext-commerce:build: [0m    descriptionHtml: '<p><span>Show off your love for Next.js and Vercel with this unique,&nbsp;</span><strong>limited edition</strong><span>&nbsp;t-shirt. This design is part of a limited run, numbered drop at the June 2021 Next.js Conf. It features a unique, handcrafted triangle design. Get it while supplies last – only 200 of these shirts will be made!&nbsp;</span><strong>All proceeds will be donated to charity.</strong></p>',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object], [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'g4Kf2Q8xWm1Bv9NpLz6HjT3rCe5YtAqXsD0UoRjF7sEwPzVhQcM1TgJbLx8NfKcR',
+[34mnext-commerce:build: [0m    name: 'Mop Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/mop-brush-ss93',
+[34mnext-commerce:build: [0m    slug: 'mop-brush-ss93',
+[34mnext-commerce:build: [0m    sku: 'SS 93',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Mop Brush',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/mop-brush/ss93/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: '8jKf2ZqP1hB9xVw4LzR3tN6sD5mE0uXvJcT7pYqZ3sW8eFqR4nH1kM2bL5oC0wT',
+[34mnext-commerce:build: [0m    name: 'Mop Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/mop-brush-616',
+[34mnext-commerce:build: [0m    slug: 'mop-brush-616',
+[34mnext-commerce:build: [0m    sku: '616',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Mop Brush',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/mop-brush/616/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'f7Gk9Wq2zT8mX1hL5pR4eJ0nV6sY3uKxB8wCjQ2tF9dL7aH1zE5yP0rM3jS6oN',
+[34mnext-commerce:build: [0m    name: 'Mop Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/mop-brush-611',
+[34mnext-commerce:build: [0m    slug: 'mop-brush-611',
+[34mnext-commerce:build: [0m    sku: '611',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Mop Brush',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/mop-brush/611/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: '3gF8tY4vD7qZ1eW9rJ5mK6xN2bT0cH3jL8pR1sXkV5dQ2uF6hM7nC0wB9zE4yP',
+[34mnext-commerce:build: [0m    name: 'Mop Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/mop-brush-696',
+[34mnext-commerce:build: [0m    slug: 'mop-brush-696',
+[34mnext-commerce:build: [0m    sku: '696',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Mop Brush',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/mop-brush/696/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'mop-brush-612',
+[34mnext-commerce:build: [0m    name: 'Mop Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/mop-brush-612',
+[34mnext-commerce:build: [0m    slug: 'mop-brush-612',
+[34mnext-commerce:build: [0m    sku: '612',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Mop Brush',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/mop-brush/612/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'mop-brush-656',
+[34mnext-commerce:build: [0m    name: 'Mop Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/mop-brush-656',
+[34mnext-commerce:build: [0m    slug: 'mop-brush-656',
+[34mnext-commerce:build: [0m    sku: '656',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Mop Brush',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/mop-brush/656/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'cats-tongue-brushes-636',
+[34mnext-commerce:build: [0m    name: 'Cats Tongue Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/cats-tongue-brushes-636',
+[34mnext-commerce:build: [0m    slug: 'cats-tongue-brushes-636',
+[34mnext-commerce:build: [0m    sku: '636',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Cats Tongue Brushes',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/cats-tongue-brushes/636/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'cats-tongue-brushes-6000RR',
+[34mnext-commerce:build: [0m    name: 'Cats Tongue Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/cats-tongue-brushes-6000RR',
+[34mnext-commerce:build: [0m    slug: 'cats-tongue-brushes-6000RR',
+[34mnext-commerce:build: [0m    sku: '6000RR',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Cats Tongue Brushes 6000RR',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/cats-tongue-brushes/6000RR/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'cats-tongue-brushes-RG700R',
+[34mnext-commerce:build: [0m    name: 'Cats Tongue Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/cats-tongue-brushes-RG700R',
+[34mnext-commerce:build: [0m    slug: 'cats-tongue-brushes-RG700R',
+[34mnext-commerce:build: [0m    sku: 'RG700R',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Cats Tongue Brushes RG700R',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/cats-tongue-brushes/RG700R/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'flat-wash-brushes-303',
+[34mnext-commerce:build: [0m    name: 'Flat Wash Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/flat-wash-brushes-303',
+[34mnext-commerce:build: [0m    slug: 'flat-wash-brushes-303',
+[34mnext-commerce:build: [0m    sku: '303',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Flat Wash Brushes',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/flat-wash-brushes/303/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'flat-wash-brushes-6100R',
+[34mnext-commerce:build: [0m    name: 'Flat Wash Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/flat-wash-brushes-6100R',
+[34mnext-commerce:build: [0m    slug: 'flat-wash-brushes-6100R',
+[34mnext-commerce:build: [0m    sku: '6100R',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Flat Wash Brushes 6100R',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/flat-wash-brushes/6100R/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'flat-wash-brushes-Q728',
+[34mnext-commerce:build: [0m    name: 'Flat Wash Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/flat-wash-brushes-Q728',
+[34mnext-commerce:build: [0m    slug: 'flat-wash-brushes-Q728',
+[34mnext-commerce:build: [0m    sku: 'Q728',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Flat Wash Brushes Q728',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/flat-wash-brushes/Q728/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'round-pointed-brushes-714',
+[34mnext-commerce:build: [0m    name: 'Round Pointed Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/round-pointed-brushes-714',
+[34mnext-commerce:build: [0m    slug: 'round-pointed-brushes-714',
+[34mnext-commerce:build: [0m    sku: '714',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Round Pointed Brushes',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/round-pointed-brushes/714/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'round-pointed-brushes-717',
+[34mnext-commerce:build: [0m    name: 'Round Pointed Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/round-pointed-brushes-717',
+[34mnext-commerce:build: [0m    slug: 'round-pointed-brushes-717',
+[34mnext-commerce:build: [0m    sku: '717',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Round Pointed Brushes',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/round-pointed-brushes/717/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'round-pointed-brushes-1096',
+[34mnext-commerce:build: [0m    name: 'Round Pointed Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/round-pointed-brushes-1096',
+[34mnext-commerce:build: [0m    slug: 'round-pointed-brushes-1096',
+[34mnext-commerce:build: [0m    sku: '1096',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Round Pointed Brushes',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/round-pointed-brushes/1096/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'round-pointed-brushes-1098',
+[34mnext-commerce:build: [0m    name: 'Round Pointed Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/round-pointed-brushes-1098',
+[34mnext-commerce:build: [0m    slug: 'round-pointed-brushes-1098',
+[34mnext-commerce:build: [0m    sku: '1098',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Round Pointed Brushes',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/round-pointed-brushes/1098/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'round-pointed-brushes-K90',
+[34mnext-commerce:build: [0m    name: 'Round Pointed Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/round-pointed-brushes-K90',
+[34mnext-commerce:build: [0m    slug: 'round-pointed-brushes-K90',
+[34mnext-commerce:build: [0m    sku: 'K90',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Round Pointed Brushes',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/round-pointed-brushes/K90/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'round-pointed-brushes-M7',
+[34mnext-commerce:build: [0m    name: 'Round Pointed Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/round-pointed-brushes-M7',
+[34mnext-commerce:build: [0m    slug: 'round-pointed-brushes-M7',
+[34mnext-commerce:build: [0m    sku: 'M7',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Round Pointed Brushes',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/round-pointed-brushes/M7/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'constellation-series-房',
+[34mnext-commerce:build: [0m    name: 'constellation-series',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/constellation-series-房',
+[34mnext-commerce:build: [0m    slug: 'constellation-series-房',
+[34mnext-commerce:build: [0m    sku: '房',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Constellation Series - 房',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/constellation-series/房/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'constellation-series-井',
+[34mnext-commerce:build: [0m    name: 'constellation-series',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/constellation-series-井',
+[34mnext-commerce:build: [0m    slug: 'constellation-series-井',
+[34mnext-commerce:build: [0m    sku: '井',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Constellation Series - 井',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/constellation-series/井/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: []
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'constellation-series-亢',
+[34mnext-commerce:build: [0m    name: 'constellation-series',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/constellation-series-亢',
+[34mnext-commerce:build: [0m    slug: 'constellation-series-亢',
+[34mnext-commerce:build: [0m    sku: '亢',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Constellation Series - 亢',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/constellation-series/亢/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'constellation-series-奎',
+[34mnext-commerce:build: [0m    name: 'constellation-series',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/constellation-series-奎',
+[34mnext-commerce:build: [0m    slug: 'constellation-series-奎',
+[34mnext-commerce:build: [0m    sku: '奎',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Constellation Series - 奎',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/constellation-series/奎/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'constellation-series-柳',
+[34mnext-commerce:build: [0m    name: 'constellation-series',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/constellation-series-柳',
+[34mnext-commerce:build: [0m    slug: 'constellation-series-柳',
+[34mnext-commerce:build: [0m    sku: '柳',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Constellation Series - 柳',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/constellation-series/柳/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: []
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'constellation-series-星',
+[34mnext-commerce:build: [0m    name: 'constellation-series',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/constellation-series-星',
+[34mnext-commerce:build: [0m    slug: 'constellation-series-星',
+[34mnext-commerce:build: [0m    sku: '星',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Constellation Series - 星',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/constellation-series/星/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: []
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'constellation-series-翼',
+[34mnext-commerce:build: [0m    name: 'constellation-series',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/constellation-series-翼',
+[34mnext-commerce:build: [0m    slug: 'constellation-series-翼',
+[34mnext-commerce:build: [0m    sku: '翼',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Constellation Series - 翼',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/constellation-series/翼/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: []
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'constellation-series-轸',
+[34mnext-commerce:build: [0m    name: 'constellation-series',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/constellation-series-轸',
+[34mnext-commerce:build: [0m    slug: 'constellation-series-轸',
+[34mnext-commerce:build: [0m    sku: '轸',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Constellation Series - 轸',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/constellation-series/轸/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: []
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'travel-brushes-415',
+[34mnext-commerce:build: [0m    name: 'Travel Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/travel-brushes-415',
+[34mnext-commerce:build: [0m    slug: 'travel-brushes-415',
+[34mnext-commerce:build: [0m    sku: '415',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Travel Brushes 415',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/travel-brushes/415/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object], [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'travel-brushes-417',
+[34mnext-commerce:build: [0m    name: 'Travel Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/travel-brushes-417',
+[34mnext-commerce:build: [0m    slug: 'travel-brushes-417',
+[34mnext-commerce:build: [0m    sku: '417',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Travel Brushes 417',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/travel-brushes/417/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'multipurpose-brushes-511',
+[34mnext-commerce:build: [0m    name: 'Multipurpose Brush 511',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/multipurpose-brushes-511',
+[34mnext-commerce:build: [0m    slug: 'multipurpose-brushes-511',
+[34mnext-commerce:build: [0m    sku: '511',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Multipurpose Brushes',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/multipurpose-brushes/511/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'multipurpose-brushes-525',
+[34mnext-commerce:build: [0m    name: 'Multipurpose Brush 525',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/multipurpose-brushes-525',
+[34mnext-commerce:build: [0m    slug: 'multipurpose-brushes-525',
+[34mnext-commerce:build: [0m    sku: '525',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Multipurpose Brushes',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/multipurpose-brushes/525/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'multipurpose-brushes-719F',
+[34mnext-commerce:build: [0m    name: 'Multipurpose Brush 719F',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/multipurpose-brushes-719F',
+[34mnext-commerce:build: [0m    slug: 'multipurpose-brushes-719F',
+[34mnext-commerce:build: [0m    sku: '719F',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Multipurpose Brushes',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/multipurpose-brushes/719F/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'multipurpose-brushes-719U',
+[34mnext-commerce:build: [0m    name: 'Multipurpose Brush 719U',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/multipurpose-brushes-719U',
+[34mnext-commerce:build: [0m    slug: 'multipurpose-brushes-719U',
+[34mnext-commerce:build: [0m    sku: '719U',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Multipurpose Brushes',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/multipurpose-brushes/719U/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'multipurpose-brushes-719V',
+[34mnext-commerce:build: [0m    name: 'Multipurpose Brush 719V',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/multipurpose-brushes-719V',
+[34mnext-commerce:build: [0m    slug: 'multipurpose-brushes-719V',
+[34mnext-commerce:build: [0m    sku: '719V',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Multipurpose Brushes',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/multipurpose-brushes/719V/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'multipurpose-brushes-775',
+[34mnext-commerce:build: [0m    name: 'Multipurpose Brush 775',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/multipurpose-brushes-775',
+[34mnext-commerce:build: [0m    slug: 'multipurpose-brushes-775',
+[34mnext-commerce:build: [0m    sku: '775',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Multipurpose Brushes',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/multipurpose-brushes/775/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'multipurpose-brushes-776',
+[34mnext-commerce:build: [0m    name: 'Multipurpose Brush 776',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/multipurpose-brushes-776',
+[34mnext-commerce:build: [0m    slug: 'multipurpose-brushes-776',
+[34mnext-commerce:build: [0m    sku: '776',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Multipurpose Brushes',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/multipurpose-brushes/776/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'brush-810',
+[34mnext-commerce:build: [0m    name: 'Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/brush-810',
+[34mnext-commerce:build: [0m    slug: 'brush-810',
+[34mnext-commerce:build: [0m    sku: '810',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Brush',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/brush/810/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'brush-818',
+[34mnext-commerce:build: [0m    name: 'Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/brush-818',
+[34mnext-commerce:build: [0m    slug: 'brush-818',
+[34mnext-commerce:build: [0m    sku: '818',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Brush',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/brush/818/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'brush-819',
+[34mnext-commerce:build: [0m    name: 'Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/brush-819',
+[34mnext-commerce:build: [0m    slug: 'brush-819',
+[34mnext-commerce:build: [0m    sku: '819',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Brush',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/brush/819/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'brush-821',
+[34mnext-commerce:build: [0m    name: 'Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/brush-821',
+[34mnext-commerce:build: [0m    slug: 'brush-821',
+[34mnext-commerce:build: [0m    sku: '821',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Brush',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/brush/821/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'brush-851',
+[34mnext-commerce:build: [0m    name: 'Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/brush-851',
+[34mnext-commerce:build: [0m    slug: 'brush-851',
+[34mnext-commerce:build: [0m    sku: '851',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Brush',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/brush/851/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'brush-861',
+[34mnext-commerce:build: [0m    name: 'Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/brush-861',
+[34mnext-commerce:build: [0m    slug: 'brush-861',
+[34mnext-commerce:build: [0m    sku: '861',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Brush',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/brush/861/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'brush-881',
+[34mnext-commerce:build: [0m    name: 'Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/brush-881',
+[34mnext-commerce:build: [0m    slug: 'brush-881',
+[34mnext-commerce:build: [0m    sku: '881',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Brush',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/brush/881/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'brush-861',
+[34mnext-commerce:build: [0m    name: 'Brush',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/brush-861',
+[34mnext-commerce:build: [0m    slug: 'brush-861',
+[34mnext-commerce:build: [0m    sku: '861',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Brush',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/brush/brush/861/3.png',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'BRUSH-SET-BR-WC006',
+[34mnext-commerce:build: [0m    name: 'Brush Set',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/brush-set-BR-WC006',
+[34mnext-commerce:build: [0m    slug: 'brush-set-BR-WC006',
+[34mnext-commerce:build: [0m    sku: 'BR-WC006',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'BRUSH-SET-BR-WC006',
+[34mnext-commerce:build: [0m    descriptionArray: [
+[34mnext-commerce:build: [0m      'BR-wc000',
+[34mnext-commerce:build: [0m      'BR-wc001',
+[34mnext-commerce:build: [0m      'BR-wc002',
+[34mnext-commerce:build: [0m      'BR-wc003',
+[34mnext-commerce:build: [0m      'BR-wc004',
+[34mnext-commerce:build: [0m      'BR-wc005'
+[34mnext-commerce:build: [0m    ],
+[34mnext-commerce:build: [0m    desImgSrc: '',
+[34mnext-commerce:build: [0m    images: [ [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: []
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'BRUSH-SET-BR-WC007',
+[34mnext-commerce:build: [0m    name: 'Brush Set',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/brush-set-BR-WC007',
+[34mnext-commerce:build: [0m    slug: 'brush-set-BR-WC007',
+[34mnext-commerce:build: [0m    sku: 'BR-WC007',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'BRUSH-SET-BR-WC007',
+[34mnext-commerce:build: [0m    descriptionArray: [ 'SS91-00', 'SS91-01', 'SS91-02', 'SS91-04' ],
+[34mnext-commerce:build: [0m    desImgSrc: '',
+[34mnext-commerce:build: [0m    images: [ [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: []
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'brush-set-J',
+[34mnext-commerce:build: [0m    name: 'Brush Set',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/brush-set-J',
+[34mnext-commerce:build: [0m    slug: 'brush-set-J',
+[34mnext-commerce:build: [0m    sku: 'J',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Deluxe Wooden Box',
+[34mnext-commerce:build: [0m    descriptionArray: [ 'RG700R-12', '656-4', 'M7-4' ],
+[34mnext-commerce:build: [0m    desImgSrc: '',
+[34mnext-commerce:build: [0m    images: [ [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'brush-set-K',
+[34mnext-commerce:build: [0m    name: 'Brush Set',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/brush-set-K',
+[34mnext-commerce:build: [0m    slug: 'brush-set-K',
+[34mnext-commerce:build: [0m    sku: 'K',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Deluxe Wooden Box',
+[34mnext-commerce:build: [0m    descriptionArray: [ '636-6', 'Q728-6', '656-2' ],
+[34mnext-commerce:build: [0m    desImgSrc: '',
+[34mnext-commerce:build: [0m    images: [ [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'brush-set-L',
+[34mnext-commerce:build: [0m    name: 'Brush Set',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/brush-set-L',
+[34mnext-commerce:build: [0m    slug: 'brush-set-L',
+[34mnext-commerce:build: [0m    sku: 'L',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Deluxe Wooden Box',
+[34mnext-commerce:build: [0m    descriptionArray: [ 'Q728-12', 'RG700-2', 'M7-10' ],
+[34mnext-commerce:build: [0m    desImgSrc: '',
+[34mnext-commerce:build: [0m    images: [ [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'brush-set-N',
+[34mnext-commerce:build: [0m    name: 'Brush Set',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/brush-set-N',
+[34mnext-commerce:build: [0m    slug: 'brush-set-N',
+[34mnext-commerce:build: [0m    sku: 'N',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Deluxe Wooden Box',
+[34mnext-commerce:build: [0m    descriptionArray: [ '6100R-6', 'RG700R-2', '656-0', 'M7-2' ],
+[34mnext-commerce:build: [0m    desImgSrc: '',
+[34mnext-commerce:build: [0m    images: [ [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'brush-set-O',
+[34mnext-commerce:build: [0m    name: 'Brush Set',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/brush-set-O',
+[34mnext-commerce:build: [0m    slug: 'brush-set-O',
+[34mnext-commerce:build: [0m    sku: 'O',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Deluxe Wooden Box',
+[34mnext-commerce:build: [0m    descriptionArray: [ '636-12', '696-5', '656-2', 'M7-4' ],
+[34mnext-commerce:build: [0m    desImgSrc: '',
+[34mnext-commerce:build: [0m    images: [ [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'brush-set-P',
+[34mnext-commerce:build: [0m    name: 'Brush Set',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/brush-set-P',
+[34mnext-commerce:build: [0m    slug: 'brush-set-P',
+[34mnext-commerce:build: [0m    sku: 'P',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Deluxe Wooden Box',
+[34mnext-commerce:build: [0m    descriptionArray: [ 'RG700-6', '656-5', 'Q728-2', 'M7-6' ],
+[34mnext-commerce:build: [0m    desImgSrc: '',
+[34mnext-commerce:build: [0m    images: [ [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'brush-set-Q',
+[34mnext-commerce:build: [0m    name: 'Brush Set',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/brush-set-Q',
+[34mnext-commerce:build: [0m    slug: 'brush-set-Q',
+[34mnext-commerce:build: [0m    sku: 'Q',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Deluxe Wooden Box',
+[34mnext-commerce:build: [0m    descriptionArray: [ 'Q728-12', '6000RR-6', 'M7-14', 'M7-6' ],
+[34mnext-commerce:build: [0m    desImgSrc: '',
+[34mnext-commerce:build: [0m    images: [ [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'brush-set-R',
+[34mnext-commerce:build: [0m    name: 'Brush Set',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/brush-set-R',
+[34mnext-commerce:build: [0m    slug: 'brush-set-R',
+[34mnext-commerce:build: [0m    sku: 'R',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Deluxe Wooden Box',
+[34mnext-commerce:build: [0m    descriptionArray: [ '696-6', 'Q728-6', 'M7-12', 'M7-2' ],
+[34mnext-commerce:build: [0m    desImgSrc: '',
+[34mnext-commerce:build: [0m    images: [ [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'brush-set-S',
+[34mnext-commerce:build: [0m    name: 'Brush Set',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/brush-set-S',
+[34mnext-commerce:build: [0m    slug: 'brush-set-S',
+[34mnext-commerce:build: [0m    sku: 'S',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'Deluxe Wooden Box',
+[34mnext-commerce:build: [0m    descriptionArray: [ 'RG700R-6', '696-3', 'M7-12', 'M7-0' ],
+[34mnext-commerce:build: [0m    desImgSrc: '',
+[34mnext-commerce:build: [0m    images: [ [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  }
+[34mnext-commerce:build: [0m]
+[34mnext-commerce:build: [0minfo  - Generating static pages (16/67)
+[34mnext-commerce:build: [0minfo  - Generating static pages (33/67)
+[34mnext-commerce:build: [0minfo  - Generating static pages (50/67)
+[34mnext-commerce:build: [0minfo  - Generating static pages (67/67)
+[34mnext-commerce:build: [0minfo  - Finalizing page optimization...
+[34mnext-commerce:build: [0m
+[34mnext-commerce:build: [0mRoute (pages)                                     Size     First Load JS
+[34mnext-commerce:build: [0m┌ ● / (ISR: 60 Seconds) (324 ms)                  4.4 kB          131 kB
+[34mnext-commerce:build: [0m├   /_app                                         0 B            78.6 kB
+[34mnext-commerce:build: [0m├ ● /[...pages]                                   433 B           127 kB
+[34mnext-commerce:build: [0m├ ○ /404 (ISR: 200 Seconds)                       446 B           127 kB
+[34mnext-commerce:build: [0m├ λ /api/commerce/[[...commerce]]                 0 B            78.6 kB
+[34mnext-commerce:build: [0m├ ○ /brush/[name]                                 1.17 kB         128 kB
+[34mnext-commerce:build: [0m├ ● /brushes                                      2.28 kB         129 kB
+[34mnext-commerce:build: [0m├ ● /cart                                         1.57 kB         129 kB
+[34mnext-commerce:build: [0m├ ● /mop-brushs                                   1.79 kB         129 kB
+[34mnext-commerce:build: [0m├ ● /orders                                       591 B           128 kB
+[34mnext-commerce:build: [0m├ ● /paints                                       1.61 kB         129 kB
+[34mnext-commerce:build: [0m├ ● /paper                                        3.23 kB         130 kB
+[34mnext-commerce:build: [0m├ ● /product/[slug] (ISR: 200 Seconds) (7332 ms)  19.7 kB         147 kB
+[34mnext-commerce:build: [0m├   └ css/9b3fc16bc4453eba.css                    2.37 kB
+[34mnext-commerce:build: [0m├   ├ /product/lightweight-jacket (471 ms)
+[34mnext-commerce:build: [0m├   ├ /product/mop-brush-616 (441 ms)
+[34mnext-commerce:build: [0m├   ├ /product/mop-brush-ss93 (434 ms)
+[34mnext-commerce:build: [0m├   ├ /product/mop-brush-611 (361 ms)
+[34mnext-commerce:build: [0m├   ├ /product/mop-brush-696
+[34mnext-commerce:build: [0m├   ├ /product/mop-brush-612
+[34mnext-commerce:build: [0m├   ├ /product/mop-brush-656
+[34mnext-commerce:build: [0m├   └ [+47 more paths]
+[34mnext-commerce:build: [0m├ ● /profile                                      539 B           128 kB
+[34mnext-commerce:build: [0m├ ● /search (ISR: 200 Seconds)                    252 B           131 kB
+[34mnext-commerce:build: [0m├ ● /search/[category]                            261 B           131 kB
+[34mnext-commerce:build: [0m├ ● /search/designers/[name]                      265 B           131 kB
+[34mnext-commerce:build: [0m├ ● /search/designers/[name]/[category]           275 B           132 kB
+[34mnext-commerce:build: [0m└ ● /wishlist                                     2.35 kB         129 kB
+[34mnext-commerce:build: [0m    └ css/aeb3e3fe3a05774d.css                    836 B
+[34mnext-commerce:build: [0m+ First Load JS shared by all                     84.4 kB
+[34mnext-commerce:build: [0m  ├ chunks/framework-23bb51c2d15fac13.js          45.4 kB
+[34mnext-commerce:build: [0m  ├ chunks/main-3edfa232ea1dd950.js               26.7 kB
+[34mnext-commerce:build: [0m  ├ chunks/pages/_app-eeabb00d4bb3428c.js         4.25 kB
+[34mnext-commerce:build: [0m  ├ chunks/webpack-ba99a4096bb730e0.js            2.31 kB
+[34mnext-commerce:build: [0m  └ css/586802e9464ac6fd.css                      5.83 kB
+[34mnext-commerce:build: [0m
+[34mnext-commerce:build: [0mλ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+[34mnext-commerce:build: [0m○  (Static)  automatically rendered as static HTML (uses no initial props)
+[34mnext-commerce:build: [0m●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
+[34mnext-commerce:build: [0m   (ISR)     incremental static regeneration (uses revalidate in getStaticProps)
+[34mnext-commerce:build: [0m
+[34mnext-commerce:build: [0mnext.config.js {
+[34mnext-commerce:build: [0m  "commerce": {
+[34mnext-commerce:build: [0m    "provider": "local",
+[34mnext-commerce:build: [0m    "features": {
+[34mnext-commerce:build: [0m      "cart": false,
+[34mnext-commerce:build: [0m      "search": false,
+[34mnext-commerce:build: [0m      "wishlist": false,
+[34mnext-commerce:build: [0m      "customerAuth": false,
+[34mnext-commerce:build: [0m      "customCheckout": false
+[34mnext-commerce:build: [0m    }
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  "output": "export",
+[34mnext-commerce:build: [0m  "images": {
+[34mnext-commerce:build: [0m    "unoptimized": true,
+[34mnext-commerce:build: [0m    "domains": [
+[34mnext-commerce:build: [0m      "localhost"
+[34mnext-commerce:build: [0m    ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  "experimental": {
+[34mnext-commerce:build: [0m    "esmExternals": "loose"
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  "env": {}
+[34mnext-commerce:build: [0m}
+[34mnext-commerce:build: [0mwarn  - Invalid next.config.js options detected: 
+[34mnext-commerce:build: [0m  - The root value has an unexpected property, commerce, which is not in the list of allowed properties (amp, analyticsId, assetPrefix, basePath, cleanDistDir, compiler, compress, crossOrigin, devIndicators, distDir, env, eslint, excludeDefaultMomentLocales, experimental, exportPathMap, generateBuildId, generateEtags, headers, httpAgentOptions, i18n, images, onDemandEntries, optimizeFonts, output, outputFileTracing, pageExtensions, poweredByHeader, productionBrowserSourceMaps, publicRuntimeConfig, reactStrictMode, redirects, rewrites, sassOptions, serverRuntimeConfig, staticPageGenerationTimeout, swcMinify, trailingSlash, typescript, useFileSystemPublicRoutes, webpack).
+[34mnext-commerce:build: [0m  - The value at .output must be one of: "standalone".
+[34mnext-commerce:build: [0m
+[34mnext-commerce:build: [0mSee more info here: https://nextjs.org/docs/messages/invalid-next-config
+[34mnext-commerce:build: [0mwarn  - You have enabled experimental feature (esmExternals) in next.config.js.
+[34mnext-commerce:build: [0mwarn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+[34mnext-commerce:build: [0m
+[34mnext-commerce:build: [0minfo  - using build directory: /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/site/.next
+[34mnext-commerce:build: [0mwarn  - rewrites, redirects, and headers are not applied when exporting your application, detected (rewrites). See more info here: https://nextjs.org/docs/messages/export-no-custom-routes
+[34mnext-commerce:build: [0minfo  - Copying "static build" directory
+[34mnext-commerce:build: [0minfo  - No "exportPathMap" found in "/Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/site/next.config.js". Generating map from "./pages"
+[34mnext-commerce:build: [0minfo  - Launching 15 workers
+[34mnext-commerce:build: [0mwarn  - Statically exporting a Next.js application via `next export` disables API routes.
+[34mnext-commerce:build: [0mThis command is meant for static-only hosts, and is not necessary to make your application static.
+[34mnext-commerce:build: [0mPages in your application without server-side data dependencies will be automatically statically exported by `next build`, including pages powered by `getStaticProps`.
+[34mnext-commerce:build: [0mLearn more: https://nextjs.org/docs/messages/api-routes-static-export
+[34mnext-commerce:build: [0minfo  - Exporting (0/13)
+[34mnext-commerce:build: [0minfo  - Copying "public" directory
+[34mnext-commerce:build: [0minfo  - Exporting (3/13)
+[34mnext-commerce:build: [0minfo  - Exporting (6/13)
+[34mnext-commerce:build: [0minfo  - Exporting (9/13)
+[34mnext-commerce:build: [0minfo  - Exporting (13/13)
+[34mnext-commerce:build: [0mExport successful. Files written to /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/site/out
