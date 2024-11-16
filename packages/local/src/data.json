@@ -3103,7 +3103,7 @@
       "slug": "brush-set-J",
       "sku": "J",
       "price": { "value": 0, "currencyCode": "USD" },
-"description": "Deluxe Wooden Box",
+      "description": "Deluxe Wooden Box",
       "descriptionArray": ["RG700R-12", "656-4", "M7-4"],
       "desImgSrc": "",
       "images": [
@@ -3153,7 +3153,7 @@
       "slug": "brush-set-K",
       "sku": "K",
       "price": { "value": 0, "currencyCode": "USD" },
-"description": "Deluxe Wooden Box",
+      "description": "Deluxe Wooden Box",
       "descriptionArray": ["636-6", "Q728-6", "656-2"],
       "desImgSrc": "",
       "images": [
@@ -3203,7 +3203,7 @@
       "slug": "brush-set-L",
       "sku": "L",
       "price": { "value": 0, "currencyCode": "USD" },
-"description": "Deluxe Wooden Box",
+      "description": "Deluxe Wooden Box",
       "descriptionArray": ["Q728-12", "RG700-2", "M7-10"],
       "desImgSrc": "",
       "images": [
@@ -3253,7 +3253,7 @@
       "slug": "brush-set-N",
       "sku": "N",
       "price": { "value": 0, "currencyCode": "USD" },
-"description": "Deluxe Wooden Box",
+      "description": "Deluxe Wooden Box",
       "descriptionArray": ["6100R-6", "RG700R-2", "656-0","M7-2"],
       "desImgSrc": "",
       "images": [
@@ -3303,7 +3303,7 @@
       "slug": "brush-set-O",
       "sku": "O",
       "price": { "value": 0, "currencyCode": "USD" },
-"description": "Deluxe Wooden Box",
+      "description": "Deluxe Wooden Box",
       "descriptionArray": ["636-12", "696-5", "656-2","M7-4"],
       "desImgSrc": "",
       "images": [
@@ -3353,7 +3353,7 @@
       "slug": "brush-set-P",
       "sku": "P",
       "price": { "value": 0, "currencyCode": "USD" },
-"description": "Deluxe Wooden Box",
+      "description": "Deluxe Wooden Box",
       "descriptionArray": ["RG700-6", "656-5", "Q728-2","M7-6"],
       "desImgSrc": "",
       "images": [
@@ -3403,7 +3403,7 @@
       "slug": "brush-set-Q",
       "sku": "Q",
       "price": { "value": 0, "currencyCode": "USD" },
-"description": "Deluxe Wooden Box",
+      "description": "Deluxe Wooden Box",
       "descriptionArray": ["Q728-12", "6000RR-6", "M7-14","M7-6"],
       "desImgSrc": "",
       "images": [
@@ -3453,7 +3453,7 @@
       "slug": "brush-set-R",
       "sku": "R",
       "price": { "value": 0, "currencyCode": "USD" },
-"description": "Deluxe Wooden Box",
+      "description": "Deluxe Wooden Box",
       "descriptionArray": ["696-6", "Q728-6", "M7-12","M7-2"],
       "desImgSrc": "",
       "images": [
@@ -3503,7 +3503,7 @@
       "slug": "brush-set-S",
       "sku": "S",
       "price": { "value": 0, "currencyCode": "USD" },
-"description": "Deluxe Wooden Box",
+      "description": "Deluxe Wooden Box",
       "descriptionArray": ["RG700R-6", "696-3", "M7-12","M7-0"],
       "desImgSrc": "",
       "images": [
@@ -3540,6 +3540,508 @@
           "values": [
             {
               "label": "285x95x30mm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "watercolor-paper",
+      "name": "Watercolor Paper",
+      "vendor": "Next.js",
+      "path": "/watercolor-paper",
+      "slug": "watercolor-paper",
+      "price": { "value": 0, "currencyCode": "USD" },
+      "description": "French-made",
+      "descriptionIcon": "/images/paper/icon-conton.png",
+      "descriptionArray": ["100%Cotton/300g"],
+      "desImgSrc": "",
+      "images": [
+        {
+          "url": "/images/paper/watercolor-paper/1.png",
+          "altText": "Brush Set S",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "variants": [
+        {
+          "id": "brush-set-S",
+          "name": "Brush Set S",
+          "sku": "S",
+          "options": [
+            {
+              "__typename": "MultipleChoiceOption",
+              "id": "asd",
+              "displayName": "Size",
+              "values": [
+                {
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "id": "option-size",
+          "displayName": "Size",
+          "values": [
+            {
+              "label": "2K"
+            },
+            {
+              "label": "4K"
+            },
+            {
+              "label": "8K"
+            },
+            {
+              "label": "16K"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "watercolor-paper",
+      "name": "Watercolor Paper",
+      "vendor": "Next.js",
+      "path": "/watercolor-paper",
+      "slug": "watercolor-paper",
+      "price": { "value": 0, "currencyCode": "USD" },
+      "description": "French-made",
+      "descriptionIcon": "/images/paper/icon-conton.png",
+      "descriptionArray": ["100%Cotton/300g"],
+      "desImgSrc": "",
+      "images": [
+        {
+          "url": "/images/paper/watercolor-paper/1.png",
+          "altText": "watercolor paper",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "variants": [
+        {
+          "id": "watercolor-paper",
+          "name": "Watercolor Paper",
+          "sku": "S",
+          "options": [
+            {
+              "__typename": "MultipleChoiceOption",
+              "id": "asd",
+              "displayName": "Size",
+              "values": [
+                {
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "id": "option-size",
+          "displayName": "Size",
+          "values": [
+            {
+              "label": "2K"
+            },
+            {
+              "label": "4K"
+            },
+            {
+              "label": "8K"
+            },
+            {
+              "label": "16K"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "leather-4-sided-glue-pad",
+      "name": "Leather 4-sided Glue Pad",
+      "vendor": "Next.js",
+      "path": "/leather-4-sided-glue-pad",
+      "slug": "leather-4-sided-glue-pad",
+      "price": { "value": 0, "currencyCode": "USD" },
+      "description": "French-made",
+      "descriptionIcon": "/images/paper/icon-conton.png",
+      "descriptionArray": ["100%Cotton/300g/ColdPressed"],
+      "desImgSrc": "",
+      "images": [
+        {
+          "url": "/images/paper/leather-4-sided-glue-pad/1.png",
+          "altText": "Leather 4-sided Glue Pad",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "/images/paper/leather-4-sided-glue-pad/2.png",
+          "altText": "Leather 4-sided Glue Pad",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "/images/paper/leather-4-sided-glue-pad/3.png",
+          "altText": "Leather 4-sided Glue Pad",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "variants": [
+        {
+          "id": "leather-4-sided-glue-pad",
+          "name": "Leather 4-sided Glue Pad",
+          "options": [
+            {
+              "__typename": "MultipleChoiceOption",
+              "id": "asd",
+              "displayName": "Size",
+              "values": [
+                {
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "id": "option-size",
+          "displayName": "Size",
+          "values": [
+            {
+              "label": "2K"
+            },
+            {
+              "label": "4K"
+            },
+            {
+              "label": "8K"
+            },
+            {
+              "label": "16K"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caravaggio-4-sided-glue-pad",
+      "name": "Caravaggio 4-sided Glue Pad",
+      "vendor": "Next.js",
+      "path": "/caravaggio-4-sided-glue-pad",
+      "slug": "caravaggio-4-sided-glue-pad",
+      "price": { "value": 0, "currencyCode": "USD" },
+      "description": "French-made",
+      "descriptionIcon": "/images/paper/icon-conton.png",
+      "descriptionArray": ["100%Cotton"],
+      "desImgSrc": "",
+      "images": [
+        {
+          "url": "/images/paper/caravaggio-4-sided-glue-pad/1.png",
+          "altText": "Brush Set S",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "variants": [
+        {
+          "id": "caravaggio-4-sided-glue-pad",
+          "name": "Caravaggio 4-sided Glue Pad",
+          "options": [
+            {
+              "__typename": "MultipleChoiceOption",
+              "id": "asd",
+              "displayName": "Size",
+              "values": [
+                {
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "id": "option-size",
+          "displayName": "Size",
+          "values": [
+            {
+              "label": "2K"
+            },
+            {
+              "label": "4K"
+            },
+            {
+              "label": "8K"
+            },
+            {
+              "label": "16K"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bouguereau-4-sided-glue-pad",
+      "name": "Bouguereau 4-sided Glue Pad",
+      "vendor": "Next.js",
+      "path": "/bouguereau-4-sided-glue-pad",
+      "slug": "bouguereau-4-sided-glue-pad",
+      "price": { "value": 0, "currencyCode": "USD" },
+      "description": "French-made",
+      "descriptionIcon": "/images/paper/icon-conton.png",
+      "descriptionArray": ["100%Cotton/300g/ColdPressed"],
+      "desImgSrc": "",
+      "images": [
+        {
+          "url": "/images/paper/bouguereau-4-sided-glue-pad/1.png",
+          "altText": "Brush Set S",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "variants": [
+        {
+          "id": "bouguereau-4-sided-glue-pad",
+          "name": "Bouguereau 4-sided Glue Pad",
+          "options": [
+            {
+              "__typename": "MultipleChoiceOption",
+              "id": "asd",
+              "displayName": "Size",
+              "values": [
+                {
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "id": "option-size",
+          "displayName": "Size",
+          "values": [
+            {
+              "label": "2K"
+            },
+            {
+              "label": "4K"
+            },
+            {
+              "label": "8K"
+            },
+            {
+              "label": "16K"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bouguereau-art-gallery-watercolor-postcards",
+      "name": "Bouguereau “Art Gallery” Watercolor Postcards",
+      "vendor": "Next.js",
+      "path": "/bouguereau-art-gallery-watercolor-postcards",
+      "slug": "bouguereau-art-gallery-watercolor-postcards",
+      "price": { "value": 0, "currencyCode": "USD" },
+      "description": "French-made",
+      "descriptionIcon": "/images/paper/icon-conton.png",
+      "descriptionArray": ["100%Cotton/300/HotPressed"],
+      "desImgSrc": "",
+      "images": [
+        {
+          "url": "/images/paper/bouguereau-art-gallery-watercolor-postcards/1.png",
+          "altText": "Brush Set S",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "/images/paper/bouguereau-art-gallery-watercolor-postcards/2.png",
+          "altText": "Brush Set S",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "variants": [
+        {
+          "id": "bouguereau-art-gallery-watercolor-postcards",
+          "name": "Bouguereau “Art Gallery” Watercolor Postcards",
+          "options": [
+            {
+              "__typename": "MultipleChoiceOption",
+              "id": "asd",
+              "displayName": "Size",
+              "values": [
+                {
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "id": "option-size",
+          "displayName": "Size",
+          "values": [
+            {
+              "label": "2K"
+            },
+            {
+              "label": "4K"
+            },
+            {
+              "label": "8K"
+            },
+            {
+              "label": "16K"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bouguereau-cold-pressed-300g-watercolor-paper",
+      "name": "Bouguereau Watercolor Paper",
+      "vendor": "Next.js",
+      "path": "/bouguereau-cold-pressed-300g-watercolor-paper",
+      "slug": "bouguereau-cold-pressed-300g-watercolor-paper",
+      "price": { "value": 0, "currencyCode": "USD" },
+      "description": "French-made",
+      "descriptionIcon": "/images/paper/icon-conton.png",
+      "descriptionArray": ["100%Cotton/300g/ColdPressed"],
+      "desImgSrc": "",
+      "images": [
+        {
+          "url": "/images/paper/bouguereau-cold-pressed-300g-watercolor-paper/1.png",
+          "altText": "Brush Set S",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "variants": [
+        {
+          "id": "bouguereau-cold-pressed-300g-watercolor-paper",
+          "name": "Bouguereau Watercolor Paper",
+          "options": [
+            {
+              "__typename": "MultipleChoiceOption",
+              "id": "asd",
+              "displayName": "Size",
+              "values": [
+                {
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "id": "option-size",
+          "displayName": "Size",
+          "values": [
+            {
+              "label": "2K"
+            },
+            {
+              "label": "4K"
+            },
+            {
+              "label": "8K"
+            },
+            {
+              "label": "16K"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "academy-watercolor-pad",
+      "name": "Academy Watercolor Pad",
+      "vendor": "Next.js",
+      "path": "/academy-watercolor-pad",
+      "slug": "academy-watercolor-pad",
+      "price": { "value": 0, "currencyCode": "USD" },
+      "description": "French-made",
+      "descriptionIcon": "/images/paper/icon-conton.png",
+      "descriptionArray": ["100%Cotton/300g/ColdPressed"],
+      "desImgSrc": "",
+      "images": [
+        {
+          "url": "/images/paper/academy-watercolor-pad/1.png",
+          "altText": "Brush Set S",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "/images/paper/academy-watercolor-pad/3.png",
+          "altText": "Brush Set L",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "/images/paper/academy-watercolor-pad/5.png",
+          "altText": "Brush Set XXL",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "/images/paper/academy-watercolor-pad/7.png",
+          "altText": "Brush Set XXXXL",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "variants": [
+        {
+          "id": "academy-watercolor-pad",
+          "name": "Academy Watercolor Pad",
+          "options": [
+            {
+              "__typename": "MultipleChoiceOption",
+              "id": "asd",
+              "displayName": "Size",
+              "values": [
+                {
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "id": "option-size",
+          "displayName": "Size",
+          "values": [
+            {
+              "label": "2K"
+            },
+            {
+              "label": "4K"
+            },
+            {
+              "label": "8K"
+            },
+            {
+              "label": "16K"
             }
           ]
         }
