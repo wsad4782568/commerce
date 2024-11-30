@@ -3606,7 +3606,7 @@
     },
     {
       "id": "watercolor-paper",
-      "name": "Watercolor Paper",
+      "name": "Caravaggio Watercolor Paper",
       "vendor": "Next.js",
       "path": "/watercolor-paper",
       "slug": "watercolor-paper",
@@ -3626,7 +3626,7 @@
       "variants": [
         {
           "id": "watercolor-paper",
-          "name": "Watercolor Paper",
+          "name": "Caravaggio Watercolor Paper",
           "sku": "S",
           "options": [
             {
@@ -3851,7 +3851,7 @@
     },
     {
       "id": "bouguereau-art-gallery-watercolor-postcards",
-      "name": "Bouguereau “Art Gallery” Watercolor Postcards",
+      "name": "“Mair ti ni Art Gallery” Watercolor Postcards",
       "vendor": "Next.js",
       "path": "/bouguereau-art-gallery-watercolor-postcards",
       "slug": "bouguereau-art-gallery-watercolor-postcards",
@@ -3877,7 +3877,7 @@
       "variants": [
         {
           "id": "bouguereau-art-gallery-watercolor-postcards",
-          "name": "Bouguereau “Art Gallery” Watercolor Postcards",
+          "name": "“Mairtini Art Gallery” Watercolor Postcards",
           "options": [
             {
               "__typename": "MultipleChoiceOption",
@@ -4042,6 +4042,57 @@
             },
             {
               "label": "16K"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vq-106-602",
+      "name": "Watercolor Pain",
+      "vendor": "Next.js",
+      "path": "/vq-106-602",
+      "slug": "vq-106-602",
+      "sku": "VQ 106-602",
+      "price": { "value": 0, "currencyCode": "USD" },
+      "description": "3pcs/Box",
+      "desImgSrc": "/images/paints-fine-grind/colors/1.png",
+      "images": [
+        {
+          "url": "/images/paints-fine-grind/vq-106-602/1.png",
+          "altText": "VQ 106-602",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "variants": [
+        {
+          "id": "vq-106-602",
+          "name": "vq-106-602",
+          "options": [
+            {
+              "__typename": "MultipleChoiceOption",
+              "id": "asd",
+              "displayName": "Size",
+              "values": [
+                {
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "options": [
+        {
+          "id": "option-size",
+          "displayName": "Size",
+          "values": [
+            {
+              "label": "5ml"
+            },
+            {
+              "label": "15ml"
             }
           ]
         }

@@ -1,4 +1,4 @@
-[34mnext-commerce:build[0m: cache hit, replaying output [2ma5ee9df7cff28eff[0m
+[34mnext-commerce:build[0m: cache hit, replaying output [2ma42dc9f76480fed7[0m
 [34mnext-commerce:build: [0m
 [34mnext-commerce:build: [0m> next-commerce@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/site
 [34mnext-commerce:build: [0m> next build && next export
@@ -37,7 +37,10 @@
 [34mnext-commerce:build: [0minfo  - Linting and checking validity of types...
 [34mnext-commerce:build: [0m
 [34mnext-commerce:build: [0m./pages/brush/[name].tsx
-[34mnext-commerce:build: [0m85:15  Warning: Do not use `<img>` element. Use `<Image />` from `next/image` instead. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+[34mnext-commerce:build: [0m96:15  Warning: Do not use `<img>` element. Use `<Image />` from `next/image` instead. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+[34mnext-commerce:build: [0m
+[34mnext-commerce:build: [0m./components/product/ProductSidebar/ProductSidebar.tsx
+[34mnext-commerce:build: [0m75:15  Warning: Do not use `<img>` element. Use `<Image />` from `next/image` instead. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
 [34mnext-commerce:build: [0m
 [34mnext-commerce:build: [0m./components/product/ProductView/ProductView.tsx
 [34mnext-commerce:build: [0m71:15  Warning: Do not use `<img>` element. Use `<Image />` from `next/image` instead. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
@@ -52,7 +55,13 @@
 [34mnext-commerce:build: [0m  Why you should do it regularly: https://github.com/browserslist/update-db#readme
 [34mnext-commerce:build: [0minfo  - Compiled successfully
 [34mnext-commerce:build: [0minfo  - Collecting page data...
-[34mnext-commerce:build: [0minfo  - Generating static pages (0/67)
+[34mnext-commerce:build: [0minfo  - Generating static pages (0/74)
+[34mnext-commerce:build: [0m
+[34mnext-commerce:build: [0mError occurred prerendering page "/brush/[name]". Read more: https://nextjs.org/docs/messages/prerender-error
+[34mnext-commerce:build: [0mError: getStaticPaths was added without a getStaticProps in /brush/[name]. Without getStaticProps, getStaticPaths does nothing
+[34mnext-commerce:build: [0m    at renderToHTML (/Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/node_modules/.pnpm/next@13.0.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/render.js:212:15)
+[34mnext-commerce:build: [0m    at /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/node_modules/.pnpm/next@13.0.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/export/worker.js:248:38
+[34mnext-commerce:build: [0m    at async Span.traceAsyncFn (/Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/node_modules/.pnpm/next@13.0.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/trace/trace.js:79:20)
 [34mnext-commerce:build: [0mproducts [
 [34mnext-commerce:build: [0m  {
 [34mnext-commerce:build: [0m    id: 'Z2lkOi8vc2hvcGlmeS9Qcm9ksdWN0LzU0NDczMjUwMjQ0MjA=',
@@ -840,100 +849,142 @@
 [34mnext-commerce:build: [0m    images: [ [Object] ],
 [34mnext-commerce:build: [0m    variants: [ [Object] ],
 [34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'watercolor-paper',
+[34mnext-commerce:build: [0m    name: 'Watercolor Paper',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/watercolor-paper',
+[34mnext-commerce:build: [0m    slug: 'watercolor-paper',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'French-made',
+[34mnext-commerce:build: [0m    descriptionIcon: '/images/paper/icon-conton.png',
+[34mnext-commerce:build: [0m    descriptionArray: [ '100%Cotton/300g' ],
+[34mnext-commerce:build: [0m    desImgSrc: '',
+[34mnext-commerce:build: [0m    images: [ [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'watercolor-paper',
+[34mnext-commerce:build: [0m    name: 'Watercolor Paper',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/watercolor-paper',
+[34mnext-commerce:build: [0m    slug: 'watercolor-paper',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'French-made',
+[34mnext-commerce:build: [0m    descriptionIcon: '/images/paper/icon-conton.png',
+[34mnext-commerce:build: [0m    descriptionArray: [ '100%Cotton/300g' ],
+[34mnext-commerce:build: [0m    desImgSrc: '',
+[34mnext-commerce:build: [0m    images: [ [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'leather-4-sided-glue-pad',
+[34mnext-commerce:build: [0m    name: 'Leather 4-sided Glue Pad',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/leather-4-sided-glue-pad',
+[34mnext-commerce:build: [0m    slug: 'leather-4-sided-glue-pad',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'French-made',
+[34mnext-commerce:build: [0m    descriptionIcon: '/images/paper/icon-conton.png',
+[34mnext-commerce:build: [0m    descriptionArray: [ '100%Cotton/300g/ColdPressed' ],
+[34mnext-commerce:build: [0m    desImgSrc: '',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'caravaggio-4-sided-glue-pad',
+[34mnext-commerce:build: [0m    name: 'Caravaggio 4-sided Glue Pad',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/caravaggio-4-sided-glue-pad',
+[34mnext-commerce:build: [0m    slug: 'caravaggio-4-sided-glue-pad',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'French-made',
+[34mnext-commerce:build: [0m    descriptionIcon: '/images/paper/icon-conton.png',
+[34mnext-commerce:build: [0m    descriptionArray: [ '100%Cotton' ],
+[34mnext-commerce:build: [0m    desImgSrc: '',
+[34mnext-commerce:build: [0m    images: [ [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'bouguereau-4-sided-glue-pad',
+[34mnext-commerce:build: [0m    name: 'Bouguereau 4-sided Glue Pad',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/bouguereau-4-sided-glue-pad',
+[34mnext-commerce:build: [0m    slug: 'bouguereau-4-sided-glue-pad',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'French-made',
+[34mnext-commerce:build: [0m    descriptionIcon: '/images/paper/icon-conton.png',
+[34mnext-commerce:build: [0m    descriptionArray: [ '100%Cotton/300g/ColdPressed' ],
+[34mnext-commerce:build: [0m    desImgSrc: '',
+[34mnext-commerce:build: [0m    images: [ [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'bouguereau-art-gallery-watercolor-postcards',
+[34mnext-commerce:build: [0m    name: 'Bouguereau “Art Gallery” Watercolor Postcards',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/bouguereau-art-gallery-watercolor-postcards',
+[34mnext-commerce:build: [0m    slug: 'bouguereau-art-gallery-watercolor-postcards',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'French-made',
+[34mnext-commerce:build: [0m    descriptionIcon: '/images/paper/icon-conton.png',
+[34mnext-commerce:build: [0m    descriptionArray: [ '100%Cotton/300/HotPressed' ],
+[34mnext-commerce:build: [0m    desImgSrc: '',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'bouguereau-cold-pressed-300g-watercolor-paper',
+[34mnext-commerce:build: [0m    name: 'Bouguereau Watercolor Paper',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/bouguereau-cold-pressed-300g-watercolor-paper',
+[34mnext-commerce:build: [0m    slug: 'bouguereau-cold-pressed-300g-watercolor-paper',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'French-made',
+[34mnext-commerce:build: [0m    descriptionIcon: '/images/paper/icon-conton.png',
+[34mnext-commerce:build: [0m    descriptionArray: [ '100%Cotton/300g/ColdPressed' ],
+[34mnext-commerce:build: [0m    desImgSrc: '',
+[34mnext-commerce:build: [0m    images: [ [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'academy-watercolor-pad',
+[34mnext-commerce:build: [0m    name: 'Academy Watercolor Pad',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/academy-watercolor-pad',
+[34mnext-commerce:build: [0m    slug: 'academy-watercolor-pad',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: 'French-made',
+[34mnext-commerce:build: [0m    descriptionIcon: '/images/paper/icon-conton.png',
+[34mnext-commerce:build: [0m    descriptionArray: [ '100%Cotton/300g/ColdPressed' ],
+[34mnext-commerce:build: [0m    desImgSrc: '',
+[34mnext-commerce:build: [0m    images: [ [Object], [Object], [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: [ [Object] ]
 [34mnext-commerce:build: [0m  }
 [34mnext-commerce:build: [0m]
-[34mnext-commerce:build: [0minfo  - Generating static pages (16/67)
-[34mnext-commerce:build: [0minfo  - Generating static pages (33/67)
-[34mnext-commerce:build: [0minfo  - Generating static pages (50/67)
-[34mnext-commerce:build: [0minfo  - Generating static pages (67/67)
-[34mnext-commerce:build: [0minfo  - Finalizing page optimization...
+[34mnext-commerce:build: [0minfo  - Generating static pages (18/74)
+[34mnext-commerce:build: [0minfo  - Generating static pages (36/74)
+[34mnext-commerce:build: [0minfo  - Generating static pages (55/74)
+[34mnext-commerce:build: [0minfo  - Generating static pages (74/74)
 [34mnext-commerce:build: [0m
-[34mnext-commerce:build: [0mRoute (pages)                                     Size     First Load JS
-[34mnext-commerce:build: [0m┌ ● / (ISR: 60 Seconds) (324 ms)                  4.4 kB          131 kB
-[34mnext-commerce:build: [0m├   /_app                                         0 B            78.6 kB
-[34mnext-commerce:build: [0m├ ● /[...pages]                                   433 B           127 kB
-[34mnext-commerce:build: [0m├ ○ /404 (ISR: 200 Seconds)                       446 B           127 kB
-[34mnext-commerce:build: [0m├ λ /api/commerce/[[...commerce]]                 0 B            78.6 kB
-[34mnext-commerce:build: [0m├ ○ /brush/[name]                                 1.17 kB         128 kB
-[34mnext-commerce:build: [0m├ ● /brushes                                      2.28 kB         129 kB
-[34mnext-commerce:build: [0m├ ● /cart                                         1.57 kB         129 kB
-[34mnext-commerce:build: [0m├ ● /mop-brushs                                   1.79 kB         129 kB
-[34mnext-commerce:build: [0m├ ● /orders                                       591 B           128 kB
-[34mnext-commerce:build: [0m├ ● /paints                                       1.61 kB         129 kB
-[34mnext-commerce:build: [0m├ ● /paper                                        3.23 kB         130 kB
-[34mnext-commerce:build: [0m├ ● /product/[slug] (ISR: 200 Seconds) (7332 ms)  19.7 kB         147 kB
-[34mnext-commerce:build: [0m├   └ css/9b3fc16bc4453eba.css                    2.37 kB
-[34mnext-commerce:build: [0m├   ├ /product/lightweight-jacket (471 ms)
-[34mnext-commerce:build: [0m├   ├ /product/mop-brush-616 (441 ms)
-[34mnext-commerce:build: [0m├   ├ /product/mop-brush-ss93 (434 ms)
-[34mnext-commerce:build: [0m├   ├ /product/mop-brush-611 (361 ms)
-[34mnext-commerce:build: [0m├   ├ /product/mop-brush-696
-[34mnext-commerce:build: [0m├   ├ /product/mop-brush-612
-[34mnext-commerce:build: [0m├   ├ /product/mop-brush-656
-[34mnext-commerce:build: [0m├   └ [+47 more paths]
-[34mnext-commerce:build: [0m├ ● /profile                                      539 B           128 kB
-[34mnext-commerce:build: [0m├ ● /search (ISR: 200 Seconds)                    252 B           131 kB
-[34mnext-commerce:build: [0m├ ● /search/[category]                            261 B           131 kB
-[34mnext-commerce:build: [0m├ ● /search/designers/[name]                      265 B           131 kB
-[34mnext-commerce:build: [0m├ ● /search/designers/[name]/[category]           275 B           132 kB
-[34mnext-commerce:build: [0m└ ● /wishlist                                     2.35 kB         129 kB
-[34mnext-commerce:build: [0m    └ css/aeb3e3fe3a05774d.css                    836 B
-[34mnext-commerce:build: [0m+ First Load JS shared by all                     84.4 kB
-[34mnext-commerce:build: [0m  ├ chunks/framework-23bb51c2d15fac13.js          45.4 kB
-[34mnext-commerce:build: [0m  ├ chunks/main-3edfa232ea1dd950.js               26.7 kB
-[34mnext-commerce:build: [0m  ├ chunks/pages/_app-eeabb00d4bb3428c.js         4.25 kB
-[34mnext-commerce:build: [0m  ├ chunks/webpack-ba99a4096bb730e0.js            2.31 kB
-[34mnext-commerce:build: [0m  └ css/586802e9464ac6fd.css                      5.83 kB
-[34mnext-commerce:build: [0m
-[34mnext-commerce:build: [0mλ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
-[34mnext-commerce:build: [0m○  (Static)  automatically rendered as static HTML (uses no initial props)
-[34mnext-commerce:build: [0m●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
-[34mnext-commerce:build: [0m   (ISR)     incremental static regeneration (uses revalidate in getStaticProps)
-[34mnext-commerce:build: [0m
-[34mnext-commerce:build: [0mnext.config.js {
-[34mnext-commerce:build: [0m  "commerce": {
-[34mnext-commerce:build: [0m    "provider": "local",
-[34mnext-commerce:build: [0m    "features": {
-[34mnext-commerce:build: [0m      "cart": false,
-[34mnext-commerce:build: [0m      "search": false,
-[34mnext-commerce:build: [0m      "wishlist": false,
-[34mnext-commerce:build: [0m      "customerAuth": false,
-[34mnext-commerce:build: [0m      "customCheckout": false
-[34mnext-commerce:build: [0m    }
-[34mnext-commerce:build: [0m  },
-[34mnext-commerce:build: [0m  "output": "export",
-[34mnext-commerce:build: [0m  "images": {
-[34mnext-commerce:build: [0m    "unoptimized": true,
-[34mnext-commerce:build: [0m    "domains": [
-[34mnext-commerce:build: [0m      "localhost"
-[34mnext-commerce:build: [0m    ]
-[34mnext-commerce:build: [0m  },
-[34mnext-commerce:build: [0m  "experimental": {
-[34mnext-commerce:build: [0m    "esmExternals": "loose"
-[34mnext-commerce:build: [0m  },
-[34mnext-commerce:build: [0m  "env": {}
-[34mnext-commerce:build: [0m}
-[34mnext-commerce:build: [0mwarn  - Invalid next.config.js options detected: 
-[34mnext-commerce:build: [0m  - The root value has an unexpected property, commerce, which is not in the list of allowed properties (amp, analyticsId, assetPrefix, basePath, cleanDistDir, compiler, compress, crossOrigin, devIndicators, distDir, env, eslint, excludeDefaultMomentLocales, experimental, exportPathMap, generateBuildId, generateEtags, headers, httpAgentOptions, i18n, images, onDemandEntries, optimizeFonts, output, outputFileTracing, pageExtensions, poweredByHeader, productionBrowserSourceMaps, publicRuntimeConfig, reactStrictMode, redirects, rewrites, sassOptions, serverRuntimeConfig, staticPageGenerationTimeout, swcMinify, trailingSlash, typescript, useFileSystemPublicRoutes, webpack).
-[34mnext-commerce:build: [0m  - The value at .output must be one of: "standalone".
-[34mnext-commerce:build: [0m
-[34mnext-commerce:build: [0mSee more info here: https://nextjs.org/docs/messages/invalid-next-config
-[34mnext-commerce:build: [0mwarn  - You have enabled experimental feature (esmExternals) in next.config.js.
-[34mnext-commerce:build: [0mwarn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
-[34mnext-commerce:build: [0m
-[34mnext-commerce:build: [0minfo  - using build directory: /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/site/.next
-[34mnext-commerce:build: [0mwarn  - rewrites, redirects, and headers are not applied when exporting your application, detected (rewrites). See more info here: https://nextjs.org/docs/messages/export-no-custom-routes
-[34mnext-commerce:build: [0minfo  - Copying "static build" directory
-[34mnext-commerce:build: [0minfo  - No "exportPathMap" found in "/Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/site/next.config.js". Generating map from "./pages"
-[34mnext-commerce:build: [0minfo  - Launching 15 workers
-[34mnext-commerce:build: [0mwarn  - Statically exporting a Next.js application via `next export` disables API routes.
-[34mnext-commerce:build: [0mThis command is meant for static-only hosts, and is not necessary to make your application static.
-[34mnext-commerce:build: [0mPages in your application without server-side data dependencies will be automatically statically exported by `next build`, including pages powered by `getStaticProps`.
-[34mnext-commerce:build: [0mLearn more: https://nextjs.org/docs/messages/api-routes-static-export
-[34mnext-commerce:build: [0minfo  - Exporting (0/13)
-[34mnext-commerce:build: [0minfo  - Copying "public" directory
-[34mnext-commerce:build: [0minfo  - Exporting (3/13)
-[34mnext-commerce:build: [0minfo  - Exporting (6/13)
-[34mnext-commerce:build: [0minfo  - Exporting (9/13)
-[34mnext-commerce:build: [0minfo  - Exporting (13/13)
-[34mnext-commerce:build: [0mExport successful. Files written to /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/site/out
+[34mnext-commerce:build: [0m> Build error occurred
+[34mnext-commerce:build: [0mError: Export encountered errors on following paths:
+[34mnext-commerce:build: [0m	/brush/[name]
+[34mnext-commerce:build: [0m    at /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/node_modules/.pnpm/next@13.0.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/export/index.js:408:19
+[34mnext-commerce:build: [0m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[34mnext-commerce:build: [0m    at async Span.traceAsyncFn (/Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/node_modules/.pnpm/next@13.0.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/trace/trace.js:79:20)
+[34mnext-commerce:build: [0m    at async /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/node_modules/.pnpm/next@13.0.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/index.js:1331:21
+[34mnext-commerce:build: [0m    at async Span.traceAsyncFn (/Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/node_modules/.pnpm/next@13.0.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/trace/trace.js:79:20)
+[34mnext-commerce:build: [0m    at async /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/node_modules/.pnpm/next@13.0.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/index.js:1191:17
+[34mnext-commerce:build: [0m    at async Span.traceAsyncFn (/Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/node_modules/.pnpm/next@13.0.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/trace/trace.js:79:20)
+[34mnext-commerce:build: [0m    at async Object.build [as default] (/Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/node_modules/.pnpm/next@13.0.4_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/build/index.js:65:29)
+[34mnext-commerce:build: [0m ELIFECYCLE  Command failed with exit code 1.

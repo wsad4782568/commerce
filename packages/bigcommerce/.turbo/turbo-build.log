@@ -1,9 +1,9 @@
-[32m@vercel/commerce-bigcommerce:build[0m: cache hit, replaying output [2m9e81e074b5f14b1c[0m
-[32m@vercel/commerce-bigcommerce:build: [0m
-[32m@vercel/commerce-bigcommerce:build: [0m> @vercel/commerce-bigcommerce@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/bigcommerce
-[32m@vercel/commerce-bigcommerce:build: [0m> taskr build
-[32m@vercel/commerce-bigcommerce:build: [0m
-[32m@vercel/commerce-bigcommerce:build: [0m[10:52:57] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/bigcommerce/taskfile.js
-[32m@vercel/commerce-bigcommerce:build: [0m[10:52:57] Starting build
-[32m@vercel/commerce-bigcommerce:build: [0m[10:52:58] Compiled src files
-[32m@vercel/commerce-bigcommerce:build: [0m[10:52:58] Finished build in 290ms
+[35m@vercel/commerce-bigcommerce:build[0m: cache hit, replaying output [2mb7e496a8039f59d9[0m
+[35m@vercel/commerce-bigcommerce:build: [0m
+[35m@vercel/commerce-bigcommerce:build: [0m> @vercel/commerce-bigcommerce@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/bigcommerce
+[35m@vercel/commerce-bigcommerce:build: [0m> taskr build
+[35m@vercel/commerce-bigcommerce:build: [0m
+[35m@vercel/commerce-bigcommerce:build: [0m[09:42:35] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/bigcommerce/taskfile.js
+[35m@vercel/commerce-bigcommerce:build: [0m[09:42:35] Starting build
+[35m@vercel/commerce-bigcommerce:build: [0m[09:42:36] Compiled src files
+[35m@vercel/commerce-bigcommerce:build: [0m[09:42:36] Finished build in 329ms

@@ -1,0 +1,13 @@
+# 启用重写引擎
+RewriteEngine On
+
+# 设置默认首页文件
+DirectoryIndex index.html index.htm
+
+# 尝试访问文件，然后尝试访问 .html 文件，最后返回 404
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ $1.html [L]
+
+# 自定义 404 页面
+ErrorDocument 404 /404.html

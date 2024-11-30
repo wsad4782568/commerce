@@ -1,5 +1,5 @@
+import type { GetStaticPathsContext, GetStaticPropsContext, InferGetStaticPropsType } from 'next'
 import Link from 'next/link'
-// import Image from 'next/image'
 import { useRouter } from 'next/router'
 import { Layout } from '@components/common'
 import { Container } from '@components/ui'
@@ -70,30 +70,60 @@ const brushData = {
   ],
 }
 
-const BrushPage = () => {
-  const router = useRouter()
-  const { name } = router.query
-  const brushItems = brushData[name as keyof typeof brushData]
+export async function getStaticPaths({ locales }: GetStaticPathsContext) {
+  const brushNames = Object.keys(brushData).map((key) => ({ name: key }));
+  console.log('brushNames', brushNames);
+  return {
+    paths: locales
+      ? locales.reduce<string[]>((arr, locale) => {
+          // 为每个 locale 添加画笔路径
+          brushNames.forEach((brush: any) => {
+            arr.push(`/${locale}/brush/${brush.name}`);
+          });
+          return arr;
+        }, [])
+      : brushNames.map((brush: any) => `/brush/${brush.name}`),
+    fallback: 'blocking',
+  };
+}
+
+export async function getStaticProps({ params, locale, locales, preview }: GetStaticPropsContext<{ name: string }>) {
+  const brushName = params?.name as keyof typeof brushData;
+
+  // 确保获取的数据是有效的
+  const brushItems = brushData[brushName] || [];
+
+  return {
+    props: {
+      brushName,
+      brushItems,
+    },
+    revalidate: 200, // 重新生成页面的时间
+  };
+}
+
+const BrushPage = ({ brushName, brushItems }: InferGetStaticPropsType<typeof getStaticProps>) => {
+  const router = useRouter();
 
   return (
     <Container className='bg-gray-200'>
-      <div className='customFont text-center text-[8rem] text-black my-15'>{name}</div>
+      <div className='customFont text-center text-[8rem] text-black my-15'>{brushName}</div>
       <div className="relative w-full flex justify-center py-6 flex-wrap border-t-4 border-b-4 border-gray-300">
         {brushItems?.map((item, index) => (
           <div key={index} className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer py-4">
-            <Link href={`/product/${name}-${item.name}`}>
+            <Link href={`/product/${brushName}-${item.name}`}>
               <img className="w-full h-auto" src={item.imgSrc} alt={`Brush ${index + 1}`} />
             </Link>
             <div className='text-center m-8'>
               <span className='bg-black text-[2rem] font-bold py-1 px-5'>{item.name}</span>
             </div>
           </div>
-          ))}
+        ))}
       </div>
     </Container>
-  )
+  );
 }
 
-export default BrushPage
+export default BrushPage;
 
-BrushPage.Layout = Layout
+BrushPage.Layout = Layout;

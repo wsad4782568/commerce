@@ -38,7 +38,7 @@ export default function Profile() {
       <div className="relative w-full cursor-pointer hover:cursor-pointer pb-1">
         <div className="relative w-full flex my-10">
           <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">
-            <Link href="/brush-link-7">
+            <Link href="/paints-fine-grind">
               <Image src={brushImage3} alt="banner" className="w-full h-auto"/>
             </Link>
           </div>
