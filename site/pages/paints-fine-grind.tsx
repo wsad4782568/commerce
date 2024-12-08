@@ -40,7 +40,7 @@ export default function Profile() {
       </div>
       <div className='text-center text-[2rem] text-secondary my-5 font-bold'>Fine Grind Artists'Watercolor Pain</div>
 
-      <div className="text-[26px] text-secondary px-12 pb-2 mx-40">
+      <div className="text-[26px] text-secondary pl-36 pr-24 pb-2 mx-40">
         <p>82 brilliant and intense colors</p>
         <p>6l colors with high lightfastness(4~5 stars)12 macaron colors with fantastic coverage, bringing new vitality to the artwork.</p>
         <p>High-quality pigments are selected around the world to ensure more vibrant colors</p>
@@ -84,9 +84,9 @@ export default function Profile() {
             </Link>
           </div>
         </div> */}
-        
+
         <div className="flex flex-col">
-          <Link href="/product/wv-0018" className="flex items-center justify-between my-16">
+          <Link href="/product/wv-0018" className="flex items-center justify-between my-16 hover:scale-105 transition-transform duration-300">
             <div className="w-1/2 pr-12 cursor-pointer hover:cursor-pointer flex items-center justify-between">
               <div className="h-full">
                 <Image src={brushImage5} alt="banner" className="w-full h-auto"/>
@@ -98,7 +98,7 @@ export default function Profile() {
               <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.2rem]'>SIZE:5ML</p>
             </div>
           </Link>
-          <Link href="/product/wv-0024" className="flex items-center justify-between my-16">
+          <Link href="/product/wv-0024" className="flex items-center justify-between my-16 hover:scale-105 transition-transform duration-300">
             <div className="w-1/2 pr-12 cursor-pointer hover:cursor-pointer flex items-center justify-between">
               <div className="h-full">
                 <Image src={brushImage6} alt="banner" className="w-full h-auto"/>
@@ -110,7 +110,7 @@ export default function Profile() {
               <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.2rem]'>SIZE:5ML</p>
             </div>
           </Link>
-          <Link href="/product/wv-0036" className="flex items-center justify-between my-16">
+          <Link href="/product/wv-0036" className="flex items-center justify-between my-16 hover:scale-105 transition-transform duration-300">
             <div className="w-1/2 pr-12 cursor-pointer hover:cursor-pointer flex items-center justify-between">
               <div className="h-[230px]">
                 <Image src={brushImage7} alt="banner" className="w-full h-auto"/>
@@ -125,13 +125,13 @@ export default function Profile() {
         </div>
       </div>
       <div className='text-center text-[2rem] text-secondary my-5 font-bold'>Artists' Layered Precipitation Color Watercolor Paint</div>
-      <div className="text-[26px] text-secondary px-12 pb-2 mx-40">
+      <div className="text-[26px] text-secondary pl-36 pr-24 pb-2 mx-40">
         <p>Select premium raw materials with extremely high light-fastness, use 2 to 3 colorsblends, and use multiple grinding processes to present different levels of multi-cololprecipitation expression.</p>
         <p>Total: 12 colors.</p>
       </div>
 
       <div className="relative w-[60%] cursor-pointer hover:cursor-pointer pb-4 mx-[20%]">
-        <Link href="/product/ws-0012" className="flex items-center justify-between my-16">
+        <Link href="/product/ws-0012" className="flex items-center justify-between my-16 hover:scale-105 transition-transform duration-300">
             <div className="w-1/2 pr-12 cursor-pointer hover:cursor-pointer flex items-center justify-between">
                 <div className="h-[230px]">
                 <Image src={brushImage8} alt="banner" className="w-full h-auto"/>

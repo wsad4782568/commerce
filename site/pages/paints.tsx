@@ -43,7 +43,7 @@ export default function Profile() {
             </Link>
           </div>
           <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">
-            <Link href="/brush-link-8">
+            <Link href="/paints-caravaggio">
               <Image src={brushImage4} alt="banner" className="w-full h-auto"/>
             </Link>
           </div>
