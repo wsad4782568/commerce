@@ -1,9 +1,9 @@
-[36m@vercel/commerce-saleor:build[0m: cache hit, replaying output [2m5810e6ed98ad5184[0m
-[36m@vercel/commerce-saleor:build: [0m
-[36m@vercel/commerce-saleor:build: [0m> @vercel/commerce-saleor@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/saleor
-[36m@vercel/commerce-saleor:build: [0m> taskr build
-[36m@vercel/commerce-saleor:build: [0m
-[36m@vercel/commerce-saleor:build: [0m[09:42:35] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/saleor/taskfile.js
-[36m@vercel/commerce-saleor:build: [0m[09:42:35] Starting build
-[36m@vercel/commerce-saleor:build: [0m[09:42:36] Compiled src files
-[36m@vercel/commerce-saleor:build: [0m[09:42:36] Finished build in 357ms
+[34m@vercel/commerce-saleor:build[0m: cache hit, replaying output [2md1e29d5cab5cc95d[0m
+[34m@vercel/commerce-saleor:build: [0m
+[34m@vercel/commerce-saleor:build: [0m> @vercel/commerce-saleor@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/saleor
+[34m@vercel/commerce-saleor:build: [0m> taskr build
+[34m@vercel/commerce-saleor:build: [0m
+[34m@vercel/commerce-saleor:build: [0m[15:47:26] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/saleor/taskfile.js
+[34m@vercel/commerce-saleor:build: [0m[15:47:26] Starting build
+[34m@vercel/commerce-saleor:build: [0m[15:47:26] Compiled src files
+[34m@vercel/commerce-saleor:build: [0m[15:47:26] Finished build in 269ms

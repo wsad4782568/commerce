@@ -50,7 +50,7 @@ export default function Profile() {
       </div>
 
       <div className="relative w-[60%] cursor-pointer hover:cursor-pointer pb-4 mx-[20%]">
-        <div className="relative w-full flex my-16">
+        {/* <div className="relative w-full flex my-16">
           <div className="w-1/4 pr-12 cursor-pointer hover:cursor-pointer">
             <Link href="/product/vq-106-602">
               <Image src={brushImage1} alt="banner" className="w-full h-auto"/>
@@ -60,7 +60,7 @@ export default function Profile() {
             </Link>
           </div>
           <div className="w-1/4 pr-12 cursor-pointer hover:cursor-pointer">
-            <Link href="/brush-link-8">
+            <Link href="/product/vq-106-602">
               <Image src={brushImage2} alt="banner" className="w-full h-auto"/>
               <div className='text-center m-8'>
                 <span className='bg-black rounded-lg text-[2rem] font-bold py-1 px-5'>5ml</span>
@@ -68,7 +68,7 @@ export default function Profile() {
             </Link>
           </div>
           <div className="w-1/4 pr-12 cursor-pointer hover:cursor-pointer">
-            <Link href="/brush-link-9">
+            <Link href="/product/vq-106-602">
               <Image src={brushImage3} alt="banner" className="w-full h-auto"/>
               <div className='text-center m-8'>
                 <span className='bg-black rounded-lg text-[2rem] font-bold py-1 px-5'>15ml</span>
@@ -76,22 +76,20 @@ export default function Profile() {
             </Link>
           </div>
           <div className="w-1/4 pr-12 cursor-pointer hover:cursor-pointer">
-            <Link href="/brush-link-9">
+            <Link href="/product/vq-106-602">
               <Image src={brushImage4} alt="banner" className="w-full h-auto"/>
               <div className='text-center m-8'>
                 <span className='bg-black rounded-lg text-[2rem] font-bold py-1 px-5'>5ml</span>
               </div>
             </Link>
           </div>
-        </div>
+        </div> */}
         
         <div className="flex flex-col">
-          <div className="flex items-center justify-between my-16">
+          <Link href="/product/wv-0018" className="flex items-center justify-between my-16">
             <div className="w-1/2 pr-12 cursor-pointer hover:cursor-pointer flex items-center justify-between">
               <div className="h-full">
-                <Link href="/brush-link-10">
-                  <Image src={brushImage5} alt="banner" className="w-full h-auto"/>
-                </Link>
+                <Image src={brushImage5} alt="banner" className="w-full h-auto"/>
               </div>
             </div>
             <div className='m-8'>
@@ -99,50 +97,52 @@ export default function Profile() {
               <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.15rem]'>ITEMNO.: WV-0018</p>
               <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.2rem]'>SIZE:5ML</p>
             </div>
-          </div>
-          <div className="flex items-center justify-between my-16">
+          </Link>
+          <Link href="/product/wv-0024" className="flex items-center justify-between my-16">
             <div className="w-1/2 pr-12 cursor-pointer hover:cursor-pointer flex items-center justify-between">
               <div className="h-full">
-                <Link href="/brush-link-11">
-                  <Image src={brushImage6} alt="banner" className="w-full h-auto"/>
-                </Link>
+                <Image src={brushImage6} alt="banner" className="w-full h-auto"/>
               </div>
             </div>
             <div className='m-8'>
               <p className='bg-black rounded-lg text-[2rem] font-bold py-1 px-5 text-center mb-2'>24 Colors / Set</p>
-              <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.15rem]'>ITEMNO.: WV-0018</p>
+              <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.15rem]'>ITEMNO.: WV-0024</p>
               <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.2rem]'>SIZE:5ML</p>
             </div>
-          </div>
-          <div className="flex items-center justify-between my-16">
+          </Link>
+          <Link href="/product/wv-0036" className="flex items-center justify-between my-16">
             <div className="w-1/2 pr-12 cursor-pointer hover:cursor-pointer flex items-center justify-between">
               <div className="h-[230px]">
-                <Link href="/brush-link-12">
-                  <Image src={brushImage7} alt="banner" className="w-full h-auto"/>
-                </Link>
+                <Image src={brushImage7} alt="banner" className="w-full h-auto"/>
               </div>
             </div>
             <div className='m-8'>
               <p className='bg-black rounded-lg text-[2rem] font-bold py-1 px-5 text-center mb-2'>36 Colors / Set</p>
-              <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.15rem]'>ITEMNO.: WV-0018</p>
+              <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.15rem]'>ITEMNO.: WV-0036</p>
               <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.2rem]'>SIZE:5ML</p>
             </div>
-          </div>
-          <div className="flex items-center justify-between my-16">
+          </Link>
+        </div>
+      </div>
+      <div className='text-center text-[2rem] text-secondary my-5 font-bold'>Artists' Layered Precipitation Color Watercolor Paint</div>
+      <div className="text-[26px] text-secondary px-12 pb-2 mx-40">
+        <p>Select premium raw materials with extremely high light-fastness, use 2 to 3 colorsblends, and use multiple grinding processes to present different levels of multi-cololprecipitation expression.</p>
+        <p>Total: 12 colors.</p>
+      </div>
+
+      <div className="relative w-[60%] cursor-pointer hover:cursor-pointer pb-4 mx-[20%]">
+        <Link href="/product/ws-0012" className="flex items-center justify-between my-16">
             <div className="w-1/2 pr-12 cursor-pointer hover:cursor-pointer flex items-center justify-between">
-              <div className="h-[230px]">
-                <Link href="/brush-link-13">
-                  <Image src={brushImage8} alt="banner" className="w-full h-auto"/>
-                </Link>
-              </div>
+                <div className="h-[230px]">
+                <Image src={brushImage8} alt="banner" className="w-full h-auto"/>
+                </div>
             </div>
             <div className='m-8'>
-              <p className='bg-black rounded-lg text-[2rem] font-bold py-1 px-5 text-center mb-2'>12 Colors / Set</p>
-              <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.15rem]'>ITEMNO.: WV-0018</p>
-              <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.2rem]'>SIZE:5ML</p>
+                <p className='bg-black rounded-lg text-[2rem] font-bold py-1 px-5 text-center mb-2'>12 Colors / Set</p>
+                <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.15rem]'>ITEMNO.: WS-0012</p>
+                <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.2rem]'>SIZE:5ML</p>
             </div>
-          </div>
-        </div>
+        </Link>
       </div>
     </Container>
   )

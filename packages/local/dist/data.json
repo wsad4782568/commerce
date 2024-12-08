@@ -4097,6 +4097,184 @@
           ]
         }
       ]
+    },
+    {
+      "id": "wv-0018",
+      "name": "THE ARTISTS WATER COLOURS",
+      "vendor": "Next.js",
+      "path": "/wv-0018",
+      "slug": "wv-0018",
+      "sku": "WV 0018",
+      "price": { "value": 0, "currencyCode": "USD" },
+      "description": "355x265x155mm",
+      "desImgSrc": "/images/paints-fine-grind/wv-0018/colors.png",
+      "descriptionArray": ["5MLx18Colors/Set"],
+      "images": [
+        {
+          "url": "/images/paints-fine-grind/wv-0018/1.png",
+          "altText": "WV 0018",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "/images/paints-fine-grind/wv-0018/2.png",
+          "altText": "WV 0018",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "/images/paints-fine-grind/wv-0018/3.png",
+          "altText": "WV 0018",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "variants": [
+        {
+          "id": "wv-0018",
+          "name": "wv-0018",
+          "options": [
+            {
+              "__typename": "MultipleChoiceOption",
+              "id": "asd",
+              "displayName": "Size",
+              "values": [
+                {
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "options": [
+      ]
+    },
+    {
+      "id": "wv-0024",
+      "name": "THE ARTISTS WATER COLOURS",
+      "vendor": "Next.js",
+      "path": "/wv-0024",
+      "slug": "wv-0024",
+      "sku": "WV 0024",
+      "price": { "value": 0, "currencyCode": "USD" },
+      "description": "465x270x160mm",
+      "desImgSrc": "/images/paints-fine-grind/wv-0024/colors.png",
+      "descriptionArray": ["5MLx24Colors/Set"],
+      "images": [
+        {
+          "url": "/images/paints-fine-grind/wv-0024/1.png",
+          "altText": "WV 0024",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "variants": [
+        {
+          "id": "wv-0024",
+          "name": "wv-0024",
+          "options": [
+            {
+              "__typename": "MultipleChoiceOption",
+              "id": "asd",
+              "displayName": "Size",
+              "values": [
+                {
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "options": [
+      ]
+    },
+    {
+      "id": "wv-0036",
+      "name": "THE ARTISTS WATER COLOURS",
+      "vendor": "Next.js",
+      "path": "/wv-0036",
+      "slug": "wv-0036",
+      "sku": "WV 0036",
+      "price": { "value": 0, "currencyCode": "USD" },
+      "description": "450x265x210mm",
+      "desImgSrc": "/images/paints-fine-grind/wv-0036/colors.png",
+      "descriptionArray": ["5MLx36Colors/Set"],
+      "images": [
+        {
+          "url": "/images/paints-fine-grind/wv-0036/1.png",
+          "altText": "WV 0036",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "variants": [
+        {
+          "id": "wv-0036",
+          "name": "wv-0036",
+          "options": [
+            {
+              "__typename": "MultipleChoiceOption",
+              "id": "asd",
+              "displayName": "Size",
+              "values": [
+                {
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "options": [
+      ]
+    },
+    {
+      "id": "ws-0012",
+      "name": "THE LAYEREDS WATER COLOURS",
+      "vendor": "Next.js",
+      "path": "/ws-0012",
+      "slug": "ws-0012",
+      "sku": "WS 0012",
+      "price": { "value": 0, "currencyCode": "USD" },
+      "description": "345x175x160mm",
+      "desImgSrc": "/images/paints-fine-grind/ws-0012/colors.png",
+      "descriptionArray": ["5MLx12Colors/Set"],
+      "images": [
+        {
+          "url": "/images/paints-fine-grind/ws-0012/1.png",
+          "altText": "WS 0012",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "url": "/images/paints-fine-grind/ws-0012/2.png",
+          "altText": "WS 0012",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "variants": [
+        {
+          "id": "ws-0012",
+          "name": "ws-0012",
+          "options": [
+            {
+              "__typename": "MultipleChoiceOption",
+              "id": "asd",
+              "displayName": "Size",
+              "values": [
+                {
+                  "label": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "options": [
+      ]
     }
   ]
 }

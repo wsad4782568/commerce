@@ -1,9 +1,9 @@
-[33m@vercel/commerce-kibocommerce:build[0m: cache hit, replaying output [2m48e32a4b0c630d0a[0m
+[33m@vercel/commerce-kibocommerce:build[0m: cache hit, replaying output [2m9106d17fc798aec4[0m
 [33m@vercel/commerce-kibocommerce:build: [0m
 [33m@vercel/commerce-kibocommerce:build: [0m> @vercel/commerce-kibocommerce@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/kibocommerce
 [33m@vercel/commerce-kibocommerce:build: [0m> taskr build
 [33m@vercel/commerce-kibocommerce:build: [0m
-[33m@vercel/commerce-kibocommerce:build: [0m[09:42:35] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/kibocommerce/taskfile.js
-[33m@vercel/commerce-kibocommerce:build: [0m[09:42:35] Starting build
-[33m@vercel/commerce-kibocommerce:build: [0m[09:42:36] Compiled src files
-[33m@vercel/commerce-kibocommerce:build: [0m[09:42:36] Finished build in 383ms
+[33m@vercel/commerce-kibocommerce:build: [0m[15:47:26] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/kibocommerce/taskfile.js
+[33m@vercel/commerce-kibocommerce:build: [0m[15:47:26] Starting build
+[33m@vercel/commerce-kibocommerce:build: [0m[15:47:26] Compiled src files
+[33m@vercel/commerce-kibocommerce:build: [0m[15:47:26] Finished build in 320ms
