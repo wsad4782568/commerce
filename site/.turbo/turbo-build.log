@@ -1,4 +1,4 @@
-[34mnext-commerce:build[0m: cache hit, replaying output [2mf9904183174b5fbf[0m
+[34mnext-commerce:build[0m: cache hit, replaying output [2maf47240082b39966[0m
 [34mnext-commerce:build: [0m
 [34mnext-commerce:build: [0m> next-commerce@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/site
 [34mnext-commerce:build: [0m> next build && next export
@@ -50,9 +50,6 @@
 [34mnext-commerce:build: [0mBrowserslist: caniuse-lite is outdated. Please run:
 [34mnext-commerce:build: [0m  npx browserslist@latest --update-db
 [34mnext-commerce:build: [0m  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
-[34mnext-commerce:build: [0mBrowserslist: caniuse-lite is outdated. Please run:
-[34mnext-commerce:build: [0m  npx update-browserslist-db@latest
-[34mnext-commerce:build: [0m  Why you should do it regularly: https://github.com/browserslist/update-db#readme
 [34mnext-commerce:build: [0minfo  - Compiled successfully
 [34mnext-commerce:build: [0minfo  - Collecting page data...
 [34mnext-commerce:build: [0mbrushNames [
@@ -65,7 +62,7 @@
 [34mnext-commerce:build: [0m  { name: 'brush' },
 [34mnext-commerce:build: [0m  { name: 'brush-set' }
 [34mnext-commerce:build: [0m]
-[34mnext-commerce:build: [0minfo  - Generating static pages (0/87)
+[34mnext-commerce:build: [0minfo  - Generating static pages (0/97)
 [34mnext-commerce:build: [0mproducts [
 [34mnext-commerce:build: [0m  {
 [34mnext-commerce:build: [0m    id: 'Z2lkOi8vc2hvcGlmeS9Qcm9ksdWN0LzU0NDczMjUwMjQ0MjA=',
@@ -1047,51 +1044,206 @@
 [34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
 [34mnext-commerce:build: [0m    variants: [ [Object] ],
 [34mnext-commerce:build: [0m    options: []
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'klwq-0012',
+[34mnext-commerce:build: [0m    name: 'CARAVAGGIO PROFESSIONAL WATERCOLORS',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/klwq-0012',
+[34mnext-commerce:build: [0m    slug: 'klwq-0012',
+[34mnext-commerce:build: [0m    sku: 'KLWQ 0012',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: '330x260x165mm',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/paints-caravaggio/klwq-0012/colors.png',
+[34mnext-commerce:build: [0m    descriptionArray: [ '12 Colors (Half Pan)' ],
+[34mnext-commerce:build: [0m    images: [ [Object], [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: []
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'klwq-0024',
+[34mnext-commerce:build: [0m    name: 'CARAVAGGIO PROFESSIONAL WATERCOLORS',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/klwq-0024',
+[34mnext-commerce:build: [0m    slug: 'klwq-0024',
+[34mnext-commerce:build: [0m    sku: 'KLWQ 0024',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: '355x225x185mm',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/paints-caravaggio/klwq-0024/colors.png',
+[34mnext-commerce:build: [0m    descriptionArray: [ '24 Colors (Half Pan)' ],
+[34mnext-commerce:build: [0m    images: [ [Object], [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: []
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'klwq-0036',
+[34mnext-commerce:build: [0m    name: 'CARAVAGGIO PROFESSIONAL WATERCOLORS',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/klwq-0036',
+[34mnext-commerce:build: [0m    slug: 'klwq-0036',
+[34mnext-commerce:build: [0m    sku: 'KLWQ 0036',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: '355x225x185mm',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/paints-caravaggio/klwq-0036/colors.png',
+[34mnext-commerce:build: [0m    descriptionArray: [ '36 Colors (Half Pan)' ],
+[34mnext-commerce:build: [0m    images: [ [Object], [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: []
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'klwq-0012',
+[34mnext-commerce:build: [0m    name: 'CARAVAGGIO PROFESSIONAL WATERCOLORS',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/klwq-0012',
+[34mnext-commerce:build: [0m    slug: 'klwq-0012',
+[34mnext-commerce:build: [0m    sku: 'KLWQ 0012',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: '355x225x185mm',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/paints-caravaggio/klwq-0012/colors.png',
+[34mnext-commerce:build: [0m    descriptionArray: [ '5MLx12Colors/Set' ],
+[34mnext-commerce:build: [0m    images: [ [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: []
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'klwq-01',
+[34mnext-commerce:build: [0m    name: 'CARAVAGGIO PROFESSIONAL WATERCOLORS',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/klwq-01',
+[34mnext-commerce:build: [0m    slug: 'klwq-01',
+[34mnext-commerce:build: [0m    sku: 'KLWQ 01',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: '355x225x185mm',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/paints-caravaggio/klwq-01/colors.png',
+[34mnext-commerce:build: [0m    descriptionArray: [ '6 Colors (Half Pan)' ],
+[34mnext-commerce:build: [0m    images: [ [Object], [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: []
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'klwq-02',
+[34mnext-commerce:build: [0m    name: 'CARAVAGGIO PROFESSIONAL WATERCOLORS',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/klwq-02',
+[34mnext-commerce:build: [0m    slug: 'klwq-02',
+[34mnext-commerce:build: [0m    sku: 'KLWQ 02',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: '355x225x185mm',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/paints-caravaggio/klwq-02/colors.png',
+[34mnext-commerce:build: [0m    descriptionArray: [ '6 Colors (Half Pan)' ],
+[34mnext-commerce:build: [0m    images: [ [Object], [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: []
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'klwq-03',
+[34mnext-commerce:build: [0m    name: 'CARAVAGGIO PROFESSIONAL WATERCOLORS',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/klwq-03',
+[34mnext-commerce:build: [0m    slug: 'klwq-03',
+[34mnext-commerce:build: [0m    sku: 'KLWQ 03',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: '355x225x185mm',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/paints-caravaggio/klwq-03/colors.png',
+[34mnext-commerce:build: [0m    descriptionArray: [ '6 Colors (Half Pan)' ],
+[34mnext-commerce:build: [0m    images: [ [Object], [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: []
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'klwq-04',
+[34mnext-commerce:build: [0m    name: 'CARAVAGGIO PROFESSIONAL WATERCOLORS',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/klwq-04',
+[34mnext-commerce:build: [0m    slug: 'klwq-04',
+[34mnext-commerce:build: [0m    sku: 'KLWQ 04',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: '355x225x185mm',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/paints-caravaggio/klwq-04/colors.png',
+[34mnext-commerce:build: [0m    descriptionArray: [ '6 Colors (Half Pan)' ],
+[34mnext-commerce:build: [0m    images: [ [Object], [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: []
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'klwq-05',
+[34mnext-commerce:build: [0m    name: 'CARAVAGGIO PROFESSIONAL WATERCOLORS',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/klwq-05',
+[34mnext-commerce:build: [0m    slug: 'klwq-05',
+[34mnext-commerce:build: [0m    sku: 'KLWQ 05',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: '355x225x185mm',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/paints-caravaggio/klwq-05/colors.png',
+[34mnext-commerce:build: [0m    descriptionArray: [ '6 Colors (Half Pan)' ],
+[34mnext-commerce:build: [0m    images: [ [Object], [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: []
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  {
+[34mnext-commerce:build: [0m    id: 'klwq-06',
+[34mnext-commerce:build: [0m    name: 'CARAVAGGIO PROFESSIONAL WATERCOLORS',
+[34mnext-commerce:build: [0m    vendor: 'Next.js',
+[34mnext-commerce:build: [0m    path: '/klwq-06',
+[34mnext-commerce:build: [0m    slug: 'klwq-06',
+[34mnext-commerce:build: [0m    sku: 'KLWQ 06',
+[34mnext-commerce:build: [0m    price: { value: 0, currencyCode: 'USD' },
+[34mnext-commerce:build: [0m    description: '445x220x228mm',
+[34mnext-commerce:build: [0m    desImgSrc: '/images/paints-caravaggio/klwq-06/colors.png',
+[34mnext-commerce:build: [0m    descriptionArray: [ '24 Colors (Full Pan)' ],
+[34mnext-commerce:build: [0m    images: [ [Object], [Object], [Object] ],
+[34mnext-commerce:build: [0m    variants: [ [Object] ],
+[34mnext-commerce:build: [0m    options: []
 [34mnext-commerce:build: [0m  }
 [34mnext-commerce:build: [0m]
-[34mnext-commerce:build: [0minfo  - Generating static pages (21/87)
-[34mnext-commerce:build: [0minfo  - Generating static pages (43/87)
-[34mnext-commerce:build: [0minfo  - Generating static pages (65/87)
-[34mnext-commerce:build: [0minfo  - Generating static pages (87/87)
+[34mnext-commerce:build: [0minfo  - Generating static pages (24/97)
+[34mnext-commerce:build: [0minfo  - Generating static pages (48/97)
+[34mnext-commerce:build: [0minfo  - Generating static pages (72/97)
+[34mnext-commerce:build: [0minfo  - Generating static pages (97/97)
 [34mnext-commerce:build: [0minfo  - Finalizing page optimization...
 [34mnext-commerce:build: [0m
-[34mnext-commerce:build: [0mRoute (pages)                                     Size     First Load JS
-[34mnext-commerce:build: [0m┌ ● / (ISR: 60 Seconds) (363 ms)                  4.4 kB          131 kB
-[34mnext-commerce:build: [0m├   /_app                                         0 B            78.6 kB
-[34mnext-commerce:build: [0m├ ● /[...pages]                                   433 B           127 kB
-[34mnext-commerce:build: [0m├ ○ /404 (ISR: 200 Seconds)                       446 B           127 kB
-[34mnext-commerce:build: [0m├ λ /api/commerce/[[...commerce]]                 0 B            78.6 kB
-[34mnext-commerce:build: [0m├ ● /brush/[name] (ISR: 200 Seconds) (1004 ms)    653 B           128 kB
+[34mnext-commerce:build: [0mRoute (pages)                                       Size     First Load JS
+[34mnext-commerce:build: [0m┌ ● / (ISR: 60 Seconds) (400 ms)                    4.4 kB          131 kB
+[34mnext-commerce:build: [0m├   /_app                                           0 B            78.6 kB
+[34mnext-commerce:build: [0m├ ● /[...pages]                                     433 B           127 kB
+[34mnext-commerce:build: [0m├ ○ /404 (ISR: 200 Seconds)                         446 B           127 kB
+[34mnext-commerce:build: [0m├ λ /api/commerce/[[...commerce]]                   0 B            78.6 kB
+[34mnext-commerce:build: [0m├ ● /brush/[name] (ISR: 200 Seconds) (327 ms)       653 B           128 kB
 [34mnext-commerce:build: [0m├   ├ /brush/cats-tongue-brushes
 [34mnext-commerce:build: [0m├   ├ /brush/flat-wash-brushes
 [34mnext-commerce:build: [0m├   ├ /brush/round-pointed-brushes
 [34mnext-commerce:build: [0m├   └ [+5 more paths]
-[34mnext-commerce:build: [0m├ ● /brushes                                      2.28 kB         129 kB
-[34mnext-commerce:build: [0m├ ● /cart                                         1.57 kB         129 kB
-[34mnext-commerce:build: [0m├ ● /mop-brushs                                   1.79 kB         129 kB
-[34mnext-commerce:build: [0m├ ● /orders                                       591 B           128 kB
-[34mnext-commerce:build: [0m├ ● /paints                                       1.62 kB         129 kB
-[34mnext-commerce:build: [0m├ ● /paints-fine-grind                            2.31 kB         129 kB
-[34mnext-commerce:build: [0m├ ● /paper                                        3.29 kB         130 kB
-[34mnext-commerce:build: [0m├ ● /product/[slug] (ISR: 200 Seconds) (7928 ms)  19.7 kB         147 kB
-[34mnext-commerce:build: [0m├   └ css/9b3fc16bc4453eba.css                    2.37 kB
-[34mnext-commerce:build: [0m├   ├ /product/lightweight-jacket
-[34mnext-commerce:build: [0m├   ├ /product/mop-brush-ss93
-[34mnext-commerce:build: [0m├   ├ /product/mop-brush-616
-[34mnext-commerce:build: [0m├   └ [+63 more paths]
-[34mnext-commerce:build: [0m├ ● /profile                                      539 B           128 kB
-[34mnext-commerce:build: [0m├ ● /search (ISR: 200 Seconds)                    252 B           131 kB
-[34mnext-commerce:build: [0m├ ● /search/[category]                            261 B           131 kB
-[34mnext-commerce:build: [0m├ ● /search/designers/[name]                      265 B           131 kB
-[34mnext-commerce:build: [0m├ ● /search/designers/[name]/[category]           275 B           132 kB
-[34mnext-commerce:build: [0m└ ● /wishlist                                     2.35 kB         129 kB
-[34mnext-commerce:build: [0m    └ css/aeb3e3fe3a05774d.css                    836 B
-[34mnext-commerce:build: [0m+ First Load JS shared by all                     84.5 kB
-[34mnext-commerce:build: [0m  ├ chunks/framework-23bb51c2d15fac13.js          45.4 kB
-[34mnext-commerce:build: [0m  ├ chunks/main-3edfa232ea1dd950.js               26.7 kB
-[34mnext-commerce:build: [0m  ├ chunks/pages/_app-eeabb00d4bb3428c.js         4.25 kB
-[34mnext-commerce:build: [0m  ├ chunks/webpack-37bee4226a6a3d43.js            2.31 kB
-[34mnext-commerce:build: [0m  └ css/e26edc574a0f5831.css                      5.92 kB
+[34mnext-commerce:build: [0m├ ● /brushes                                        2.28 kB         129 kB
+[34mnext-commerce:build: [0m├ ● /cart                                           1.57 kB         129 kB
+[34mnext-commerce:build: [0m├ ● /mop-brushs                                     1.79 kB         129 kB
+[34mnext-commerce:build: [0m├ ● /orders                                         591 B           128 kB
+[34mnext-commerce:build: [0m├ ● /paints                                         1.62 kB         129 kB
+[34mnext-commerce:build: [0m├ ● /paints-caravaggio                              3.63 kB         131 kB
+[34mnext-commerce:build: [0m├ ● /paints-fine-grind                              2.34 kB         129 kB
+[34mnext-commerce:build: [0m├ ● /paper                                          3.29 kB         130 kB
+[34mnext-commerce:build: [0m├ ● /product/[slug] (ISR: 200 Seconds) (16417 ms)   19.7 kB         147 kB
+[34mnext-commerce:build: [0m├   └ css/9b3fc16bc4453eba.css                      2.37 kB
+[34mnext-commerce:build: [0m├   ├ /product/mop-brush-ss93 (610 ms)
+[34mnext-commerce:build: [0m├   ├ /product/lightweight-jacket (591 ms)
+[34mnext-commerce:build: [0m├   ├ /product/mop-brush-616 (547 ms)
+[34mnext-commerce:build: [0m├   ├ /product/mop-brush-612 (509 ms)
+[34mnext-commerce:build: [0m├   ├ /product/cats-tongue-brushes-6000RR (489 ms)
+[34mnext-commerce:build: [0m├   ├ /product/mop-brush-696 (474 ms)
+[34mnext-commerce:build: [0m├   ├ /product/flat-wash-brushes-303 (474 ms)
+[34mnext-commerce:build: [0m├   └ [+68 more paths]
+[34mnext-commerce:build: [0m├ ● /profile                                        539 B           128 kB
+[34mnext-commerce:build: [0m├ ● /search (ISR: 200 Seconds)                      252 B           131 kB
+[34mnext-commerce:build: [0m├ ● /search/[category]                              261 B           131 kB
+[34mnext-commerce:build: [0m├ ● /search/designers/[name]                        265 B           132 kB
+[34mnext-commerce:build: [0m├ ● /search/designers/[name]/[category]             275 B           132 kB
+[34mnext-commerce:build: [0m└ ● /wishlist                                       2.35 kB         129 kB
+[34mnext-commerce:build: [0m    └ css/aeb3e3fe3a05774d.css                      836 B
+[34mnext-commerce:build: [0m+ First Load JS shared by all                       84.6 kB
+[34mnext-commerce:build: [0m  ├ chunks/framework-23bb51c2d15fac13.js            45.4 kB
+[34mnext-commerce:build: [0m  ├ chunks/main-3edfa232ea1dd950.js                 26.7 kB
+[34mnext-commerce:build: [0m  ├ chunks/pages/_app-eeabb00d4bb3428c.js           4.25 kB
+[34mnext-commerce:build: [0m  ├ chunks/webpack-381d3cc4e73dbf04.js              2.32 kB
+[34mnext-commerce:build: [0m  └ css/d800639a82d45d8d.css                        6.01 kB
 [34mnext-commerce:build: [0m
 [34mnext-commerce:build: [0mλ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
 [34mnext-commerce:build: [0m○  (Static)  automatically rendered as static HTML (uses no initial props)
@@ -1138,10 +1290,10 @@
 [34mnext-commerce:build: [0mThis command is meant for static-only hosts, and is not necessary to make your application static.
 [34mnext-commerce:build: [0mPages in your application without server-side data dependencies will be automatically statically exported by `next build`, including pages powered by `getStaticProps`.
 [34mnext-commerce:build: [0mLearn more: https://nextjs.org/docs/messages/api-routes-static-export
-[34mnext-commerce:build: [0minfo  - Exporting (0/13)
+[34mnext-commerce:build: [0minfo  - Exporting (0/14)
 [34mnext-commerce:build: [0minfo  - Copying "public" directory
-[34mnext-commerce:build: [0minfo  - Exporting (3/13)
-[34mnext-commerce:build: [0minfo  - Exporting (6/13)
-[34mnext-commerce:build: [0minfo  - Exporting (9/13)
-[34mnext-commerce:build: [0minfo  - Exporting (13/13)
+[34mnext-commerce:build: [0minfo  - Exporting (3/14)
+[34mnext-commerce:build: [0minfo  - Exporting (6/14)
+[34mnext-commerce:build: [0minfo  - Exporting (10/14)
+[34mnext-commerce:build: [0minfo  - Exporting (14/14)
 [34mnext-commerce:build: [0mExport successful. Files written to /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/site/out

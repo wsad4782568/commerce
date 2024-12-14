@@ -3,7 +3,7 @@ import Link from 'next/link'
 import s from './Navbar.module.css'
 import NavbarRoot from './NavbarRoot'
 import { Logo, Container } from '@components/ui'
-import { Searchbar, UserNav } from '@components/common'
+import { Searchbar, UserNav, ExternalLinks } from '@components/common'
 
 interface Link {
   href: string
@@ -39,6 +39,9 @@ const Navbar: FC<NavbarProps> = ({ links }) => (
           <Link href="/paper" className={`${s.link} mx-8`}>
             PAPER
           </Link>
+          <Link href="/art-gallery" className={`${s.link} mx-8`}>
+            Art Gallery
+          </Link>
           {/* <Link href="/history" className={`${s.link} mx-8`}>
             HISTORY
           </Link>
@@ -52,6 +55,9 @@ const Navbar: FC<NavbarProps> = ({ links }) => (
             CONTACT US
           </Link> */}
         </nav>
+        <div className="justify-center flex-1 hidden lg:flex">
+          <ExternalLinks />
+        </div>
         {process.env.COMMERCE_SEARCH_ENABLED && (
           <div className="justify-center flex-1 hidden lg:flex">
             <Searchbar />
