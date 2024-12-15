@@ -1,11 +1,18 @@
+import { FC, useState, useEffect, ReactNode } from 'react'
 import type { GetStaticPropsContext } from 'next'
+import { MySwiper } from '@components/common'
 import Link from 'next/link'
 import Image from 'next/image'
 import useCustomer from '@framework/customer/use-customer'
 import commerce from '@lib/api/commerce'
 import { Layout } from '@components/common'
 import { Container, Text } from '@components/ui'
-import bannerImage from '../public/images/banner-3.png'
+import bannerImage7 from '../public/images/banner-7.jpg'
+import bannerImage8 from '../public/images/banner-8.jpg'
+import bannerImage9 from '../public/images/banner-9.jpg'
+import bannerImage10 from '../public/images/banner-10.jpg'
+import bannerImage20 from '../public/images/banner-20.jpg'
+import bannerImage21 from '../public/images/banner-21.jpg'
 import brushImage3 from '../public/images/paint/3.png'
 import brushImage4 from '../public/images/paint/4.png'
 import brushImage5 from '../public/images/paint/5.png'
@@ -32,7 +39,7 @@ export default function Profile() {
   return (
     <Container className='bg-gray-200'>
       <div className="relative w-full">
-        <Image src={bannerImage} alt="banner" className="w-full h-auto"/>
+        <MySwiper images={[bannerImage8, bannerImage7, bannerImage10, bannerImage20, bannerImage21, bannerImage9]}></MySwiper>
       </div>
       <div className='customFont text-center text-[8rem] text-black my-10'>Watercolor Paint</div>
       <div className="relative w-full cursor-pointer hover:cursor-pointer pb-1">

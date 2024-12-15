@@ -5,7 +5,12 @@ import useCustomer from '@framework/customer/use-customer'
 import commerce from '@lib/api/commerce'
 import { Layout } from '@components/common'
 import { Container, Text } from '@components/ui'
-import bannerImage from '../public/images/banner-6.png'
+import { MySwiper } from '@components/common'
+import bannerImage11 from '../public/images/banner-11.jpg'
+import bannerImage12 from '../public/images/banner-12.jpg'
+import bannerImage13 from '../public/images/banner-13.jpg'
+import bannerImage14 from '../public/images/banner-14.jpg'
+import bannerImage21 from '../public/images/banner-21.jpg'
 import brushImage1 from '../public/images/paints-caravaggio/1.png'
 import brushImage2 from '../public/images/paints-caravaggio/2.png'
 import brushImage3 from '../public/images/paints-caravaggio/3.png'
@@ -43,7 +48,7 @@ export default function Profile() {
   return (
     <Container className='bg-white'>
       <div className="relative w-full">
-        <Image src={bannerImage} alt="banner" className="w-full h-auto"/>
+        <MySwiper images={[bannerImage11, bannerImage12, bannerImage13, bannerImage14]}></MySwiper>
       </div>
       <div className='text-center text-[2rem] text-secondary my-5 font-bold'>Caravaggio Master solid watercolor paint</div>
       <div className="text-[26px] text-secondary pl-32 pr-24 pb-2 mx-40">
