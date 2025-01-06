@@ -40,8 +40,8 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
                       className={s.img}
                       src={image.url!}
                       alt={image.alt || 'Product Image'}
-                      width={800}
-                      height={800}
+                      width={600}
+                      height={600}
                       priority={i === 0}
                       quality="85"
                     />
@@ -65,10 +65,12 @@ const ProductView: FC<ProductViewProps> = ({ product, relatedProducts }) => {
           />
         </div>
         {product.desImgSrc && (
-          <div className='bg-white p-14 text-primary-2 text-6xl'>
-            <div className='border-gray-900 px-28 py-20 border-2'>
-              <div className='pb-10 tracking-wide'>Information</div>
-              <img src={product.desImgSrc} alt="" />
+          <div className='bg-mygray pt-8 pb-16'>
+            <div className='bg-white p-14 text-primary-2 text-6xl max-w-[1600px] mx-auto'>
+              <div className='border-gray-900 px-28 py-20 border-2'>
+                <div className='pb-10 tracking-wide'>Information</div>
+                <img src={product.desImgSrc} alt="" />
+              </div>
             </div>
           </div>
         )}

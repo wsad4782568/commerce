@@ -51,7 +51,7 @@ export default function Home({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   console.log('products', products)
   return (
-    <div className='bg-white'>
+    <div className='bg-gray-200'>
       <div className="relative w-full">
         <Image src={bannerImage} alt="banner" className="w-full h-auto" width={1080} height={1080} />
         <div className="absolute top-[45%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">

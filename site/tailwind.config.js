@@ -14,6 +14,7 @@ module.exports = {
         'primary-2': 'var(--primary-2)',
         secondary: 'var(--secondary)',
         'secondary-2': 'var(--secondary-2)',
+        'mygray': 'var(--gray)',
         hover: 'var(--hover)',
         'hover-1': 'var(--hover-1)',
         'hover-2': 'var(--hover-2)',

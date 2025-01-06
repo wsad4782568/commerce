@@ -1,20 +1,20 @@
 .root {
-  @apply relative grid items-start gap-1 grid-cols-1 overflow-x-hidden px-14 pt-14 bg-[#DCDDDD];
+  @apply relative grid items-start gap-1 grid-cols-1 overflow-x-hidden px-16 pt-14 bg-mygray;
   min-height: auto;
 }
 
 .main {
   @apply relative px-0 pb-0 box-border flex flex-col col-span-1;
-  min-height: 950px;
+  min-height: 800px;
   /* width: 800px; */
 }
 
 .sidebar {
-  @apply flex flex-col col-span-1 mx-auto max-w-8xl px-12 w-full h-full text-primary-2;
+  @apply flex flex-col col-span-1 mx-auto max-w-8xl px-28 w-full h-full text-primary-2;
 }
 
 .sliderContainer {
-  @apply flex items-center justify-center overflow-x-hidden bg-secondary;
+  @apply flex items-center justify-center overflow-x-hidden bg-secondary max-w-[1600px] mx-auto;
 }
 
 .imageContainer {
@@ -43,11 +43,15 @@
   }
 
   .main {
-    @apply mx-0 col-span-5;
+    @apply mx-0 col-span-5 items-end;
+  }
+
+  .sliderContainer{
+    @apply max-w-[800px] mx-0;
   }
 
   .sidebar {
-    @apply col-span-5;
+    @apply col-span-5 px-12;
   }
 
   .imageContainer {
