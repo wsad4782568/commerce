@@ -1,4 +1,4 @@
-[34mnext-commerce:build[0m: cache hit, replaying output [2maf47240082b39966[0m
+[34mnext-commerce:build[0m: cache hit, replaying output [2mfa06979b60f24fa3[0m
 [34mnext-commerce:build: [0m
 [34mnext-commerce:build: [0m> next-commerce@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/site
 [34mnext-commerce:build: [0m> next build && next export
@@ -39,6 +39,9 @@
 [34mnext-commerce:build: [0m./pages/brush/[name].tsx
 [34mnext-commerce:build: [0m115:15  Warning: Do not use `<img>` element. Use `<Image />` from `next/image` instead. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
 [34mnext-commerce:build: [0m
+[34mnext-commerce:build: [0m./components/common/MySwiper/MySwiper.tsx
+[34mnext-commerce:build: [0m11:16  Warning: Assignments to the 'interval' variable from inside React Hook useEffect will be lost after each render. To preserve the value over time, store it in a useRef Hook and keep the mutable value in the '.current' property. Otherwise, you can move this variable directly inside useEffect.  react-hooks/exhaustive-deps
+[34mnext-commerce:build: [0m
 [34mnext-commerce:build: [0m./components/product/ProductSidebar/ProductSidebar.tsx
 [34mnext-commerce:build: [0m75:15  Warning: Do not use `<img>` element. Use `<Image />` from `next/image` instead. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
 [34mnext-commerce:build: [0m
@@ -50,6 +53,9 @@
 [34mnext-commerce:build: [0mBrowserslist: caniuse-lite is outdated. Please run:
 [34mnext-commerce:build: [0m  npx browserslist@latest --update-db
 [34mnext-commerce:build: [0m  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+[34mnext-commerce:build: [0mBrowserslist: caniuse-lite is outdated. Please run:
+[34mnext-commerce:build: [0m  npx update-browserslist-db@latest
+[34mnext-commerce:build: [0m  Why you should do it regularly: https://github.com/browserslist/update-db#readme
 [34mnext-commerce:build: [0minfo  - Compiled successfully
 [34mnext-commerce:build: [0minfo  - Collecting page data...
 [34mnext-commerce:build: [0mbrushNames [
@@ -62,7 +68,7 @@
 [34mnext-commerce:build: [0m  { name: 'brush' },
 [34mnext-commerce:build: [0m  { name: 'brush-set' }
 [34mnext-commerce:build: [0m]
-[34mnext-commerce:build: [0minfo  - Generating static pages (0/97)
+[34mnext-commerce:build: [0minfo  - Generating static pages (0/98)
 [34mnext-commerce:build: [0mproducts [
 [34mnext-commerce:build: [0m  {
 [34mnext-commerce:build: [0m    id: 'Z2lkOi8vc2hvcGlmeS9Qcm9ksdWN0LzU0NDczMjUwMjQ0MjA=',
@@ -1196,54 +1202,59 @@
 [34mnext-commerce:build: [0m    options: []
 [34mnext-commerce:build: [0m  }
 [34mnext-commerce:build: [0m]
-[34mnext-commerce:build: [0minfo  - Generating static pages (24/97)
-[34mnext-commerce:build: [0minfo  - Generating static pages (48/97)
-[34mnext-commerce:build: [0minfo  - Generating static pages (72/97)
-[34mnext-commerce:build: [0minfo  - Generating static pages (97/97)
+[34mnext-commerce:build: [0minfo  - Generating static pages (24/98)
+[34mnext-commerce:build: [0minfo  - Generating static pages (48/98)
+[34mnext-commerce:build: [0minfo  - Generating static pages (73/98)
+[34mnext-commerce:build: [0minfo  - Generating static pages (98/98)
 [34mnext-commerce:build: [0minfo  - Finalizing page optimization...
 [34mnext-commerce:build: [0m
 [34mnext-commerce:build: [0mRoute (pages)                                       Size     First Load JS
-[34mnext-commerce:build: [0m┌ ● / (ISR: 60 Seconds) (400 ms)                    4.4 kB          131 kB
+[34mnext-commerce:build: [0m┌ ● / (ISR: 60 Seconds) (881 ms)                    4.4 kB          134 kB
 [34mnext-commerce:build: [0m├   /_app                                           0 B            78.6 kB
-[34mnext-commerce:build: [0m├ ● /[...pages]                                     433 B           127 kB
-[34mnext-commerce:build: [0m├ ○ /404 (ISR: 200 Seconds)                         446 B           127 kB
+[34mnext-commerce:build: [0m├ ● /[...pages]                                     432 B           130 kB
+[34mnext-commerce:build: [0m├ ○ /404 (ISR: 200 Seconds) (492 ms)                448 B           130 kB
 [34mnext-commerce:build: [0m├ λ /api/commerce/[[...commerce]]                   0 B            78.6 kB
-[34mnext-commerce:build: [0m├ ● /brush/[name] (ISR: 200 Seconds) (327 ms)       653 B           128 kB
-[34mnext-commerce:build: [0m├   ├ /brush/cats-tongue-brushes
-[34mnext-commerce:build: [0m├   ├ /brush/flat-wash-brushes
+[34mnext-commerce:build: [0m├ ● /art-gallery (ISR: 200 Seconds) (698 ms)        453 B           130 kB
+[34mnext-commerce:build: [0m├ ● /brush/[name] (ISR: 200 Seconds) (1526 ms)      654 B           130 kB
+[34mnext-commerce:build: [0m├   ├ /brush/cats-tongue-brushes (577 ms)
+[34mnext-commerce:build: [0m├   ├ /brush/flat-wash-brushes (371 ms)
 [34mnext-commerce:build: [0m├   ├ /brush/round-pointed-brushes
-[34mnext-commerce:build: [0m├   └ [+5 more paths]
-[34mnext-commerce:build: [0m├ ● /brushes                                        2.28 kB         129 kB
-[34mnext-commerce:build: [0m├ ● /cart                                           1.57 kB         129 kB
-[34mnext-commerce:build: [0m├ ● /mop-brushs                                     1.79 kB         129 kB
-[34mnext-commerce:build: [0m├ ● /orders                                         591 B           128 kB
-[34mnext-commerce:build: [0m├ ● /paints                                         1.62 kB         129 kB
-[34mnext-commerce:build: [0m├ ● /paints-caravaggio                              3.63 kB         131 kB
-[34mnext-commerce:build: [0m├ ● /paints-fine-grind                              2.34 kB         129 kB
-[34mnext-commerce:build: [0m├ ● /paper                                          3.29 kB         130 kB
-[34mnext-commerce:build: [0m├ ● /product/[slug] (ISR: 200 Seconds) (16417 ms)   19.7 kB         147 kB
+[34mnext-commerce:build: [0m├   ├ /brush/constellation-series
+[34mnext-commerce:build: [0m├   ├ /brush/travel-brushes
+[34mnext-commerce:build: [0m├   ├ /brush/multipurpose-brushes
+[34mnext-commerce:build: [0m├   ├ /brush/brush
+[34mnext-commerce:build: [0m├   └ /brush/brush-set
+[34mnext-commerce:build: [0m├ ● /brushes (746 ms)                               2.28 kB         131 kB
+[34mnext-commerce:build: [0m├ ● /cart (502 ms)                                  1.58 kB         131 kB
+[34mnext-commerce:build: [0m├ ● /mop-brushs (505 ms)                            1.79 kB         131 kB
+[34mnext-commerce:build: [0m├ ● /orders (481 ms)                                594 B           130 kB
+[34mnext-commerce:build: [0m├ ● /paints (699 ms)                                2.8 kB          132 kB
+[34mnext-commerce:build: [0m├ ● /paints-caravaggio (612 ms)                     4.69 kB         134 kB
+[34mnext-commerce:build: [0m├ ● /paints-fine-grind (514 ms)                     2.35 kB         131 kB
+[34mnext-commerce:build: [0m├ ● /paper (494 ms)                                 3.29 kB         132 kB
+[34mnext-commerce:build: [0m├ ● /product/[slug] (ISR: 200 Seconds) (23516 ms)   19.7 kB         149 kB
 [34mnext-commerce:build: [0m├   └ css/9b3fc16bc4453eba.css                      2.37 kB
-[34mnext-commerce:build: [0m├   ├ /product/mop-brush-ss93 (610 ms)
-[34mnext-commerce:build: [0m├   ├ /product/lightweight-jacket (591 ms)
-[34mnext-commerce:build: [0m├   ├ /product/mop-brush-616 (547 ms)
-[34mnext-commerce:build: [0m├   ├ /product/mop-brush-612 (509 ms)
-[34mnext-commerce:build: [0m├   ├ /product/cats-tongue-brushes-6000RR (489 ms)
-[34mnext-commerce:build: [0m├   ├ /product/mop-brush-696 (474 ms)
-[34mnext-commerce:build: [0m├   ├ /product/flat-wash-brushes-303 (474 ms)
+[34mnext-commerce:build: [0m├   ├ /product/mop-brush-616 (852 ms)
+[34mnext-commerce:build: [0m├   ├ /product/flat-wash-brushes-303 (844 ms)
+[34mnext-commerce:build: [0m├   ├ /product/lightweight-jacket (832 ms)
+[34mnext-commerce:build: [0m├   ├ /product/cats-tongue-brushes-RG700R (800 ms)
+[34mnext-commerce:build: [0m├   ├ /product/mop-brush-696 (797 ms)
+[34mnext-commerce:build: [0m├   ├ /product/cats-tongue-brushes-6000RR (766 ms)
+[34mnext-commerce:build: [0m├   ├ /product/mop-brush-ss93 (765 ms)
 [34mnext-commerce:build: [0m├   └ [+68 more paths]
-[34mnext-commerce:build: [0m├ ● /profile                                        539 B           128 kB
-[34mnext-commerce:build: [0m├ ● /search (ISR: 200 Seconds)                      252 B           131 kB
-[34mnext-commerce:build: [0m├ ● /search/[category]                              261 B           131 kB
-[34mnext-commerce:build: [0m├ ● /search/designers/[name]                        265 B           132 kB
-[34mnext-commerce:build: [0m├ ● /search/designers/[name]/[category]             275 B           132 kB
-[34mnext-commerce:build: [0m└ ● /wishlist                                       2.35 kB         129 kB
+[34mnext-commerce:build: [0m├ ● /profile (550 ms)                               541 B           130 kB
+[34mnext-commerce:build: [0m├ ● /search (ISR: 200 Seconds) (550 ms)             253 B           134 kB
+[34mnext-commerce:build: [0m├ ● /search/[category]                              261 B           134 kB
+[34mnext-commerce:build: [0m├ ● /search/designers/[name]                        265 B           134 kB
+[34mnext-commerce:build: [0m├ ● /search/designers/[name]/[category]             275 B           134 kB
+[34mnext-commerce:build: [0m└ ● /wishlist                                       2.35 kB         131 kB
 [34mnext-commerce:build: [0m    └ css/aeb3e3fe3a05774d.css                      836 B
-[34mnext-commerce:build: [0m+ First Load JS shared by all                       84.6 kB
+[34mnext-commerce:build: [0m+ First Load JS shared by all                       84.7 kB
 [34mnext-commerce:build: [0m  ├ chunks/framework-23bb51c2d15fac13.js            45.4 kB
 [34mnext-commerce:build: [0m  ├ chunks/main-3edfa232ea1dd950.js                 26.7 kB
 [34mnext-commerce:build: [0m  ├ chunks/pages/_app-eeabb00d4bb3428c.js           4.25 kB
-[34mnext-commerce:build: [0m  ├ chunks/webpack-381d3cc4e73dbf04.js              2.32 kB
-[34mnext-commerce:build: [0m  └ css/d800639a82d45d8d.css                        6.01 kB
+[34mnext-commerce:build: [0m  ├ chunks/webpack-b1f43a8dc0a96da2.js              2.33 kB
+[34mnext-commerce:build: [0m  └ css/5b71d936bb82fb84.css                        6.02 kB
 [34mnext-commerce:build: [0m
 [34mnext-commerce:build: [0mλ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
 [34mnext-commerce:build: [0m○  (Static)  automatically rendered as static HTML (uses no initial props)
@@ -1290,10 +1301,10 @@
 [34mnext-commerce:build: [0mThis command is meant for static-only hosts, and is not necessary to make your application static.
 [34mnext-commerce:build: [0mPages in your application without server-side data dependencies will be automatically statically exported by `next build`, including pages powered by `getStaticProps`.
 [34mnext-commerce:build: [0mLearn more: https://nextjs.org/docs/messages/api-routes-static-export
-[34mnext-commerce:build: [0minfo  - Exporting (0/14)
+[34mnext-commerce:build: [0minfo  - Exporting (0/15)
 [34mnext-commerce:build: [0minfo  - Copying "public" directory
-[34mnext-commerce:build: [0minfo  - Exporting (3/14)
-[34mnext-commerce:build: [0minfo  - Exporting (6/14)
-[34mnext-commerce:build: [0minfo  - Exporting (10/14)
-[34mnext-commerce:build: [0minfo  - Exporting (14/14)
+[34mnext-commerce:build: [0minfo  - Exporting (3/15)
+[34mnext-commerce:build: [0minfo  - Exporting (7/15)
+[34mnext-commerce:build: [0minfo  - Exporting (11/15)
+[34mnext-commerce:build: [0minfo  - Exporting (15/15)
 [34mnext-commerce:build: [0mExport successful. Files written to /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/site/out

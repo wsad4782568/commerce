@@ -31,7 +31,7 @@ export async function getStaticProps({
 export default function Profile() {
   const { data } = useCustomer()
   return (
-    <Container className='bg-gray-200'>
+    <Container className='bg-gray-200 px-64'>
       <div className='customFont text-center text-[8rem] text-black my-15'>Mop Brush</div>
       <div className="relative w-full flex py-10 border-t-4 border-gray-300">
         <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">

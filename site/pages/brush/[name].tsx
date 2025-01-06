@@ -106,7 +106,7 @@ const BrushPage = ({ brushName, brushItems }: InferGetStaticPropsType<typeof get
   const router = useRouter();
 
   return (
-    <Container className='bg-gray-200'>
+    <Container className='bg-gray-200 px-64'>
       <div className='customFont text-center text-[8rem] text-black my-15'>{brushName}</div>
       <div className="relative w-full flex justify-center py-6 flex-wrap border-t-4 border-b-4 border-gray-300">
         {brushItems?.map((item, index) => (

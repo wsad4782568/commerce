@@ -40,9 +40,9 @@ export default function Profile() {
         <Image src={bannerImage} alt="banner" className="w-full h-auto"/>
       </div>
       <div className='customFont text-center text-[8rem] text-secondary my-10'>Paper</div>
-      <div className="relative w-full cursor-pointer hover:cursor-pointer">
+      <div className="relative w-full cursor-pointer hover:cursor-pointer px-64">
         <div className="w-full bg-secondary text-[#333] flex flex-col justify-center items-center">
-          <div className='mt-10'><Image src={titleImage2} alt="title image" width={608.8} height={120} /></div>
+          <div className='mt-10'><Image src={titleImage2} alt="title image" width={400} height={100} /></div>
           <div className="text-[26px] px-12 pt-8 pb-2 mx-20">
             <p>Caravaggio professional watercolor paper is manufactured by a French factory, using cylinder molds and high-quality natural cotton fiber as raw material.This watercolor paper has a pleasant natural texture that absorbs wet paint well, allowing for smooth color rendering and blending without watermarks.The delicate cotton fibers makes the paintings more colorful and rich in layers.Premium cotton fibers material makes the painting paper less prone to yellowing,ensuring that the artwork can be preserved for a long time with colors as vibrant as when first created.</p>
             <br />
@@ -69,7 +69,7 @@ export default function Profile() {
         </div>
 
         <div className="mt-10 w-full bg-white text-[#333] flex flex-col justify-center items-center">
-          <div className='mt-10'><Image src={titleImage3} alt="title image" width={608.8} height={120} /></div>
+          <div className='mt-10'><Image src={titleImage3} alt="title image" width={400} height={100} /></div>
           <div className="text-[26px] px-12 pt-8 pb-2 mx-20">
             <p>Bouguereau watercolor paper is crafted from acid-free 100% cotton fibers. It possesses a harmonious natural texture, offers uniform absorption and penetration without watermarks. It enhances the expression of pigments and is suitable for artists and watercolor enthusiasts.</p>
             <br />
