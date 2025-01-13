@@ -1,4 +1,4 @@
-[34mnext-commerce:build[0m: cache hit, replaying output [2m7cfc9ef3591d39fa[0m
+[34mnext-commerce:build[0m: cache hit, replaying output [2md8d5e7268279d6c2[0m
 [34mnext-commerce:build: [0m
 [34mnext-commerce:build: [0m> next-commerce@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/site
 [34mnext-commerce:build: [0m> next build && next export
@@ -1209,13 +1209,13 @@
 [34mnext-commerce:build: [0minfo  - Finalizing page optimization...
 [34mnext-commerce:build: [0m
 [34mnext-commerce:build: [0mRoute (pages)                                     Size     First Load JS
-[34mnext-commerce:build: [0m┌ ● / (ISR: 60 Seconds) (302 ms)                  4.42 kB         134 kB
+[34mnext-commerce:build: [0m┌ ● / (ISR: 60 Seconds)                           4.42 kB         134 kB
 [34mnext-commerce:build: [0m├   /_app                                         0 B            78.6 kB
 [34mnext-commerce:build: [0m├ ● /[...pages]                                   432 B           130 kB
 [34mnext-commerce:build: [0m├ ○ /404 (ISR: 200 Seconds)                       448 B           130 kB
 [34mnext-commerce:build: [0m├ λ /api/commerce/[[...commerce]]                 0 B            78.6 kB
 [34mnext-commerce:build: [0m├ ● /art-gallery (ISR: 200 Seconds)               453 B           130 kB
-[34mnext-commerce:build: [0m├ ● /brush/[name] (ISR: 200 Seconds) (487 ms)     659 B           130 kB
+[34mnext-commerce:build: [0m├ ● /brush/[name] (ISR: 200 Seconds) (424 ms)     659 B           130 kB
 [34mnext-commerce:build: [0m├   ├ /brush/cats-tongue-brushes
 [34mnext-commerce:build: [0m├   ├ /brush/flat-wash-brushes
 [34mnext-commerce:build: [0m├   ├ /brush/round-pointed-brushes
@@ -1228,16 +1228,12 @@
 [34mnext-commerce:build: [0m├ ● /paints-caravaggio                            4.69 kB         134 kB
 [34mnext-commerce:build: [0m├ ● /paints-fine-grind                            2.35 kB         132 kB
 [34mnext-commerce:build: [0m├ ● /paper                                        3.29 kB         132 kB
-[34mnext-commerce:build: [0m├ ● /product/[slug] (ISR: 200 Seconds) (9961 ms)  19.8 kB         149 kB
+[34mnext-commerce:build: [0m├ ● /product/[slug] (ISR: 200 Seconds) (8654 ms)  19.8 kB         149 kB
 [34mnext-commerce:build: [0m├   └ css/f2f32a654817c240.css                    2.39 kB
-[34mnext-commerce:build: [0m├   ├ /product/flat-wash-brushes-303 (319 ms)
 [34mnext-commerce:build: [0m├   ├ /product/lightweight-jacket
 [34mnext-commerce:build: [0m├   ├ /product/mop-brush-ss93
 [34mnext-commerce:build: [0m├   ├ /product/mop-brush-616
-[34mnext-commerce:build: [0m├   ├ /product/mop-brush-611
-[34mnext-commerce:build: [0m├   ├ /product/mop-brush-696
-[34mnext-commerce:build: [0m├   ├ /product/mop-brush-612
-[34mnext-commerce:build: [0m├   └ [+68 more paths]
+[34mnext-commerce:build: [0m├   └ [+72 more paths]
 [34mnext-commerce:build: [0m├ ● /profile                                      541 B           130 kB
 [34mnext-commerce:build: [0m├ ● /search (ISR: 200 Seconds)                    253 B           134 kB
 [34mnext-commerce:build: [0m├ ● /search/[category]                            261 B           134 kB

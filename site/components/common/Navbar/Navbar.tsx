@@ -27,10 +27,10 @@ const Navbar: FC<NavbarProps> = ({ links }) => (
           <Link href="/" className={`${s.link} mx-8`}>
             HOME
           </Link>
-          {/* <Link href="/product" className={`${s.link} mx-8`}>
+          <Link href="/product" className={`${s.link} mx-8`}>
             PRODUCT
-          </Link> */}
-          <Link href="/paints" className={`${s.link} mx-8`}>
+          </Link>
+          {/* <Link href="/paints" className={`${s.link} mx-8`}>
             PAINTS
           </Link>
           <Link href="/brushes" className={`${s.link} mx-8`}>
@@ -38,11 +38,8 @@ const Navbar: FC<NavbarProps> = ({ links }) => (
           </Link>
           <Link href="/paper" className={`${s.link} mx-8`}>
             PAPER
-          </Link>
-          <Link href="/art-gallery" className={`${s.link} mx-8`}>
-            Art Gallery
-          </Link>
-          {/* <Link href="/history" className={`${s.link} mx-8`}>
+          </Link> */}
+          <Link href="/history" className={`${s.link} mx-8`}>
             HISTORY
           </Link>
           <Link href="/brand-story" className={`${s.link} mx-8`}>
@@ -53,7 +50,7 @@ const Navbar: FC<NavbarProps> = ({ links }) => (
           </Link>
           <Link href="/contact-us" className={`${s.link} mx-8`}>
             CONTACT US
-          </Link> */}
+          </Link>
         </nav>
         <div className="justify-center flex-1 hidden lg:flex">
           <ExternalLinks />

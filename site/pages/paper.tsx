@@ -37,7 +37,7 @@ export default function Profile() {
   return (
     <Container className='bg-gray-200'>
       <div className="relative w-full">
-        <Image src={bannerImage} alt="banner" className="w-full h-auto"/>
+        <Image src={bannerImage} alt="banner" className="w-full h-[500px] object-cover"/>
       </div>
       <div className='customFont text-center text-[8rem] text-secondary my-10'>Paper</div>
       <div className="relative w-full cursor-pointer hover:cursor-pointer px-64">

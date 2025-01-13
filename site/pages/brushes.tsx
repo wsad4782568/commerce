@@ -37,7 +37,7 @@ export default function Profile() {
   return (
     <Container className='bg-gray-200'>
       <div className="relative w-full">
-        <Image src={bannerImage} alt="banner" className="w-full h-auto"/>
+        <Image src={bannerImage} alt="banner" className="w-full h-[500px] object-cover"/>
       </div>
       <div className='px-64'>
         <div className='customFont text-center text-[8rem] text-black my-10'>Brush</div>

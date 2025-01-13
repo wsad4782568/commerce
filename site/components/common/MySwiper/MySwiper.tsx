@@ -38,7 +38,7 @@ const MySwiper: FC<{ children?: ReactNode; images: any }> = ({ children, images 
           <div className="flex transition-transform duration-700 ease-in-out" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
             {images?.map((src: any, index: number) => (
               <div key={index} className="min-w-full">
-                <Image src={src} alt={`Image ${index + 1}`} layout="responsive" />
+                <Image src={src} alt={`Image ${index + 1}`} className='w-full h-[500px] object-cover' />
               </div>
             ))}
           </div>

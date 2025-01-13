@@ -36,7 +36,7 @@ export default function Profile() {
   return (
     <Container className='bg-white'>
       <div className="relative w-full">
-        <Image src={bannerImage} alt="banner" className="w-full h-auto"/>
+        <Image src={bannerImage} alt="banner" className="w-full h-[500px] object-cover"/>
       </div>
 
       {/* 内容部分 */}
