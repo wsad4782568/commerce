@@ -52,17 +52,17 @@ export default function Profile() {
           <div className="relative w-full flex mb-10">
             <div className="w-1/3 cursor-pointer hover:cursor-pointer">
               <Link href="/product/watercolor-paper">
-                <Image src={brushImage1} alt="banner" className="w-full h-auto"/>
+                <Image src={brushImage1} alt="banner" className="w-full h-auto hover:brightness-50"/>
               </Link>
             </div>
             <div className="w-1/3 cursor-pointer hover:cursor-pointer">
               <Link href="/product/leather-4-sided-glue-pad">
-                <Image src={brushImage2} alt="banner" className="w-full h-auto"/>
+                <Image src={brushImage2} alt="banner" className="w-full h-auto hover:brightness-50"/>
               </Link>
             </div>
             <div className="w-1/3 cursor-pointer hover:cursor-pointer">
               <Link href="/product/caravaggio-4-sided-glue-pad">
-                <Image src={brushImage3} alt="banner" className="w-full h-auto"/>
+                <Image src={brushImage3} alt="banner" className="w-full h-auto hover:brightness-50"/>
               </Link>
             </div>
           </div>
@@ -79,17 +79,17 @@ export default function Profile() {
           <div className="relative w-full flex mb-10">
             <div className="w-1/3 cursor-pointer hover:cursor-pointer">
               <Link href="/product/bouguereau-4-sided-glue-pad">
-                <Image src={brushImage4} alt="banner" className="w-full h-auto"/>
+                <Image src={brushImage4} alt="banner" className="w-full h-auto hover:brightness-50"/>
               </Link>
             </div>
             <div className="w-1/3 cursor-pointer hover:cursor-pointer">
               <Link href="/product/bouguereau-art-gallery-watercolor-postcards">
-                <Image src={brushImage5} alt="banner" className="w-full h-auto"/>
+                <Image src={brushImage5} alt="banner" className="w-full h-auto hover:brightness-50"/>
               </Link>
             </div>
             <div className="w-1/3 cursor-pointer hover:cursor-pointer">
               <Link href="/product/bouguereau-cold-pressed-300g-watercolor-paper">
-                <Image src={brushImage6} alt="banner" className="w-full h-auto"/>
+                <Image src={brushImage6} alt="banner" className="w-full h-auto hover:brightness-50"/>
               </Link>
             </div>
           </div>
@@ -106,7 +106,7 @@ export default function Profile() {
           <div className="w-1/2 bg-secondary">
             <div className="p-10">
               <Link href="/product/academy-watercolor-pad">
-                <Image src={brushImage7} alt="banner" className="w-full h-auto"/>
+                <Image src={brushImage7} alt="banner" className="w-full h-auto hover:brightness-50"/>
               </Link>
               <div className='text-secondary text-center mt-10'>
                 <p className='text-3xl customFont tracking-wide'>BRILLIANT RAYS</p>

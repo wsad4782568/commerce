@@ -4,7 +4,8 @@ import s from './Navbar.module.css'
 import NavbarRoot from './NavbarRoot'
 import { Logo, Container } from '@components/ui'
 import { Searchbar, UserNav, ExternalLinks } from '@components/common'
-
+import * as DropdownMenu from '@radix-ui/react-dropdown-menu';
+console.log('DropdownMenu', DropdownMenu)
 interface Link {
   href: string
   label: string
@@ -13,6 +14,7 @@ interface Link {
 interface NavbarProps {
   links?: Link[]
 }
+
 
 const Navbar: FC<NavbarProps> = ({ links }) => (
   <NavbarRoot>
@@ -27,18 +29,28 @@ const Navbar: FC<NavbarProps> = ({ links }) => (
           <Link href="/" className={`${s.link} mx-8`}>
             HOME
           </Link>
-          <Link href="/product" className={`${s.link} mx-8`}>
-            PRODUCT
-          </Link>
-          {/* <Link href="/paints" className={`${s.link} mx-8`}>
-            PAINTS
-          </Link>
-          <Link href="/brushes" className={`${s.link} mx-8`}>
-            BRUSHES
-          </Link>
-          <Link href="/paper" className={`${s.link} mx-8`}>
-            PAPER
-          </Link> */}
+          <DropdownMenu.Root>
+            <DropdownMenu.Trigger className={`${s.link} mx-8`}>
+              PRODUCT
+            </DropdownMenu.Trigger>
+            <DropdownMenu.Content className={`${s.dropdownContent} mt-2 py-2 px-4 bg-gray-900 bg-opacity-80`}>
+              <DropdownMenu.Item className="my-2">
+                <Link href="/paints" className={s.link}>
+                  PAINTS
+                </Link>
+              </DropdownMenu.Item>
+              <DropdownMenu.Item className="my-2">
+                <Link href="/brushes" className={s.link}>
+                  BRUSHES
+                </Link>
+              </DropdownMenu.Item>
+              <DropdownMenu.Item className="my-2">
+                <Link href="/paper" className={s.link}>
+                  PAPER
+                </Link>
+              </DropdownMenu.Item>
+            </DropdownMenu.Content>
+          </DropdownMenu.Root>
           <Link href="/history" className={`${s.link} mx-8`}>
             HISTORY
           </Link>

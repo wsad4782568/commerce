@@ -112,7 +112,7 @@ const BrushPage = ({ brushName, brushItems }: InferGetStaticPropsType<typeof get
         {brushItems?.map((item, index) => (
           <div key={index} className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer py-4">
             <Link href={`/product/${brushName}-${item.name}`}>
-              <img className="w-full h-auto" src={item.imgSrc} alt={`Brush ${index + 1}`} />
+              <img className="w-full h-auto hover:brightness-50" src={item.imgSrc} alt={`Brush ${index + 1}`} />
             </Link>
             <div className='text-center m-8'>
               <span className='bg-black text-[2rem] font-bold py-1 px-5'>{item.name}</span>

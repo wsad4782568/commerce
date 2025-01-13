@@ -46,22 +46,22 @@ export default function Profile() {
         <div className="relative w-full flex my-10 px-64">
           <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">
             <Link href="/paints-fine-grind">
-              <Image src={brushImage3} alt="banner" className="w-full h-auto"/>
+              <Image src={brushImage3} alt="banner" className="w-full h-auto hover:brightness-50"/>
             </Link>
           </div>
           <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">
             <Link href="/paints-caravaggio">
-              <Image src={brushImage4} alt="banner" className="w-full h-auto"/>
+              <Image src={brushImage4} alt="banner" className="w-full h-auto hover:brightness-50"/>
             </Link>
           </div>
           <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">
             <Link href="/brush-link-9">
-              <Image src={brushImage5} alt="banner" className="w-full h-auto"/>
+              <Image src={brushImage5} alt="banner" className="w-full h-auto hover:brightness-50"/>
             </Link>
           </div>
           <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">
             <Link href="/brush-link-9">
-              <Image src={brushImage6} alt="banner" className="w-full h-auto"/>
+              <Image src={brushImage6} alt="banner" className="w-full h-auto hover:brightness-50"/>
             </Link>
           </div>
         </div>

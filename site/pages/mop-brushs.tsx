@@ -34,33 +34,35 @@ export default function Profile() {
     <Container className='bg-gray-200 px-64'>
       <div className='customFont text-center text-[8rem] text-black my-15'>Mop Brush</div>
       <div className="relative w-full flex py-10 border-t-4 border-gray-300">
-        <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">
+        <div className="w-1/4 mr-10 cursor-pointer hover:cursor-pointer relative">
           <Link href="/product/mop-brush-ss93">
-            <Image src={brushImage1} alt="banner" className="w-full h-auto"/>
+            <div>
+              <Image src={brushImage1} alt="banner" className="w-full h-auto hover:brightness-50"/>
+            </div>
             <div className='text-center m-8'>
               <span className='bg-black text-[2rem] font-bold py-1 px-5'>SS 93</span>
             </div>
           </Link>
         </div>
-        <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">
+        <div className="w-1/4 mr-10 cursor-pointer hover:cursor-pointer">
           <Link href="/product/mop-brush-616">
-            <Image src={brushImage2} alt="banner" className="w-full h-auto"/>
+            <Image src={brushImage2} alt="banner" className="w-full h-auto hover:brightness-50"/>
             <div className='text-center m-8'>
               <span className='bg-black text-[2rem] font-bold py-1 px-5'>616</span>
             </div>
           </Link>
         </div>
-        <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">
+        <div className="w-1/4 mr-10 cursor-pointer hover:cursor-pointer">
           <Link href="/product/mop-brush-611">
-            <Image src={brushImage3} alt="banner" className="w-full h-auto"/>
+            <Image src={brushImage3} alt="banner" className="w-full h-auto hover:brightness-50"/>
             <div className='text-center m-8'>
               <span className='bg-black text-[2rem] font-bold py-1 px-5'>611</span>
             </div>
           </Link>
         </div>
-        <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">
+        <div className="w-1/4 mr-10 cursor-pointer hover:cursor-pointer">
           <Link href="/product/mop-brush-696">
-            <Image src={brushImage4} alt="banner" className="w-full h-auto"/>
+            <Image src={brushImage4} alt="banner" className="w-full h-auto hover:brightness-50"/>
             <div className='text-center m-8'>
               <span className='bg-black text-[2rem] font-bold py-1 px-5'>696</span>
             </div>
@@ -68,17 +70,17 @@ export default function Profile() {
         </div>
       </div>
       <div className="relative w-full flex justify-center pb-10 border-b-4 border-gray-300">
-        <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">
+        <div className="w-1/4 mr-10 cursor-pointer hover:cursor-pointer">
           <Link href="/product/mop-brush-612">
-            <Image src={brushImage5} alt="banner" className="w-full h-auto"/>
+            <Image src={brushImage5} alt="banner" className="w-full h-auto hover:brightness-50"/>
             <div className='text-center m-8'>
               <span className='bg-black text-[2rem] font-bold py-1 px-5'>612</span>
             </div>
           </Link>
         </div>
-        <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">
+        <div className="w-1/4 mr-10 cursor-pointer hover:cursor-pointer">
           <Link href="/product/mop-brush-656">
-            <Image src={brushImage6} alt="banner" className="w-full h-auto"/>
+            <Image src={brushImage6} alt="banner" className="w-full h-auto hover:brightness-50"/>
             <div className='text-center m-8'>
               <span className='bg-black text-[2rem] font-bold py-1 px-5'>656</span>
             </div>

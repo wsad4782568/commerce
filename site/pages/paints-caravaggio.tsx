@@ -107,7 +107,7 @@ export default function Profile() {
         <Link href="/product/klwq-06" className="flex items-center justify-between my-16 hover:scale-105 transition-transform duration-300">
           <div className="w-full px-36 cursor-pointer hover:cursor-pointer flex items-center justify-between">
               <div className="">
-                <Image src={brushImage15} alt="banner" className="w-full h-auto"/>
+                <Image src={brushImage15} alt="banner" className="w-full h-auto hover:brightness-50"/>
               </div>
           </div>
           {/* <div className='m-8'>

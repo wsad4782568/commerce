@@ -56,7 +56,7 @@ export default function Profile() {
           {/* <div className="relative w-full flex my-16">
             <div className="w-1/4 pr-12 cursor-pointer hover:cursor-pointer">
               <Link href="/product/vq-106-602">
-                <Image src={brushImage1} alt="banner" className="w-full h-auto"/>
+                <Image src={brushImage1} alt="banner" className="w-full h-auto hover:brightness-50"/>
                 <div className='text-center m-8'>
                   <span className='bg-black rounded-lg text-[2rem] font-bold py-1 px-5'>15ml</span>
                 </div>
@@ -64,7 +64,7 @@ export default function Profile() {
             </div>
             <div className="w-1/4 pr-12 cursor-pointer hover:cursor-pointer">
               <Link href="/product/vq-106-602">
-                <Image src={brushImage2} alt="banner" className="w-full h-auto"/>
+                <Image src={brushImage2} alt="banner" className="w-full h-auto hover:brightness-50"/>
                 <div className='text-center m-8'>
                   <span className='bg-black rounded-lg text-[2rem] font-bold py-1 px-5'>5ml</span>
                 </div>
@@ -72,7 +72,7 @@ export default function Profile() {
             </div>
             <div className="w-1/4 pr-12 cursor-pointer hover:cursor-pointer">
               <Link href="/product/vq-106-602">
-                <Image src={brushImage3} alt="banner" className="w-full h-auto"/>
+                <Image src={brushImage3} alt="banner" className="w-full h-auto hover:brightness-50"/>
                 <div className='text-center m-8'>
                   <span className='bg-black rounded-lg text-[2rem] font-bold py-1 px-5'>15ml</span>
                 </div>
@@ -80,7 +80,7 @@ export default function Profile() {
             </div>
             <div className="w-1/4 pr-12 cursor-pointer hover:cursor-pointer">
               <Link href="/product/vq-106-602">
-                <Image src={brushImage4} alt="banner" className="w-full h-auto"/>
+                <Image src={brushImage4} alt="banner" className="w-full h-auto hover:brightness-50"/>
                 <div className='text-center m-8'>
                   <span className='bg-black rounded-lg text-[2rem] font-bold py-1 px-5'>5ml</span>
                 </div>
@@ -92,7 +92,7 @@ export default function Profile() {
             <Link href="/product/wv-0018" className="flex items-center justify-between my-16 hover:scale-105 transition-transform duration-300">
               <div className="w-1/2 pr-12 cursor-pointer hover:cursor-pointer flex items-center justify-between">
                 <div className="h-full">
-                  <Image src={brushImage5} alt="banner" className="w-full h-auto"/>
+                  <Image src={brushImage5} alt="banner" className="w-full h-auto hover:brightness-50"/>
                 </div>
               </div>
               <div className='m-8'>
@@ -104,7 +104,7 @@ export default function Profile() {
             <Link href="/product/wv-0024" className="flex items-center justify-between my-16 hover:scale-105 transition-transform duration-300">
               <div className="w-1/2 pr-12 cursor-pointer hover:cursor-pointer flex items-center justify-between">
                 <div className="h-full">
-                  <Image src={brushImage6} alt="banner" className="w-full h-auto"/>
+                  <Image src={brushImage6} alt="banner" className="w-full h-auto hover:brightness-50"/>
                 </div>
               </div>
               <div className='m-8'>
@@ -116,7 +116,7 @@ export default function Profile() {
             <Link href="/product/wv-0036" className="flex items-center justify-between my-16 hover:scale-105 transition-transform duration-300">
               <div className="w-1/2 pr-12 cursor-pointer hover:cursor-pointer flex items-center justify-between">
                 <div className="h-[230px]">
-                  <Image src={brushImage7} alt="banner" className="w-full h-auto"/>
+                  <Image src={brushImage7} alt="banner" className="w-full h-auto hover:brightness-50"/>
                 </div>
               </div>
               <div className='m-8'>
@@ -137,7 +137,7 @@ export default function Profile() {
           <Link href="/product/ws-0012" className="flex items-center justify-between my-16 hover:scale-105 transition-transform duration-300">
               <div className="w-1/2 pr-12 cursor-pointer hover:cursor-pointer flex items-center justify-between">
                   <div className="h-[230px]">
-                  <Image src={brushImage8} alt="banner" className="w-full h-auto"/>
+                  <Image src={brushImage8} alt="banner" className="w-full h-auto hover:brightness-50"/>
                   </div>
               </div>
               <div className='m-8'>
