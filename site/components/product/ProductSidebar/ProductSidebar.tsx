@@ -60,15 +60,15 @@ const ProductSidebar: FC<ProductSidebarProps> = ({ product, className }) => {
 
   return (
     <div className={className}>
-      <div className="pt-10 pb-4 break-words w-full text-7xl tracking-widest">
-        {product.name}
-      </div>
       { 
-        <div className="pb-4 break-words w-full max-w-xl text-6xl my-10">
+        <div className="py-2 break-words w-full max-w-xl text-6xl mb-10">
           {product.sku && <span className="bg-black text-white px-6">{product.sku}</span>}
         </div>
       }
-      {product.descriptionArray &&
+      <div className="pt-2 pb-4 break-words w-full text-7xl tracking-widest">
+        {product.name}
+      </div>
+      {/* {product.descriptionArray &&
         <div className='mt-[-10px] mb-10 text-4xl tracking-widest opacity-80'>{product.descriptionArray.map(item => (
           <div key={item} className='flex'>
             {product.descriptionIcon ? 
@@ -77,9 +77,14 @@ const ProductSidebar: FC<ProductSidebarProps> = ({ product, className }) => {
             {item}
           </div>
         ))}</div>
-      }
-      <div className="pb-4 break-words w-full max-w-xl text-2xl my-8">
-        {product.description}
+      } */}
+      <div className="pb-4 break-words w-full max-w-xl text-4xl my-8">
+        <ul className="list-disc pl-[28px]">
+          <li className="h-[200px] py-[8px]">{product.description}</li>
+          {/* <li className="py-[8px]">{product.description}</li>
+          <li className="py-[8px]">{product.description}</li>
+          <li className="py-[8px]">{product.description}</li> */}
+        </ul>
       </div>
       <ProductOptions
         options={product.options}

@@ -55,12 +55,12 @@ export default function Profile() {
             </Link>
           </div>
           <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">
-            <Link href="/brush-link-9">
+            <Link href="/paint/Bouyereau">
               <Image src={brushImage5} alt="banner" className="w-full h-auto hover:brightness-50"/>
             </Link>
           </div>
           <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">
-            <Link href="/brush-link-9">
+            <Link href="/paint/Brilliant-Rays">
               <Image src={brushImage6} alt="banner" className="w-full h-auto hover:brightness-50"/>
             </Link>
           </div>

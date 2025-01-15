@@ -5,19 +5,26 @@ import { useRouter } from 'next/router'
 import { Layout } from '@components/common'
 import { Container } from '@components/ui'
 import bannerImage from '../../public/images/banner-2.png'
+import bannerImage8 from '../../public/images/banner-8.jpg'
+
+const describeData: any = {
+  Caravaggio: ['pression while using cobalt and cadmium pigmentsIt pursues high-quality inherent color e)without adding any filler pigment powcers.32 of the 48 colors are single color pigments.Itafter being filled and air-dried about 5 times.Thisis a solid pigment that is concentratedch, stable colors with excellent dissolving power. Itproduct offers high light-fastness and riquickly dissolves upon contact and is easy to mix and blend.', 'Total: 48 colors.'],
+  Bouyereau: ['pression while using cobalt and cadmium pigmentsIt pursues high-quality inherent color e)without adding any filler pigment powcers.32 of the 48 colors are single color pigments.Itafter being filled and air-dried about 5 times.Thisis a solid pigment that is concentratedch, stable colors with excellent dissolving power. Itproduct offers high light-fastness and riquickly dissolves upon contact and is easy to mix and blend.', 'Total: 48 colors.'],
+  'Brilliant-Rays': ['pression while using cobalt and cadmium pigmentsIt pursues high-quality inherent color e)without adding any filler pigment powcers.32 of the 48 colors are single color pigments.Itafter being filled and air-dried about 5 times.Thisis a solid pigment that is concentratedch, stable colors with excellent dissolving power. Itproduct offers high light-fastness and riquickly dissolves upon contact and is easy to mix and blend.', 'Total: 48 colors']
+}
 
 const brushData = {
-  'cats-tongue-brushes': [
+  'Mairtini': [
     { name: "636", imgSrc: "/images/brush/cats-tongue-brushes/636/1.png" },
     { name: "6000RR", imgSrc: "/images/brush/cats-tongue-brushes/6000RR/1.png" },
     { name: "RG700R", imgSrc: "/images/brush/cats-tongue-brushes/RG700R/1.png" }
   ],
-  'flat-wash-brushes': [
+  'Caravaggio': [
     { name: "303", imgSrc: "/images/brush/flat-wash-brushes/303/1.png" },
     { name: "6100R", imgSrc: "/images/brush/flat-wash-brushes/6100R/1.png" },
     { name: "Q728", imgSrc: "/images/brush/flat-wash-brushes/Q728/1.png" }
   ],
-  'round-pointed-brushes': [
+  'Bouyereau': [
     { name: "714", imgSrc: "/images/brush/round-pointed-brushes/714/1.png" },
     { name: "717", imgSrc: "/images/brush/round-pointed-brushes/717/1.png" },
     { name: "1096", imgSrc: "/images/brush/round-pointed-brushes/1096/1.png" },
@@ -25,7 +32,7 @@ const brushData = {
     { name: "K90", imgSrc: "/images/brush/round-pointed-brushes/K90/1.png" },
     { name: "M7", imgSrc: "/images/brush/round-pointed-brushes/M7/1.png" }
   ],
-  "constellation-series": [
+  "Brilliant-Rays": [
     { name: "房", imgSrc: "/images/brush/constellation-series/房/1.png" },
     { name: "井", imgSrc: "/images/brush/constellation-series/井/1.png" },
     { name: "亢", imgSrc: "/images/brush/constellation-series/亢/1.png" },
@@ -80,11 +87,11 @@ export async function getStaticPaths({ locales }: GetStaticPathsContext) {
       ? locales.reduce<string[]>((arr, locale) => {
           // 为每个 locale 添加画笔路径
           brushNames.forEach((brush: any) => {
-            arr.push(`/${locale}/brush/${brush.name}`);
+            arr.push(`/${locale}/paint/${brush.name}`);
           });
           return arr;
         }, [])
-      : brushNames.map((brush: any) => `/brush/${brush.name}`),
+      : brushNames.map((brush: any) => `/paint/${brush.name}`),
     fallback: 'blocking',
   };
 }
@@ -110,12 +117,14 @@ const BrushPage = ({ brushName, brushItems }: InferGetStaticPropsType<typeof get
   return (
     <Container className='bg-gray-200'>
       <div className="relative w-full">
-        <Image src={bannerImage} alt="banner" className="w-full h-[500px] object-cover"/>
+        <Image src={bannerImage8} alt="banner" className="w-full h-[500px] object-cover"/>
       </div>
       <div className='px-64'>
         <div className='customFont text-center text-[4rem] pt-8 text-black my-15'>{brushName}</div>
         <div className="text-[26px] text-secondary pb-2">
-          <p>Considered the elite hair for watercolor, Escoda selects only the best Kolinsky male sable hair for this brush. This haircomes from the Tajmyr region in very northern Siberia. Points perfectly and has an extraordinary capacity to retain liquids</p>
+          {describeData[brushName]?.map((element: string) => (
+            <p key={element}>{element}</p>
+          ))}
         </div>
         <div className="relative w-full flex mt-8 justify-center py-6 flex-wrap border-t-4 border-b-4 border-gray-300">
           {brushItems?.map((item, index) => (

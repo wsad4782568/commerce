@@ -34,16 +34,16 @@ export async function getStaticProps({
 export default function Profile() {
   const { data } = useCustomer()
   return (
-    <Container className='bg-white'>
+    <Container className='bg-gray-200'>
       <div className="relative w-full">
         <Image src={bannerImage} alt="banner" className="w-full h-[500px] object-cover"/>
       </div>
 
       {/* 内容部分 */}
       <div className='px-64'>
-        <div className='text-center text-[2rem] text-secondary my-5 font-bold'>Fine Grind Artists'Watercolor Pain</div>
+        <div className='customFont text-center text-[4rem] pt-8 text-black my-15'>Fine Grind Artists'Watercolor Pain</div>
 
-        <div className="text-[26px] text-secondary pl-36 pr-24 pb-2 mx-40">
+        <div className="text-[26px] text-secondary pb-2">
           <p>82 brilliant and intense colors</p>
           <p>6l colors with high lightfastness(4~5 stars)12 macaron colors with fantastic coverage, bringing new vitality to the artwork.</p>
           <p>High-quality pigments are selected around the world to ensure more vibrant colors</p>
@@ -52,100 +52,102 @@ export default function Profile() {
           <p>Most essential colors have excellent diffusion and obvious sedimentary effect.</p>
         </div>
 
-        <div className="relative w-[60%] cursor-pointer hover:cursor-pointer pb-4 mx-[20%]">
-          {/* <div className="relative w-full flex my-16">
-            <div className="w-1/4 pr-12 cursor-pointer hover:cursor-pointer">
-              <Link href="/product/vq-106-602">
-                <Image src={brushImage1} alt="banner" className="w-full h-auto hover:brightness-50"/>
-                <div className='text-center m-8'>
-                  <span className='bg-black rounded-lg text-[2rem] font-bold py-1 px-5'>15ml</span>
-                </div>
-              </Link>
-            </div>
-            <div className="w-1/4 pr-12 cursor-pointer hover:cursor-pointer">
-              <Link href="/product/vq-106-602">
-                <Image src={brushImage2} alt="banner" className="w-full h-auto hover:brightness-50"/>
-                <div className='text-center m-8'>
-                  <span className='bg-black rounded-lg text-[2rem] font-bold py-1 px-5'>5ml</span>
-                </div>
-              </Link>
-            </div>
-            <div className="w-1/4 pr-12 cursor-pointer hover:cursor-pointer">
-              <Link href="/product/vq-106-602">
-                <Image src={brushImage3} alt="banner" className="w-full h-auto hover:brightness-50"/>
-                <div className='text-center m-8'>
-                  <span className='bg-black rounded-lg text-[2rem] font-bold py-1 px-5'>15ml</span>
-                </div>
-              </Link>
-            </div>
-            <div className="w-1/4 pr-12 cursor-pointer hover:cursor-pointer">
-              <Link href="/product/vq-106-602">
-                <Image src={brushImage4} alt="banner" className="w-full h-auto hover:brightness-50"/>
-                <div className='text-center m-8'>
-                  <span className='bg-black rounded-lg text-[2rem] font-bold py-1 px-5'>5ml</span>
-                </div>
-              </Link>
-            </div>
-          </div> */}
-
-          <div className="flex flex-col">
-            <Link href="/product/wv-0018" className="flex items-center justify-between my-16 hover:scale-105 transition-transform duration-300">
-              <div className="w-1/2 pr-12 cursor-pointer hover:cursor-pointer flex items-center justify-between">
-                <div className="h-full">
-                  <Image src={brushImage5} alt="banner" className="w-full h-auto hover:brightness-50"/>
-                </div>
+        <div className="relative w-full mt-8 flex py-10 border-t-4 border-gray-300">
+          <div className="w-1/4 mx-10 cursor-pointer hover:cursor-pointer relative">
+            <Link href="/product/vq-106-602">
+              <div>
+                <Image src={brushImage1} alt="banner" className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
               </div>
-              <div className='m-8'>
-                <p className='bg-black rounded-lg text-[2rem] font-bold py-1 px-5 text-center mb-2'>18 Colors / Set</p>
-                <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.15rem]'>ITEMNO.: WV-0018</p>
-                <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.2rem]'>SIZE:5ML</p>
+              <div className='text-center my-8 w-[300px]'>
+                <span className='bg-black text-[2rem] font-bold py-1 px-5'>405 15ml</span>
               </div>
             </Link>
-            <Link href="/product/wv-0024" className="flex items-center justify-between my-16 hover:scale-105 transition-transform duration-300">
-              <div className="w-1/2 pr-12 cursor-pointer hover:cursor-pointer flex items-center justify-between">
-                <div className="h-full">
-                  <Image src={brushImage6} alt="banner" className="w-full h-auto hover:brightness-50"/>
-                </div>
-              </div>
-              <div className='m-8'>
-                <p className='bg-black rounded-lg text-[2rem] font-bold py-1 px-5 text-center mb-2'>24 Colors / Set</p>
-                <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.15rem]'>ITEMNO.: WV-0024</p>
-                <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.2rem]'>SIZE:5ML</p>
+          </div>
+          <div className="w-1/4 mx-10 cursor-pointer hover:cursor-pointer">
+            <Link href="/product/vq-106-602">
+              <Image src={brushImage2} alt="banner" className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
+              <div className='text-center my-8 w-[300px]'>
+                <span className='bg-black text-[2rem] font-bold py-1 px-5'>405 5ml</span>
               </div>
             </Link>
-            <Link href="/product/wv-0036" className="flex items-center justify-between my-16 hover:scale-105 transition-transform duration-300">
-              <div className="w-1/2 pr-12 cursor-pointer hover:cursor-pointer flex items-center justify-between">
-                <div className="h-[230px]">
-                  <Image src={brushImage7} alt="banner" className="w-full h-auto hover:brightness-50"/>
-                </div>
+          </div>
+          <div className="w-1/4 mx-10 cursor-pointer hover:cursor-pointer">
+            <Link href="/product/wv-0018">
+              <Image src={brushImage5} alt="banner" className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
+              <div className='text-center my-8 w-[300px]'>
+                <span className='bg-black text-[2rem] font-bold py-1 px-5'>18 Colors / Set</span>
               </div>
-              <div className='m-8'>
-                <p className='bg-black rounded-lg text-[2rem] font-bold py-1 px-5 text-center mb-2'>36 Colors / Set</p>
-                <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.15rem]'>ITEMNO.: WV-0036</p>
-                <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.2rem]'>SIZE:5ML</p>
+            </Link>
+          </div>
+          <div className="w-1/4 mx-10 cursor-pointer hover:cursor-pointer">
+            <Link href="/product/wv-0024">
+              <Image src={brushImage6} alt="banner" className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
+              <div className='text-center my-8 w-[300px]'>
+                <span className='bg-black text-[2rem] font-bold py-1 px-5'>24 Colors / Set</span>
               </div>
             </Link>
           </div>
         </div>
-        <div className='text-center text-[2rem] text-secondary my-5 font-bold'>Artists' Layered Precipitation Color Watercolor Paint</div>
-        <div className="text-[26px] text-secondary pl-36 pr-24 pb-2 mx-40">
+        <div className="w-1/4 relative w-full flex justify-left pb-10 border-b-4 border-gray-300">
+          <div className="w-full mx-10 cursor-pointer hover:cursor-pointer">
+            <Link href="/product/wv-0036">
+              <Image src={brushImage7} alt="banner" className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
+              <div className='text-center my-8 w-[300px]'>
+                <span className='bg-black text-[2rem] font-bold py-1 px-5'>36 Colors / Set</span>
+              </div>
+            </Link>
+          </div>
+          {/* <div className="w-1/2 mx-10 cursor-pointer hover:cursor-pointer">
+            <Link href="/product/ws-0012">
+              <Image src={brushImage8} alt="banner" className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
+              <div className='text-center my-8 w-[300px]'>
+                <span className='bg-black text-[2rem] font-bold py-1 px-5'>656</span>
+              </div>
+            </Link>
+          </div> */}
+        </div>
+
+        <div className='customFont text-center text-[4rem] pt-8 text-black my-15'>Artists' Layered Precipitation Color Watercolor Paint</div>
+
+        <div className="text-[26px] text-secondary pb-2">
           <p>Select premium raw materials with extremely high light-fastness, use 2 to 3 colorsblends, and use multiple grinding processes to present different levels of multi-cololprecipitation expression.</p>
           <p>Total: 12 colors.</p>
         </div>
-
-        <div className="relative w-[60%] cursor-pointer hover:cursor-pointer pb-4 mx-[20%]">
-          <Link href="/product/ws-0012" className="flex items-center justify-between my-16 hover:scale-105 transition-transform duration-300">
-              <div className="w-1/2 pr-12 cursor-pointer hover:cursor-pointer flex items-center justify-between">
-                  <div className="h-[230px]">
-                  <Image src={brushImage8} alt="banner" className="w-full h-auto hover:brightness-50"/>
-                  </div>
+        <div className="relative w-full mt-8 flex justify-start py-10 border-t-4 border-gray-300">
+          <div className="w-1/4 mx-10 cursor-pointer hover:cursor-pointer relative">
+            <Link href="/product/vq-106-602">
+              <div>
+                <Image src={brushImage3} alt="banner" className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
               </div>
-              <div className='m-8'>
-                  <p className='bg-black rounded-lg text-[2rem] font-bold py-1 px-5 text-center mb-2'>12 Colors / Set</p>
-                  <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.15rem]'>ITEMNO.: WS-0012</p>
-                  <p className='text-secondary text-[1.2rem] leading-[2rem] tracking-[0.2rem]'>SIZE:5ML</p>
+              <div className='text-center my-8 w-[300px]'>
+                <span className='bg-black text-[2rem] font-bold py-1 px-5'>702 15ml</span>
               </div>
-          </Link>
+            </Link>
+          </div>
+          <div className="w-1/4 mx-10 cursor-pointer hover:cursor-pointer">
+            <Link href="/product/vq-106-602">
+              <Image src={brushImage4} alt="banner" className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
+              <div className='text-center my-8 w-[300px]'>
+                <span className='bg-black text-[2rem] font-bold py-1 px-5'>702 5ml</span>
+              </div>
+            </Link>
+          </div>
+          <div className="w-1/4 mx-10 cursor-pointer hover:cursor-pointer">
+            <Link href="/product/ws-0012">
+              <Image src={brushImage8} alt="banner" className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
+              <div className='text-center my-8 w-[300px]'>
+                <span className='bg-black text-[2rem] font-bold py-1 px-5'>12 Colors / Set</span>
+              </div>
+            </Link>
+          </div>
+          <div className="w-1/4 mx-10 cursor-pointer">
+            {/* <Link href="/product/wv-0024">
+              <Image src={brushImage6} alt="banner" className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
+              <div className='text-center my-8 w-[300px]'>
+                <span className='bg-black text-[2rem] font-bold py-1 px-5'>696</span>
+              </div>
+            </Link> */}
+          </div>
         </div>
       </div>
     </Container>
