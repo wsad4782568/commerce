@@ -1,9 +1,13 @@
-[34m@vercel/commerce-spree:build[0m: cache hit, replaying output [2m31c9172ef00f190f[0m
-[34m@vercel/commerce-spree:build: [0m
-[34m@vercel/commerce-spree:build: [0m> @vercel/commerce-spree@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/spree
-[34m@vercel/commerce-spree:build: [0m> taskr build
-[34m@vercel/commerce-spree:build: [0m
-[34m@vercel/commerce-spree:build: [0m[20:46:36] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/spree/taskfile.js
-[34m@vercel/commerce-spree:build: [0m[20:46:36] Starting build
-[34m@vercel/commerce-spree:build: [0m[20:46:36] Compiled src files
-[34m@vercel/commerce-spree:build: [0m[20:46:36] Finished build in 397ms
+[35m@vercel/commerce-spree:build[0m: cache hit, replaying output [2m5f1809d37c3ca3be[0m
+[35m@vercel/commerce-spree:build: [0mDebugger attached.
+[35m@vercel/commerce-spree:build: [0m
+[35m@vercel/commerce-spree:build: [0m> @vercel/commerce-spree@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/spree
+[35m@vercel/commerce-spree:build: [0m> taskr build
+[35m@vercel/commerce-spree:build: [0m
+[35m@vercel/commerce-spree:build: [0mDebugger attached.
+[35m@vercel/commerce-spree:build: [0m[11:23:01] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/spree/taskfile.js
+[35m@vercel/commerce-spree:build: [0m[11:23:01] Starting build
+[35m@vercel/commerce-spree:build: [0m[11:23:01] Compiled src files
+[35m@vercel/commerce-spree:build: [0m[11:23:01] Finished build in 223ms
+[35m@vercel/commerce-spree:build: [0mWaiting for the debugger to disconnect...
+[35m@vercel/commerce-spree:build: [0mWaiting for the debugger to disconnect...

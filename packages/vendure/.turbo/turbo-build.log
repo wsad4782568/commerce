@@ -1,9 +1,13 @@
-[36m@vercel/commerce-vendure:build[0m: cache hit, replaying output [2m8c505c42ff609d69[0m
-[36m@vercel/commerce-vendure:build: [0m
-[36m@vercel/commerce-vendure:build: [0m> @vercel/commerce-vendure@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/vendure
-[36m@vercel/commerce-vendure:build: [0m> taskr build
-[36m@vercel/commerce-vendure:build: [0m
-[36m@vercel/commerce-vendure:build: [0m[20:46:36] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/vendure/taskfile.js
-[36m@vercel/commerce-vendure:build: [0m[20:46:36] Starting build
-[36m@vercel/commerce-vendure:build: [0m[20:46:36] Compiled src files
-[36m@vercel/commerce-vendure:build: [0m[20:46:36] Finished build in 299ms
+[35m@vercel/commerce-vendure:build[0m: cache hit, replaying output [2m7789b78c3527558d[0m
+[35m@vercel/commerce-vendure:build: [0mDebugger attached.
+[35m@vercel/commerce-vendure:build: [0m
+[35m@vercel/commerce-vendure:build: [0m> @vercel/commerce-vendure@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/vendure
+[35m@vercel/commerce-vendure:build: [0m> taskr build
+[35m@vercel/commerce-vendure:build: [0m
+[35m@vercel/commerce-vendure:build: [0mDebugger attached.
+[35m@vercel/commerce-vendure:build: [0m[11:23:01] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/vendure/taskfile.js
+[35m@vercel/commerce-vendure:build: [0m[11:23:01] Starting build
+[35m@vercel/commerce-vendure:build: [0m[11:23:01] Compiled src files
+[35m@vercel/commerce-vendure:build: [0m[11:23:01] Finished build in 266ms
+[35m@vercel/commerce-vendure:build: [0mWaiting for the debugger to disconnect...
+[35m@vercel/commerce-vendure:build: [0mWaiting for the debugger to disconnect...

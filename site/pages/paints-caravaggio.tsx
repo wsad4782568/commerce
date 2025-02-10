@@ -96,7 +96,7 @@ export default function Profile() {
           </div>
         </div>
         <div className="relative w-full flex justify-left pb-10">
-          <div className="w-full mx-10 cursor-pointer hover:cursor-pointer">
+          <div className="w-1/2 mx-10 cursor-pointer hover:cursor-pointer">
             <Link href="/product/klwq-02">
               <Image src={brushImage11} alt="banner" className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
               <div className='text-center my-8 w-[300px]'>

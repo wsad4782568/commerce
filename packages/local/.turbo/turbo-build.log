@@ -1,9 +1,13 @@
-[36m@vercel/commerce-local:build[0m: cache hit, replaying output [2m8eeada4045ce29c4[0m
-[36m@vercel/commerce-local:build: [0m
-[36m@vercel/commerce-local:build: [0m> @vercel/commerce-local@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/local
-[36m@vercel/commerce-local:build: [0m> taskr build
-[36m@vercel/commerce-local:build: [0m
-[36m@vercel/commerce-local:build: [0m[20:46:36] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/local/taskfile.js
-[36m@vercel/commerce-local:build: [0m[20:46:36] Starting build
-[36m@vercel/commerce-local:build: [0m[20:46:36] Compiled src files
-[36m@vercel/commerce-local:build: [0m[20:46:36] Finished build in 346ms
+[34m@vercel/commerce-local:build[0m: cache hit, replaying output [2m78787435c2d11c0e[0m
+[34m@vercel/commerce-local:build: [0mDebugger attached.
+[34m@vercel/commerce-local:build: [0m
+[34m@vercel/commerce-local:build: [0m> @vercel/commerce-local@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/local
+[34m@vercel/commerce-local:build: [0m> taskr build
+[34m@vercel/commerce-local:build: [0m
+[34m@vercel/commerce-local:build: [0mDebugger attached.
+[34m@vercel/commerce-local:build: [0m[11:23:01] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/local/taskfile.js
+[34m@vercel/commerce-local:build: [0m[11:23:01] Starting build
+[34m@vercel/commerce-local:build: [0m[11:23:01] Compiled src files
+[34m@vercel/commerce-local:build: [0m[11:23:01] Finished build in 168ms
+[34m@vercel/commerce-local:build: [0mWaiting for the debugger to disconnect...
+[34m@vercel/commerce-local:build: [0mWaiting for the debugger to disconnect...
