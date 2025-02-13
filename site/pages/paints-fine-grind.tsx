@@ -52,56 +52,77 @@ export default function Profile() {
           <p>Most essential colors have excellent diffusion and obvious sedimentary effect.</p>
         </div>
 
-        <div className="relative w-full mt-8 flex py-10 border-t-4 border-gray-300">
-          <div className="w-1/4 mx-10 cursor-pointer hover:cursor-pointer relative">
+        <div className="relative w-full mt-8 flex py-20 border-t-4 border-gray-300">
+          <div className="w-1/4 mx-6 cursor-pointer hover:cursor-pointer relative">
             <Link href="/product/vq-106-602">
               <div>
                 <Image src={brushImage1} alt="banner" className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
               </div>
-              <div className='text-center my-8 w-[300px]'>
-                <span className='bg-black text-[2rem] font-bold py-1 px-5'>405 15ml</span>
+              <div className='text-left w-[300px]'>
+                <span className='bg-black text-[1.5rem] font-bold py-1 px-5'>82 Color / Single</span>
+              </div>
+              <div className='text-left w-[300px] my-3'>
+                <p className='text-[1.2rem] text-black'>ITEM No.: VQ 106-602</p>
+                <p className='text-[1.2rem] text-black'>SIZE: 15ML</p>
+                {/* <p className='text-[1.2rem] text-black'>PACKING: 3pcs/Box</p> */}
               </div>
             </Link>
           </div>
-          <div className="w-1/4 mx-10 cursor-pointer hover:cursor-pointer">
+          <div className="w-1/4 mx-6 cursor-pointer hover:cursor-pointer">
             <Link href="/product/vq-106-602">
               <Image src={brushImage2} alt="banner" className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
-              <div className='text-center my-8 w-[300px]'>
-                <span className='bg-black text-[2rem] font-bold py-1 px-5'>405 5ml</span>
+              <div className='text-left w-[300px]'>
+                <span className='bg-black text-[1.5rem] font-bold py-1 px-5'>36 Color / Single</span>
+              </div>
+              <div className='text-left w-[300px] my-3'>
+                <p className='text-[1.2rem] text-black'>ITEM No.: VR 106-500</p>
+                <p className='text-[1.2rem] text-black'>SIZE: 5ML</p>
               </div>
             </Link>
           </div>
-          <div className="w-1/4 mx-10 cursor-pointer hover:cursor-pointer">
+          <div className="w-1/4 mx-6 cursor-pointer hover:cursor-pointer">
             <Link href="/product/wv-0018">
               <Image src={brushImage5} alt="banner" className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
-              <div className='text-center my-8 w-[300px]'>
-                <span className='bg-black text-[2rem] font-bold py-1 px-5'>18 Colors / Set</span>
+              <div className='text-left w-[300px]'>
+                <span className='bg-black text-[1.5rem] font-bold py-1 px-5'>18 Colors / Set</span>
+              </div>
+              <div className='text-left w-[300px] my-3'>
+                <p className='text-[1.2rem] text-black'>ITEM No.: WV-0018</p>
+                <p className='text-[1.2rem] text-black'>SIZE: 5ML x 18</p>
               </div>
             </Link>
           </div>
-          <div className="w-1/4 mx-10 cursor-pointer hover:cursor-pointer">
+          <div className="w-1/4 mx-6 cursor-pointer hover:cursor-pointer">
             <Link href="/product/wv-0024">
               <Image src={brushImage6} alt="banner" className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
-              <div className='text-center my-8 w-[300px]'>
-                <span className='bg-black text-[2rem] font-bold py-1 px-5'>24 Colors / Set</span>
+              <div className='text-left w-[300px]'>
+                <span className='bg-black text-[1.5rem] font-bold py-1 px-5'>24 Colors / Set</span>
+              </div>
+              <div className='text-left w-[300px] my-3'>
+                <p className='text-[1.2rem] text-black'>ITEM No.: WV-0024</p>
+                <p className='text-[1.2rem] text-black'>SIZE: 5ML x 24</p>
               </div>
             </Link>
           </div>
         </div>
         <div className="w-1/4 relative w-full flex justify-left pb-10 border-b-4 border-gray-300">
-          <div className="w-full mx-10 cursor-pointer hover:cursor-pointer">
+          <div className="w-full mx-6 cursor-pointer hover:cursor-pointer">
             <Link href="/product/wv-0036">
               <Image src={brushImage7} alt="banner" className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
-              <div className='text-center my-8 w-[300px]'>
-                <span className='bg-black text-[2rem] font-bold py-1 px-5'>36 Colors / Set</span>
+              <div className='text-left w-[300px]'>
+                <span className='bg-black text-[1.5rem] font-bold py-1 px-5'>36 Colors / Set</span>
+              </div>
+              <div className='text-left w-[300px] my-3'>
+                <p className='text-[1.2rem] text-black'>ITEM No.: WV-0036</p>
+                <p className='text-[1.2rem] text-black'>SIZE: 5ML x 36</p>
               </div>
             </Link>
           </div>
-          {/* <div className="w-1/2 mx-10 cursor-pointer hover:cursor-pointer">
+          {/* <div className="w-1/2 mx-6 cursor-pointer hover:cursor-pointer">
             <Link href="/product/ws-0012">
               <Image src={brushImage8} alt="banner" className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
-              <div className='text-center my-8 w-[300px]'>
-                <span className='bg-black text-[2rem] font-bold py-1 px-5'>656</span>
+              <div className='text-left w-[300px]'>
+                <span className='bg-black text-[1.5rem] font-bold py-1 px-5'>656</span>
               </div>
             </Link>
           </div> */}
@@ -113,38 +134,50 @@ export default function Profile() {
           <p>Select premium raw materials with extremely high light-fastness, use 2 to 3 colorsblends, and use multiple grinding processes to present different levels of multi-cololprecipitation expression.</p>
           <p>Total: 12 colors.</p>
         </div>
-        <div className="relative w-full mt-8 flex justify-start py-10 border-t-4 border-gray-300">
-          <div className="w-1/4 mx-10 cursor-pointer hover:cursor-pointer relative">
+        <div className="relative w-full mt-8 flex justify-start py-20 border-t-4 border-gray-300">
+          <div className="w-1/4 mx-6 cursor-pointer hover:cursor-pointer relative">
             <Link href="/product/vq-106-602">
               <div>
                 <Image src={brushImage3} alt="banner" className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
               </div>
-              <div className='text-center my-8 w-[300px]'>
-                <span className='bg-black text-[2rem] font-bold py-1 px-5'>702 15ml</span>
+              <div className='text-left w-[300px]'>
+                <span className='bg-black text-[1.5rem] font-bold py-1 px-5'>12 Colors / Single</span>
+              </div>
+              <div className='text-left w-[300px] my-3'>
+                <p className='text-[1.2rem] text-black'>ITEM No.: FC 001-012</p>
+                <p className='text-[1.2rem] text-black'>SIZE: 5ML</p>
               </div>
             </Link>
           </div>
-          <div className="w-1/4 mx-10 cursor-pointer hover:cursor-pointer">
+          <div className="w-1/4 mx-6 cursor-pointer hover:cursor-pointer">
             <Link href="/product/vq-106-602">
               <Image src={brushImage4} alt="banner" className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
-              <div className='text-center my-8 w-[300px]'>
-                <span className='bg-black text-[2rem] font-bold py-1 px-5'>702 5ml</span>
+              <div className='text-left w-[300px]'>
+                <span className='bg-black text-[1.5rem] font-bold py-1 px-5'>12 Colors / Single</span>
+              </div>
+              <div className='text-left w-[300px] my-3'>
+                <p className='text-[1.2rem] text-black'>ITEM No.: FD 001-012</p>
+                <p className='text-[1.2rem] text-black'>SIZE: 5ML</p>
               </div>
             </Link>
           </div>
-          <div className="w-1/4 mx-10 cursor-pointer hover:cursor-pointer">
+          <div className="w-1/4 mx-6 cursor-pointer hover:cursor-pointer">
             <Link href="/product/ws-0012">
               <Image src={brushImage8} alt="banner" className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
-              <div className='text-center my-8 w-[300px]'>
-                <span className='bg-black text-[2rem] font-bold py-1 px-5'>12 Colors / Set</span>
+              <div className='text-left w-[300px]'>
+                <span className='bg-black text-[1.5rem] font-bold py-1 px-5'>12 Colors / Set</span>
+              </div>
+              <div className='text-left w-[300px] my-3'>
+                <p className='text-[1.2rem] text-black'>ITEM No.: WS-0012</p>
+                <p className='text-[1.2rem] text-black'>SIZE: 5ML</p>
               </div>
             </Link>
           </div>
-          <div className="w-1/4 mx-10 cursor-pointer">
+          <div className="w-1/4 mx-6 cursor-pointer">
             {/* <Link href="/product/wv-0024">
               <Image src={brushImage6} alt="banner" className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
-              <div className='text-center my-8 w-[300px]'>
-                <span className='bg-black text-[2rem] font-bold py-1 px-5'>696</span>
+              <div className='text-left w-[300px]'>
+                <span className='bg-black text-[1.5rem] font-bold py-1 px-5'>696</span>
               </div>
             </Link> */}
           </div>
