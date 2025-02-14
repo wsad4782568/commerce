@@ -1,13 +1,9 @@
-[33m@vercel/commerce-sfcc:build[0m: cache hit, replaying output [2m1b3054949d5c96d7[0m
-[33m@vercel/commerce-sfcc:build: [0mDebugger attached.
-[33m@vercel/commerce-sfcc:build: [0m
-[33m@vercel/commerce-sfcc:build: [0m> @vercel/commerce-sfcc@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/sfcc
-[33m@vercel/commerce-sfcc:build: [0m> taskr build
-[33m@vercel/commerce-sfcc:build: [0m
-[33m@vercel/commerce-sfcc:build: [0mDebugger attached.
-[33m@vercel/commerce-sfcc:build: [0m[11:23:03] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/sfcc/taskfile.js
-[33m@vercel/commerce-sfcc:build: [0m[11:23:03] Starting build
-[33m@vercel/commerce-sfcc:build: [0m[11:23:03] Compiled src files
-[33m@vercel/commerce-sfcc:build: [0m[11:23:03] Finished build in 55ms
-[33m@vercel/commerce-sfcc:build: [0mWaiting for the debugger to disconnect...
-[33m@vercel/commerce-sfcc:build: [0mWaiting for the debugger to disconnect...
+[36m@vercel/commerce-sfcc:build[0m: cache hit, replaying output [2mca98943b4a9c91c7[0m
+[36m@vercel/commerce-sfcc:build: [0m
+[36m@vercel/commerce-sfcc:build: [0m> @vercel/commerce-sfcc@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/sfcc
+[36m@vercel/commerce-sfcc:build: [0m> taskr build
+[36m@vercel/commerce-sfcc:build: [0m
+[36m@vercel/commerce-sfcc:build: [0m[10:22:58] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/sfcc/taskfile.js
+[36m@vercel/commerce-sfcc:build: [0m[10:22:58] Starting build
+[36m@vercel/commerce-sfcc:build: [0m[10:22:59] Compiled src files
+[36m@vercel/commerce-sfcc:build: [0m[10:22:59] Finished build in 123ms

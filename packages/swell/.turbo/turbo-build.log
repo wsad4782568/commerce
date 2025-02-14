@@ -1,13 +1,9 @@
-[36m@vercel/commerce-swell:build[0m: cache hit, replaying output [2m641e6e86bb8ba084[0m
-[36m@vercel/commerce-swell:build: [0mDebugger attached.
-[36m@vercel/commerce-swell:build: [0m
-[36m@vercel/commerce-swell:build: [0m> @vercel/commerce-swell@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/swell
-[36m@vercel/commerce-swell:build: [0m> taskr build
-[36m@vercel/commerce-swell:build: [0m
-[36m@vercel/commerce-swell:build: [0mDebugger attached.
-[36m@vercel/commerce-swell:build: [0m[11:23:01] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/swell/taskfile.js
-[36m@vercel/commerce-swell:build: [0m[11:23:01] Starting build
-[36m@vercel/commerce-swell:build: [0m[11:23:01] Compiled src files
-[36m@vercel/commerce-swell:build: [0m[11:23:01] Finished build in 314ms
-[36m@vercel/commerce-swell:build: [0mWaiting for the debugger to disconnect...
-[36m@vercel/commerce-swell:build: [0mWaiting for the debugger to disconnect...
+[35m@vercel/commerce-swell:build[0m: cache hit, replaying output [2m0e86e22083a9384d[0m
+[35m@vercel/commerce-swell:build: [0m
+[35m@vercel/commerce-swell:build: [0m> @vercel/commerce-swell@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/swell
+[35m@vercel/commerce-swell:build: [0m> taskr build
+[35m@vercel/commerce-swell:build: [0m
+[35m@vercel/commerce-swell:build: [0m[10:22:58] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/swell/taskfile.js
+[35m@vercel/commerce-swell:build: [0m[10:22:58] Starting build
+[35m@vercel/commerce-swell:build: [0m[10:22:58] Compiled src files
+[35m@vercel/commerce-swell:build: [0m[10:22:58] Finished build in 117ms
