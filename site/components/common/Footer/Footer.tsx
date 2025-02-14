@@ -37,7 +37,7 @@ const Footer: FC<Props> = ({ className, pages }) => {
         <div className="bg-gray-200 flex justify-center text-[#333] py-10">
           <div className='text-center'>
             <Image alt='Logo' className='mx-auto mt-2 mb-6' src={logoImage} width={138} height={100}></Image>
-            <div className="text-2xl pb-8 mb-8 border-b-2 border-gray-500 tracking-[0.2rem]">IT'S BRILLIANT BECAUES OF YOU</div>
+            <div className="text-2xl pb-8 mb-8 border-b-2 border-gray-500 tracking-[0.2rem]">IT'S BRILLIANT BECAUSE OF YOU</div>
             <div>
               <p className="text-lg m-2">Mairtini (chengDu) Cultural&Creative co.,Ltd.</p>
               <p className="text-lg m-2">E-mail :mairtini.art@gmail.com</p>
