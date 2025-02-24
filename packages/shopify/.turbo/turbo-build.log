@@ -1,9 +1,9 @@
-[33m@vercel/commerce-shopify:build[0m: cache hit, replaying output [2m4ee67c51ee9c713d[0m
-[33m@vercel/commerce-shopify:build: [0m
-[33m@vercel/commerce-shopify:build: [0m> @vercel/commerce-shopify@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/shopify
-[33m@vercel/commerce-shopify:build: [0m> taskr build
-[33m@vercel/commerce-shopify:build: [0m
-[33m@vercel/commerce-shopify:build: [0m[10:22:59] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/shopify/taskfile.js
-[33m@vercel/commerce-shopify:build: [0m[10:22:59] Starting build
-[33m@vercel/commerce-shopify:build: [0m[10:23:00] Compiled src files
-[33m@vercel/commerce-shopify:build: [0m[10:23:00] Finished build in 68ms
+[35m@vercel/commerce-shopify:build[0m: cache hit, replaying output [2m7fa62e559a9e8205[0m
+[35m@vercel/commerce-shopify:build: [0m
+[35m@vercel/commerce-shopify:build: [0m> @vercel/commerce-shopify@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/shopify
+[35m@vercel/commerce-shopify:build: [0m> taskr build
+[35m@vercel/commerce-shopify:build: [0m
+[35m@vercel/commerce-shopify:build: [0m[22:08:12] Running with /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/packages/shopify/taskfile.js
+[35m@vercel/commerce-shopify:build: [0m[22:08:12] Starting build
+[35m@vercel/commerce-shopify:build: [0m[22:08:12] Compiled src files
+[35m@vercel/commerce-shopify:build: [0m[22:08:12] Finished build in 222ms

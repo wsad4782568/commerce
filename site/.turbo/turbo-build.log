@@ -1,4 +1,4 @@
-[34mnext-commerce:build[0m: cache hit, replaying output [2ma3e209a5625fe4b3[0m
+[34mnext-commerce:build[0m: cache hit, replaying output [2mfee4fd43b657894e[0m
 [34mnext-commerce:build: [0m
 [34mnext-commerce:build: [0m> next-commerce@0.0.1 build /Users/edy/Desktop/yxy/个人项目/马蒂尼海外站/commerce/site
 [34mnext-commerce:build: [0m> next build && next export
@@ -93,16 +93,111 @@
 [34mnext-commerce:build: [0m  SubTrigger: [Getter],
 [34mnext-commerce:build: [0m  SubContent: [Getter]
 [34mnext-commerce:build: [0m}
-[34mnext-commerce:build: [0mbrushNames [
-[34mnext-commerce:build: [0m  { name: 'cats-tongue-brushes' },
-[34mnext-commerce:build: [0m  { name: 'flat-wash-brushes' },
-[34mnext-commerce:build: [0m  { name: 'round-pointed-brushes' },
-[34mnext-commerce:build: [0m  { name: 'constellation-series' },
-[34mnext-commerce:build: [0m  { name: 'travel-brushes' },
-[34mnext-commerce:build: [0m  { name: 'multipurpose-brushes' },
-[34mnext-commerce:build: [0m  { name: 'brush' },
-[34mnext-commerce:build: [0m  { name: 'brush-set' }
-[34mnext-commerce:build: [0m]
+[34mnext-commerce:build: [0mDropdownMenu {
+[34mnext-commerce:build: [0m  createDropdownMenuScope: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenu: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuTrigger: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuPortal: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuContent: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuGroup: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuLabel: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuItem: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuCheckboxItem: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuRadioGroup: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuRadioItem: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuItemIndicator: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSeparator: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuArrow: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSub: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSubTrigger: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSubContent: [Getter],
+[34mnext-commerce:build: [0m  Root: [Getter],
+[34mnext-commerce:build: [0m  Trigger: [Getter],
+[34mnext-commerce:build: [0m  Portal: [Getter],
+[34mnext-commerce:build: [0m  Content: [Getter],
+[34mnext-commerce:build: [0m  Group: [Getter],
+[34mnext-commerce:build: [0m  Label: [Getter],
+[34mnext-commerce:build: [0m  Item: [Getter],
+[34mnext-commerce:build: [0m  CheckboxItem: [Getter],
+[34mnext-commerce:build: [0m  RadioGroup: [Getter],
+[34mnext-commerce:build: [0m  RadioItem: [Getter],
+[34mnext-commerce:build: [0m  ItemIndicator: [Getter],
+[34mnext-commerce:build: [0m  Separator: [Getter],
+[34mnext-commerce:build: [0m  Arrow: [Getter],
+[34mnext-commerce:build: [0m  Sub: [Getter],
+[34mnext-commerce:build: [0m  SubTrigger: [Getter],
+[34mnext-commerce:build: [0m  SubContent: [Getter]
+[34mnext-commerce:build: [0m}
+[34mnext-commerce:build: [0mDropdownMenu {
+[34mnext-commerce:build: [0m  createDropdownMenuScope: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenu: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuTrigger: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuPortal: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuContent: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuGroup: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuLabel: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuItem: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuCheckboxItem: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuRadioGroup: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuRadioItem: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuItemIndicator: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSeparator: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuArrow: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSub: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSubTrigger: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSubContent: [Getter],
+[34mnext-commerce:build: [0m  Root: [Getter],
+[34mnext-commerce:build: [0m  Trigger: [Getter],
+[34mnext-commerce:build: [0m  Portal: [Getter],
+[34mnext-commerce:build: [0m  Content: [Getter],
+[34mnext-commerce:build: [0m  Group: [Getter],
+[34mnext-commerce:build: [0m  Label: [Getter],
+[34mnext-commerce:build: [0m  Item: [Getter],
+[34mnext-commerce:build: [0m  CheckboxItem: [Getter],
+[34mnext-commerce:build: [0m  RadioGroup: [Getter],
+[34mnext-commerce:build: [0m  RadioItem: [Getter],
+[34mnext-commerce:build: [0m  ItemIndicator: [Getter],
+[34mnext-commerce:build: [0m  Separator: [Getter],
+[34mnext-commerce:build: [0m  Arrow: [Getter],
+[34mnext-commerce:build: [0m  Sub: [Getter],
+[34mnext-commerce:build: [0m  SubTrigger: [Getter],
+[34mnext-commerce:build: [0m  SubContent: [Getter]
+[34mnext-commerce:build: [0m}
+[34mnext-commerce:build: [0mDropdownMenu {
+[34mnext-commerce:build: [0m  createDropdownMenuScope: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenu: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuTrigger: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuPortal: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuContent: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuGroup: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuLabel: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuItem: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuCheckboxItem: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuRadioGroup: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuRadioItem: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuItemIndicator: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSeparator: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuArrow: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSub: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSubTrigger: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSubContent: [Getter],
+[34mnext-commerce:build: [0m  Root: [Getter],
+[34mnext-commerce:build: [0m  Trigger: [Getter],
+[34mnext-commerce:build: [0m  Portal: [Getter],
+[34mnext-commerce:build: [0m  Content: [Getter],
+[34mnext-commerce:build: [0m  Group: [Getter],
+[34mnext-commerce:build: [0m  Label: [Getter],
+[34mnext-commerce:build: [0m  Item: [Getter],
+[34mnext-commerce:build: [0m  CheckboxItem: [Getter],
+[34mnext-commerce:build: [0m  RadioGroup: [Getter],
+[34mnext-commerce:build: [0m  RadioItem: [Getter],
+[34mnext-commerce:build: [0m  ItemIndicator: [Getter],
+[34mnext-commerce:build: [0m  Separator: [Getter],
+[34mnext-commerce:build: [0m  Arrow: [Getter],
+[34mnext-commerce:build: [0m  Sub: [Getter],
+[34mnext-commerce:build: [0m  SubTrigger: [Getter],
+[34mnext-commerce:build: [0m  SubContent: [Getter]
+[34mnext-commerce:build: [0m}
 [34mnext-commerce:build: [0mDropdownMenu {
 [34mnext-commerce:build: [0m  createDropdownMenuScope: [Getter],
 [34mnext-commerce:build: [0m  DropdownMenu: [Getter],
@@ -463,111 +558,16 @@
 [34mnext-commerce:build: [0m  SubTrigger: [Getter],
 [34mnext-commerce:build: [0m  SubContent: [Getter]
 [34mnext-commerce:build: [0m}
-[34mnext-commerce:build: [0mDropdownMenu {
-[34mnext-commerce:build: [0m  createDropdownMenuScope: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenu: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuTrigger: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuPortal: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuContent: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuGroup: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuLabel: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuItem: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuCheckboxItem: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuRadioGroup: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuRadioItem: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuItemIndicator: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSeparator: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuArrow: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSub: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSubTrigger: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSubContent: [Getter],
-[34mnext-commerce:build: [0m  Root: [Getter],
-[34mnext-commerce:build: [0m  Trigger: [Getter],
-[34mnext-commerce:build: [0m  Portal: [Getter],
-[34mnext-commerce:build: [0m  Content: [Getter],
-[34mnext-commerce:build: [0m  Group: [Getter],
-[34mnext-commerce:build: [0m  Label: [Getter],
-[34mnext-commerce:build: [0m  Item: [Getter],
-[34mnext-commerce:build: [0m  CheckboxItem: [Getter],
-[34mnext-commerce:build: [0m  RadioGroup: [Getter],
-[34mnext-commerce:build: [0m  RadioItem: [Getter],
-[34mnext-commerce:build: [0m  ItemIndicator: [Getter],
-[34mnext-commerce:build: [0m  Separator: [Getter],
-[34mnext-commerce:build: [0m  Arrow: [Getter],
-[34mnext-commerce:build: [0m  Sub: [Getter],
-[34mnext-commerce:build: [0m  SubTrigger: [Getter],
-[34mnext-commerce:build: [0m  SubContent: [Getter]
-[34mnext-commerce:build: [0m}
-[34mnext-commerce:build: [0mDropdownMenu {
-[34mnext-commerce:build: [0m  createDropdownMenuScope: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenu: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuTrigger: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuPortal: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuContent: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuGroup: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuLabel: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuItem: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuCheckboxItem: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuRadioGroup: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuRadioItem: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuItemIndicator: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSeparator: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuArrow: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSub: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSubTrigger: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSubContent: [Getter],
-[34mnext-commerce:build: [0m  Root: [Getter],
-[34mnext-commerce:build: [0m  Trigger: [Getter],
-[34mnext-commerce:build: [0m  Portal: [Getter],
-[34mnext-commerce:build: [0m  Content: [Getter],
-[34mnext-commerce:build: [0m  Group: [Getter],
-[34mnext-commerce:build: [0m  Label: [Getter],
-[34mnext-commerce:build: [0m  Item: [Getter],
-[34mnext-commerce:build: [0m  CheckboxItem: [Getter],
-[34mnext-commerce:build: [0m  RadioGroup: [Getter],
-[34mnext-commerce:build: [0m  RadioItem: [Getter],
-[34mnext-commerce:build: [0m  ItemIndicator: [Getter],
-[34mnext-commerce:build: [0m  Separator: [Getter],
-[34mnext-commerce:build: [0m  Arrow: [Getter],
-[34mnext-commerce:build: [0m  Sub: [Getter],
-[34mnext-commerce:build: [0m  SubTrigger: [Getter],
-[34mnext-commerce:build: [0m  SubContent: [Getter]
-[34mnext-commerce:build: [0m}
-[34mnext-commerce:build: [0mDropdownMenu {
-[34mnext-commerce:build: [0m  createDropdownMenuScope: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenu: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuTrigger: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuPortal: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuContent: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuGroup: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuLabel: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuItem: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuCheckboxItem: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuRadioGroup: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuRadioItem: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuItemIndicator: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSeparator: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuArrow: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSub: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSubTrigger: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSubContent: [Getter],
-[34mnext-commerce:build: [0m  Root: [Getter],
-[34mnext-commerce:build: [0m  Trigger: [Getter],
-[34mnext-commerce:build: [0m  Portal: [Getter],
-[34mnext-commerce:build: [0m  Content: [Getter],
-[34mnext-commerce:build: [0m  Group: [Getter],
-[34mnext-commerce:build: [0m  Label: [Getter],
-[34mnext-commerce:build: [0m  Item: [Getter],
-[34mnext-commerce:build: [0m  CheckboxItem: [Getter],
-[34mnext-commerce:build: [0m  RadioGroup: [Getter],
-[34mnext-commerce:build: [0m  RadioItem: [Getter],
-[34mnext-commerce:build: [0m  ItemIndicator: [Getter],
-[34mnext-commerce:build: [0m  Separator: [Getter],
-[34mnext-commerce:build: [0m  Arrow: [Getter],
-[34mnext-commerce:build: [0m  Sub: [Getter],
-[34mnext-commerce:build: [0m  SubTrigger: [Getter],
-[34mnext-commerce:build: [0m  SubContent: [Getter]
-[34mnext-commerce:build: [0m}
+[34mnext-commerce:build: [0mbrushNames [
+[34mnext-commerce:build: [0m  { name: 'cats-tongue-brushes' },
+[34mnext-commerce:build: [0m  { name: 'flat-wash-brushes' },
+[34mnext-commerce:build: [0m  { name: 'round-pointed-brushes' },
+[34mnext-commerce:build: [0m  { name: 'constellation-series' },
+[34mnext-commerce:build: [0m  { name: 'travel-brushes' },
+[34mnext-commerce:build: [0m  { name: 'multipurpose-brushes' },
+[34mnext-commerce:build: [0m  { name: 'brush' },
+[34mnext-commerce:build: [0m  { name: 'brush-set' }
+[34mnext-commerce:build: [0m]
 [34mnext-commerce:build: [0mDropdownMenu {
 [34mnext-commerce:build: [0m  createDropdownMenuScope: [Getter],
 [34mnext-commerce:build: [0m  DropdownMenu: [Getter],
@@ -1743,55 +1743,55 @@
 [34mnext-commerce:build: [0minfo  - Generating static pages (111/111)
 [34mnext-commerce:build: [0minfo  - Finalizing page optimization...
 [34mnext-commerce:build: [0m
-[34mnext-commerce:build: [0mRoute (pages)                                     Size     First Load JS
-[34mnext-commerce:build: [0m┌ ● / (ISR: 60 Seconds)                           4.43 kB         134 kB
-[34mnext-commerce:build: [0m├   /_app                                         0 B            78.6 kB
-[34mnext-commerce:build: [0m├ ● /[...pages]                                   432 B           130 kB
-[34mnext-commerce:build: [0m├ ○ /404 (ISR: 200 Seconds)                       448 B           130 kB
-[34mnext-commerce:build: [0m├ λ /api/commerce/[[...commerce]]                 0 B            78.6 kB
-[34mnext-commerce:build: [0m├ ● /art-museum (ISR: 200 Seconds)                452 B           130 kB
-[34mnext-commerce:build: [0m├ ● /brand-story (ISR: 200 Seconds)               452 B           130 kB
-[34mnext-commerce:build: [0m├ ● /brush/[name] (ISR: 200 Seconds)              1.17 kB         131 kB
+[34mnext-commerce:build: [0mRoute (pages)                                      Size     First Load JS
+[34mnext-commerce:build: [0m┌ ● / (ISR: 60 Seconds) (302 ms)                   4.43 kB         134 kB
+[34mnext-commerce:build: [0m├   /_app                                          0 B            78.6 kB
+[34mnext-commerce:build: [0m├ ● /[...pages]                                    432 B           130 kB
+[34mnext-commerce:build: [0m├ ○ /404 (ISR: 200 Seconds)                        448 B           130 kB
+[34mnext-commerce:build: [0m├ λ /api/commerce/[[...commerce]]                  0 B            78.6 kB
+[34mnext-commerce:build: [0m├ ● /art-museum (ISR: 200 Seconds)                 452 B           130 kB
+[34mnext-commerce:build: [0m├ ● /brand-story (ISR: 200 Seconds)                452 B           130 kB
+[34mnext-commerce:build: [0m├ ● /brush/[name] (ISR: 200 Seconds)               1.17 kB         131 kB
 [34mnext-commerce:build: [0m├   ├ /brush/cats-tongue-brushes
 [34mnext-commerce:build: [0m├   ├ /brush/flat-wash-brushes
 [34mnext-commerce:build: [0m├   ├ /brush/round-pointed-brushes
 [34mnext-commerce:build: [0m├   └ [+5 more paths]
-[34mnext-commerce:build: [0m├ ● /brushes                                      2.36 kB         132 kB
-[34mnext-commerce:build: [0m├ ● /cart                                         1.58 kB         132 kB
-[34mnext-commerce:build: [0m├ ● /contact-us (ISR: 200 Seconds)                450 B           130 kB
-[34mnext-commerce:build: [0m├ ● /history (ISR: 200 Seconds)                   450 B           130 kB
-[34mnext-commerce:build: [0m├ ● /mop-brushs                                   2.2 kB          132 kB
-[34mnext-commerce:build: [0m├ ● /orders                                       594 B           131 kB
-[34mnext-commerce:build: [0m├ ● /paint/[name] (ISR: 200 Seconds)              1.57 kB         132 kB
+[34mnext-commerce:build: [0m├ ● /brushes                                       2.36 kB         132 kB
+[34mnext-commerce:build: [0m├ ● /cart                                          1.58 kB         132 kB
+[34mnext-commerce:build: [0m├ ● /contact-us (ISR: 200 Seconds)                 450 B           130 kB
+[34mnext-commerce:build: [0m├ ● /history (ISR: 200 Seconds)                    450 B           130 kB
+[34mnext-commerce:build: [0m├ ● /mop-brushs                                    2.2 kB          132 kB
+[34mnext-commerce:build: [0m├ ● /orders                                        594 B           131 kB
+[34mnext-commerce:build: [0m├ ● /paint/[name] (ISR: 200 Seconds)               1.57 kB         132 kB
 [34mnext-commerce:build: [0m├   ├ /paint/Mairtini
 [34mnext-commerce:build: [0m├   ├ /paint/Caravaggio
 [34mnext-commerce:build: [0m├   ├ /paint/Bouyereau
 [34mnext-commerce:build: [0m├   └ [+5 more paths]
-[34mnext-commerce:build: [0m├ ● /paints                                       2.86 kB         133 kB
-[34mnext-commerce:build: [0m├ ● /paints-caravaggio                            4.89 kB         135 kB
-[34mnext-commerce:build: [0m├ ● /paints-caravaggio-old                        4.82 kB         135 kB
-[34mnext-commerce:build: [0m├ ● /paints-fine-grind                            3.13 kB         133 kB
-[34mnext-commerce:build: [0m├ ● /paints-fine-grind-old                        2.44 kB         132 kB
-[34mnext-commerce:build: [0m├ ● /paper                                        3.32 kB         133 kB
-[34mnext-commerce:build: [0m├ ● /product/[slug] (ISR: 200 Seconds) (8266 ms)  19.7 kB         150 kB
-[34mnext-commerce:build: [0m├   └ css/a77b1dfd4e47d762.css                    2.38 kB
+[34mnext-commerce:build: [0m├ ● /paints                                        2.86 kB         133 kB
+[34mnext-commerce:build: [0m├ ● /paints-caravaggio                             4.89 kB         135 kB
+[34mnext-commerce:build: [0m├ ● /paints-caravaggio-old                         4.82 kB         135 kB
+[34mnext-commerce:build: [0m├ ● /paints-fine-grind                             3.13 kB         133 kB
+[34mnext-commerce:build: [0m├ ● /paints-fine-grind-old                         2.44 kB         132 kB
+[34mnext-commerce:build: [0m├ ● /paper                                         3.32 kB         133 kB
+[34mnext-commerce:build: [0m├ ● /product/[slug] (ISR: 200 Seconds) (10999 ms)  19.7 kB         150 kB
+[34mnext-commerce:build: [0m├   └ css/a77b1dfd4e47d762.css                     2.38 kB
 [34mnext-commerce:build: [0m├   ├ /product/lightweight-jacket
 [34mnext-commerce:build: [0m├   ├ /product/mop-brush-ss93
 [34mnext-commerce:build: [0m├   ├ /product/mop-brush-616
 [34mnext-commerce:build: [0m├   └ [+72 more paths]
-[34mnext-commerce:build: [0m├ ● /profile                                      541 B           131 kB
-[34mnext-commerce:build: [0m├ ● /search (ISR: 200 Seconds)                    253 B           134 kB
-[34mnext-commerce:build: [0m├ ● /search/[category]                            261 B           134 kB
-[34mnext-commerce:build: [0m├ ● /search/designers/[name]                      265 B           134 kB
-[34mnext-commerce:build: [0m├ ● /search/designers/[name]/[category]           275 B           135 kB
-[34mnext-commerce:build: [0m└ ● /wishlist                                     2.35 kB         132 kB
-[34mnext-commerce:build: [0m    └ css/aeb3e3fe3a05774d.css                    836 B
-[34mnext-commerce:build: [0m+ First Load JS shared by all                     84.8 kB
-[34mnext-commerce:build: [0m  ├ chunks/framework-23bb51c2d15fac13.js          45.4 kB
-[34mnext-commerce:build: [0m  ├ chunks/main-3edfa232ea1dd950.js               26.7 kB
-[34mnext-commerce:build: [0m  ├ chunks/pages/_app-921216e0d2daa74c.js         4.22 kB
-[34mnext-commerce:build: [0m  ├ chunks/webpack-0b38045b29afe3c9.js            2.34 kB
-[34mnext-commerce:build: [0m  └ css/0989049ecc00642d.css                      6.23 kB
+[34mnext-commerce:build: [0m├ ● /profile                                       541 B           131 kB
+[34mnext-commerce:build: [0m├ ● /search (ISR: 200 Seconds)                     253 B           134 kB
+[34mnext-commerce:build: [0m├ ● /search/[category]                             261 B           134 kB
+[34mnext-commerce:build: [0m├ ● /search/designers/[name]                       265 B           134 kB
+[34mnext-commerce:build: [0m├ ● /search/designers/[name]/[category]            275 B           135 kB
+[34mnext-commerce:build: [0m└ ● /wishlist                                      2.35 kB         132 kB
+[34mnext-commerce:build: [0m    └ css/aeb3e3fe3a05774d.css                     836 B
+[34mnext-commerce:build: [0m+ First Load JS shared by all                      84.8 kB
+[34mnext-commerce:build: [0m  ├ chunks/framework-23bb51c2d15fac13.js           45.4 kB
+[34mnext-commerce:build: [0m  ├ chunks/main-3edfa232ea1dd950.js                26.7 kB
+[34mnext-commerce:build: [0m  ├ chunks/pages/_app-921216e0d2daa74c.js          4.22 kB
+[34mnext-commerce:build: [0m  ├ chunks/webpack-0b38045b29afe3c9.js             2.34 kB
+[34mnext-commerce:build: [0m  └ css/0989049ecc00642d.css                       6.23 kB
 [34mnext-commerce:build: [0m
 [34mnext-commerce:build: [0mλ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
 [34mnext-commerce:build: [0m○  (Static)  automatically rendered as static HTML (uses no initial props)
@@ -1980,77 +1980,112 @@
 [34mnext-commerce:build: [0m  SubTrigger: [Getter],
 [34mnext-commerce:build: [0m  SubContent: [Getter]
 [34mnext-commerce:build: [0m}
+[34mnext-commerce:build: [0mDropdownMenu {
+[34mnext-commerce:build: [0m  createDropdownMenuScope: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenu: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuTrigger: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuPortal: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuContent: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuGroup: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuLabel: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuItem: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuCheckboxItem: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuRadioGroup: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuRadioItem: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuItemIndicator: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSeparator: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuArrow: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSub: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSubTrigger: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSubContent: [Getter],
+[34mnext-commerce:build: [0m  Root: [Getter],
+[34mnext-commerce:build: [0m  Trigger: [Getter],
+[34mnext-commerce:build: [0m  Portal: [Getter],
+[34mnext-commerce:build: [0m  Content: [Getter],
+[34mnext-commerce:build: [0m  Group: [Getter],
+[34mnext-commerce:build: [0m  Label: [Getter],
+[34mnext-commerce:build: [0m  Item: [Getter],
+[34mnext-commerce:build: [0m  CheckboxItem: [Getter],
+[34mnext-commerce:build: [0m  RadioGroup: [Getter],
+[34mnext-commerce:build: [0m  RadioItem: [Getter],
+[34mnext-commerce:build: [0m  ItemIndicator: [Getter],
+[34mnext-commerce:build: [0m  Separator: [Getter],
+[34mnext-commerce:build: [0m  Arrow: [Getter],
+[34mnext-commerce:build: [0m  Sub: [Getter],
+[34mnext-commerce:build: [0m  SubTrigger: [Getter],
+[34mnext-commerce:build: [0m  SubContent: [Getter]
+[34mnext-commerce:build: [0m}
+[34mnext-commerce:build: [0mDropdownMenu {
+[34mnext-commerce:build: [0m  createDropdownMenuScope: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenu: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuTrigger: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuPortal: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuContent: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuGroup: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuLabel: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuItem: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuCheckboxItem: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuRadioGroup: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuRadioItem: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuItemIndicator: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSeparator: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuArrow: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSub: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSubTrigger: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSubContent: [Getter],
+[34mnext-commerce:build: [0m  Root: [Getter],
+[34mnext-commerce:build: [0m  Trigger: [Getter],
+[34mnext-commerce:build: [0m  Portal: [Getter],
+[34mnext-commerce:build: [0m  Content: [Getter],
+[34mnext-commerce:build: [0m  Group: [Getter],
+[34mnext-commerce:build: [0m  Label: [Getter],
+[34mnext-commerce:build: [0m  Item: [Getter],
+[34mnext-commerce:build: [0m  CheckboxItem: [Getter],
+[34mnext-commerce:build: [0m  RadioGroup: [Getter],
+[34mnext-commerce:build: [0m  RadioItem: [Getter],
+[34mnext-commerce:build: [0m  ItemIndicator: [Getter],
+[34mnext-commerce:build: [0m  Separator: [Getter],
+[34mnext-commerce:build: [0m  Arrow: [Getter],
+[34mnext-commerce:build: [0m  Sub: [Getter],
+[34mnext-commerce:build: [0m  SubTrigger: [Getter],
+[34mnext-commerce:build: [0m  SubContent: [Getter]
+[34mnext-commerce:build: [0m}
+[34mnext-commerce:build: [0mDropdownMenu {
+[34mnext-commerce:build: [0m  createDropdownMenuScope: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenu: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuTrigger: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuPortal: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuContent: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuGroup: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuLabel: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuItem: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuCheckboxItem: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuRadioGroup: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuRadioItem: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuItemIndicator: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSeparator: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuArrow: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSub: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSubTrigger: [Getter],
+[34mnext-commerce:build: [0m  DropdownMenuSubContent: [Getter],
+[34mnext-commerce:build: [0m  Root: [Getter],
+[34mnext-commerce:build: [0m  Trigger: [Getter],
+[34mnext-commerce:build: [0m  Portal: [Getter],
+[34mnext-commerce:build: [0m  Content: [Getter],
+[34mnext-commerce:build: [0m  Group: [Getter],
+[34mnext-commerce:build: [0m  Label: [Getter],
+[34mnext-commerce:build: [0m  Item: [Getter],
+[34mnext-commerce:build: [0m  CheckboxItem: [Getter],
+[34mnext-commerce:build: [0m  RadioGroup: [Getter],
+[34mnext-commerce:build: [0m  RadioItem: [Getter],
+[34mnext-commerce:build: [0m  ItemIndicator: [Getter],
+[34mnext-commerce:build: [0m  Separator: [Getter],
+[34mnext-commerce:build: [0m  Arrow: [Getter],
+[34mnext-commerce:build: [0m  Sub: [Getter],
+[34mnext-commerce:build: [0m  SubTrigger: [Getter],
+[34mnext-commerce:build: [0m  SubContent: [Getter]
+[34mnext-commerce:build: [0m}
 [34mnext-commerce:build: [0minfo  - Exporting (5/20)
-[34mnext-commerce:build: [0mDropdownMenu {
-[34mnext-commerce:build: [0m  createDropdownMenuScope: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenu: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuTrigger: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuPortal: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuContent: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuGroup: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuLabel: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuItem: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuCheckboxItem: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuRadioGroup: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuRadioItem: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuItemIndicator: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSeparator: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuArrow: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSub: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSubTrigger: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSubContent: [Getter],
-[34mnext-commerce:build: [0m  Root: [Getter],
-[34mnext-commerce:build: [0m  Trigger: [Getter],
-[34mnext-commerce:build: [0m  Portal: [Getter],
-[34mnext-commerce:build: [0m  Content: [Getter],
-[34mnext-commerce:build: [0m  Group: [Getter],
-[34mnext-commerce:build: [0m  Label: [Getter],
-[34mnext-commerce:build: [0m  Item: [Getter],
-[34mnext-commerce:build: [0m  CheckboxItem: [Getter],
-[34mnext-commerce:build: [0m  RadioGroup: [Getter],
-[34mnext-commerce:build: [0m  RadioItem: [Getter],
-[34mnext-commerce:build: [0m  ItemIndicator: [Getter],
-[34mnext-commerce:build: [0m  Separator: [Getter],
-[34mnext-commerce:build: [0m  Arrow: [Getter],
-[34mnext-commerce:build: [0m  Sub: [Getter],
-[34mnext-commerce:build: [0m  SubTrigger: [Getter],
-[34mnext-commerce:build: [0m  SubContent: [Getter]
-[34mnext-commerce:build: [0m}
-[34mnext-commerce:build: [0mDropdownMenu {
-[34mnext-commerce:build: [0m  createDropdownMenuScope: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenu: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuTrigger: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuPortal: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuContent: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuGroup: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuLabel: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuItem: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuCheckboxItem: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuRadioGroup: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuRadioItem: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuItemIndicator: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSeparator: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuArrow: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSub: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSubTrigger: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSubContent: [Getter],
-[34mnext-commerce:build: [0m  Root: [Getter],
-[34mnext-commerce:build: [0m  Trigger: [Getter],
-[34mnext-commerce:build: [0m  Portal: [Getter],
-[34mnext-commerce:build: [0m  Content: [Getter],
-[34mnext-commerce:build: [0m  Group: [Getter],
-[34mnext-commerce:build: [0m  Label: [Getter],
-[34mnext-commerce:build: [0m  Item: [Getter],
-[34mnext-commerce:build: [0m  CheckboxItem: [Getter],
-[34mnext-commerce:build: [0m  RadioGroup: [Getter],
-[34mnext-commerce:build: [0m  RadioItem: [Getter],
-[34mnext-commerce:build: [0m  ItemIndicator: [Getter],
-[34mnext-commerce:build: [0m  Separator: [Getter],
-[34mnext-commerce:build: [0m  Arrow: [Getter],
-[34mnext-commerce:build: [0m  Sub: [Getter],
-[34mnext-commerce:build: [0m  SubTrigger: [Getter],
-[34mnext-commerce:build: [0m  SubContent: [Getter]
-[34mnext-commerce:build: [0m}
 [34mnext-commerce:build: [0mDropdownMenu {
 [34mnext-commerce:build: [0m  createDropdownMenuScope: [Getter],
 [34mnext-commerce:build: [0m  DropdownMenu: [Getter],
@@ -2228,41 +2263,6 @@
 [34mnext-commerce:build: [0m  SubContent: [Getter]
 [34mnext-commerce:build: [0m}
 [34mnext-commerce:build: [0minfo  - Exporting (15/20)
-[34mnext-commerce:build: [0mDropdownMenu {
-[34mnext-commerce:build: [0m  createDropdownMenuScope: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenu: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuTrigger: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuPortal: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuContent: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuGroup: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuLabel: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuItem: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuCheckboxItem: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuRadioGroup: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuRadioItem: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuItemIndicator: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSeparator: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuArrow: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSub: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSubTrigger: [Getter],
-[34mnext-commerce:build: [0m  DropdownMenuSubContent: [Getter],
-[34mnext-commerce:build: [0m  Root: [Getter],
-[34mnext-commerce:build: [0m  Trigger: [Getter],
-[34mnext-commerce:build: [0m  Portal: [Getter],
-[34mnext-commerce:build: [0m  Content: [Getter],
-[34mnext-commerce:build: [0m  Group: [Getter],
-[34mnext-commerce:build: [0m  Label: [Getter],
-[34mnext-commerce:build: [0m  Item: [Getter],
-[34mnext-commerce:build: [0m  CheckboxItem: [Getter],
-[34mnext-commerce:build: [0m  RadioGroup: [Getter],
-[34mnext-commerce:build: [0m  RadioItem: [Getter],
-[34mnext-commerce:build: [0m  ItemIndicator: [Getter],
-[34mnext-commerce:build: [0m  Separator: [Getter],
-[34mnext-commerce:build: [0m  Arrow: [Getter],
-[34mnext-commerce:build: [0m  Sub: [Getter],
-[34mnext-commerce:build: [0m  SubTrigger: [Getter],
-[34mnext-commerce:build: [0m  SubContent: [Getter]
-[34mnext-commerce:build: [0m}
 [34mnext-commerce:build: [0mDropdownMenu {
 [34mnext-commerce:build: [0m  createDropdownMenuScope: [Getter],
 [34mnext-commerce:build: [0m  DropdownMenu: [Getter],
