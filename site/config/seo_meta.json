@@ -1,19 +1,19 @@
 {
-  "title": "Mairtini",
-  "titleTemplate": "%s - Mairtini",
-  "description": "Mairtini Watercolor Paint",
+  "title": "ACME Storefront | Powered by Next.js Commerce",
+  "titleTemplate": "%s - ACME Storefront",
+  "description": "Next.js Commerce - https://www.nextjs.org/commerce",
   "openGraph": {
-    "title": "Mairtini",
-    "description": "Mairtini Watercolor Paint",
+    "title": "ACME Storefront | Powered by Next.js Commerce",
+    "description": "Next.js Commerce - https://www.nextjs.org/commerce",
     "type": "website",
-    "url": "https://mairtini.art/",
-    "site_name": "Mairtini",
+    "url": "https://nextjs.org/commerce",
+    "site_name": "Next.js Commerce",
     "images": [
       {
         "url": "/card.png",
         "width": "800",
         "height": "600",
-        "alt": "Mairtini"
+        "alt": "Next.js Commerce"
       }
     ]
   },
