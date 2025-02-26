@@ -7,6 +7,14 @@ import { Container } from '@components/ui'
 import bannerImage from '../../public/images/banner-2.png'
 
 const brushData = {
+  'mop-brushs': [
+    { name: "SS93", imgSrc: "/images/brush/mop-brush/SS93/1.png" },
+    { name: "616", imgSrc: "/images/brush/mop-brush/616/1.png" },
+    { name: "611", imgSrc: "/images/brush/mop-brush/611/1.png" },
+    { name: "696", imgSrc: "/images/brush/mop-brush/696/1.png" },
+    { name: "612", imgSrc: "/images/brush/mop-brush/612/1.png" },
+    { name: "656", imgSrc: "/images/brush/mop-brush/656/1.png" },
+  ],
   'cats-tongue-brushes': [
     { name: "636", imgSrc: "/images/brush/cats-tongue-brushes/636/1.png" },
     { name: "6000RR", imgSrc: "/images/brush/cats-tongue-brushes/6000RR/1.png" },
@@ -123,10 +131,24 @@ const BrushPage = ({ brushName, brushItems }: InferGetStaticPropsType<typeof get
               <Link href={`/product/${brushName}-${item.name}`}>
                 <img className="w-full h-auto hover:brightness-50" src={item.imgSrc} alt={`Brush ${index + 1}`} />
               </Link>
-              <div className='text-center m-8'>
-                <span className='bg-black text-[2rem] font-bold py-1 px-5'>{item.name}</span>
+              <div className='text-left'>
+                <span className='bg-black text-[1.5rem] font-bold py-1 px-5'>{item.name}</span>
+                <div className='text-left w-[300px] my-3'>
+                   <p className='text-[1.2rem] text-black'>ITEM: xxx</p>
+                   <p className='text-[1.2rem] text-black'>SIZE: xxx</p>
+                 </div>
               </div>
             </div>
+            // <Link href={`/product/${brushName}-${item.name}`}>
+            //   <img src={item.imgSrc} alt={`Brush ${index + 1}`} className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
+            //   <div className='text-left w-[300px]'>
+            //     <span className='bg-black text-[1.5rem] font-bold py-1 px-5'>{item.name}</span>
+            //   </div>
+            //   {/* <div className='text-left w-[300px] my-3'>
+            //     <p className='text-[1.2rem] text-black'>ITEM: xxx</p>
+            //     <p className='text-[1.2rem] text-black'>SIZE: xxx</p>
+            //   </div> */}
+            // </Link>
           ))}
         </div>
       </div>

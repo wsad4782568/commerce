@@ -50,7 +50,7 @@ export default function Profile() {
             </Link>
           </div>
           <div className="w-1/4 pr-10 cursor-pointer hover:cursor-pointer">
-            <Link href="/paints-caravaggio">
+            <Link href="/paint/Caravaggio">
               <Image src={brushImage4} alt="banner" className="w-full h-auto hover:brightness-50"/>
             </Link>
           </div>

@@ -20,9 +20,15 @@ const brushData = {
     { name: "RG700R", imgSrc: "/images/brush/cats-tongue-brushes/RG700R/1.png" }
   ],
   'Caravaggio': [
-    { name: "303", imgSrc: "/images/brush/flat-wash-brushes/303/1.png" },
-    { name: "6100R", imgSrc: "/images/brush/flat-wash-brushes/6100R/1.png" },
-    { name: "Q728", imgSrc: "/images/brush/flat-wash-brushes/Q728/1.png" }
+    { name: "klwq-0012", imgSrc: "/images/paints-caravaggio/klwq-0012/1.png" },
+    { name: "klwq-0024", imgSrc: "/images/paints-caravaggio/klwq-0024/1.png" },
+    { name: "klwq-0036", imgSrc: "/images/paints-caravaggio/klwq-0036/1.png" },
+    { name: "klwq-01", imgSrc: "/images/paints-caravaggio/klwq-01/1.png" },
+    { name: "klwq-02", imgSrc: "/images/paints-caravaggio/klwq-02/1.png" },
+    { name: "klwq-03", imgSrc: "/images/paints-caravaggio/klwq-03/1.png" },
+    { name: "klwq-04", imgSrc: "/images/paints-caravaggio/klwq-04/1.png" },
+    { name: "klwq-05", imgSrc: "/images/paints-caravaggio/klwq-05/1.png" },
+    { name: "klwq-06", imgSrc: "/images/paints-caravaggio/klwq-06/1.png" },
   ],
   'Bouyereau': [
     { name: "714", imgSrc: "/images/brush/round-pointed-brushes/714/1.png" },
@@ -126,15 +132,25 @@ const BrushPage = ({ brushName, brushItems }: InferGetStaticPropsType<typeof get
             <p key={element}>{element}</p>
           ))}
         </div>
-        <div className="relative w-full flex mt-8 justify-center py-6 flex-wrap border-t-4 border-b-4 border-gray-300">
+        <div className="relative w-full flex mt-8 justify-start py-6 flex-wrap border-t-4 border-b-4 border-gray-300">
           {brushItems?.map((item, index) => (
             <div key={index} className="w-1/4 px-10 cursor-pointer hover:cursor-pointer py-4">
-              <Link href={`/product/${brushName}-${item.name}`}>
+              {/* <Link href={`/product/${brushName}-${item.name}`}>
                 <img className="w-full h-auto hover:brightness-50" src={item.imgSrc} alt={`Brush ${index + 1}`} />
               </Link>
               <div className='text-center m-8'>
                 <span className='bg-black text-[2rem] font-bold py-1 px-5'>{item.name}</span>
-              </div>
+              </div> */}
+              <Link href={`/product/${brushName}-${item.name}`}>
+                <img src={item.imgSrc} alt={`Brush ${index + 1}`} className="object-contain w-[300px] h-[300px] bg-white hover:brightness-50"/>
+                <div className='text-left w-[300px]'>
+                  <span className='bg-black text-[1.5rem] font-bold py-1 px-5'>{item.name}</span>
+                </div>
+                <div className='text-left w-[300px] my-3'>
+                  <p className='text-[1.2rem] text-black'>ITEM: xxx</p>
+                  <p className='text-[1.2rem] text-black'>SIZE: xxx</p>
+                </div>
+              </Link>
             </div>
           ))}
         </div>
