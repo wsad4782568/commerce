@@ -7,8 +7,8 @@ import { Container } from '@components/ui'
 import bannerImage from '../../public/images/banner-2.png'
 
 const brushData = {
-  'mop-brushs': [
-    { name: "SS93", imgSrc: "/images/brush/mop-brush/SS93/1.png" },
+  'mop-brush': [
+    { name: "ss93", imgSrc: "/images/brush/mop-brush/SS93/1.png" },
     { name: "616", imgSrc: "/images/brush/mop-brush/616/1.png" },
     { name: "611", imgSrc: "/images/brush/mop-brush/611/1.png" },
     { name: "696", imgSrc: "/images/brush/mop-brush/696/1.png" },

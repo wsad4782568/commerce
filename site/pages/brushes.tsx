@@ -43,7 +43,7 @@ export default function Profile() {
         <div className='customFont text-center text-[8rem] text-black my-10'>Brush</div>
         <div className="relative w-full cursor-pointer hover:cursor-pointer">
           <div className="relative w-full cursor-pointer hover:cursor-pointer">
-            <Link href="/brush/mop-brushs">
+            <Link href="/brush/mop-brush">
               <Image src={brushImage2} alt="banner" className="w-full h-auto hover:brightness-50"/>
             </Link>
           </div>
